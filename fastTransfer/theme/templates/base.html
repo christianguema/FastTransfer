@@ -1,4 +1,5 @@
 {% load static tailwind_tags %}
+{% load django_browser_reload %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +11,7 @@
 </head>
 
 <body class="bg-gray-50 text-black font-serif leading-normal tracking-normal">
-
+{% load django_browser_reload %}
     <div class="toast toast-top toast-end">
         <div class="alert alert-info">
             <span>Hello from daisyUi 👋</span>
@@ -22,5 +23,6 @@
         <h1 class="text-5xl">Django + Tailwind = ❤️</h1>
     </section>
 </div>
+{% django_browser_reload_script %}
 </body>
 </html>

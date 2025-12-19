@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -33,6 +34,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'tailwind',
     'theme',
+    "django_browser_reload",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -100,6 +102,43 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+
+# Définissez le chemin du fichier (à la racine du projet par défaut)
+LOG_FILE = os.path.join(BASE_DIR, 'logs/server.log')
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False, # Garder les logs par défaut de Django
+    'formatters': {
+        'verbose': {
+            'format': '{levelname} {asctime} {module} {process:d} {thread:d} {message}',
+            'style': '{',
+        },
+    },
+    'handlers': {
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.handlers.RotatingFileHandler', # Rotation automatique
+            'filename': LOG_FILE,
+            'maxBytes': 1024 * 1024 * 5,  # 5 Mo avant rotation
+            'backupCount': 5,             # Conserver 5 anciens fichiers
+            'formatter': 'verbose',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+        'django.server': {
+            'handlers': ['file'],
+            'level': 'INFO',
+            'propagate': False, # Évite les doublons avec le logger parent 'django'
+        },
+    },
+}
 
 
 # Internationalization
