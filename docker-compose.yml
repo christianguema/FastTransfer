@@ -1,0 +1,32 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      - DEBUG=True
+      - DJANGO_SETTINGS_MODULE=fastTransfer.settings
+      - DATABASE_URL=postgres://postgres:password@db:5432/fasttransfert
+    restart: always
+  db:
+    image: postgres:latest
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=fasttransfert
+    restart: always 
+volumes:
+  postgres_data:
+    driver: local 
+networks:
+  default:
+    driver: bridge
+    
