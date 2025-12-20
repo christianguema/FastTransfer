@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'tailwind',
     'theme',
     "django_browser_reload",
@@ -41,6 +42,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Mes applications
+    'userauths',
+    'core',
 ]
 
 MIDDLEWARE = [
@@ -79,8 +84,12 @@ WSGI_APPLICATION = 'fastTransfer.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'fasttransfert_db',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
@@ -140,6 +149,13 @@ LOGGING = {
     },
 }
 
+#Configuration de Jazzmin
+JAZZMIN_SETTINGS = {
+    "site_title": "FastTransfert Admin",
+    "site_header": "FastTransfert",
+    "welcome_sign": "Bienvenue dans l'administration FastTransfert",
+}
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
@@ -159,6 +175,8 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 TAILWIND_APP_NAME = "theme"
+
+AUTH_USER_MODEL = 'userauths.User'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
