@@ -259,3 +259,393 @@ INFO 2025-12-20 00:26:29,300 basehttp 312823 124553044948544 "GET /admin/login/?
 INFO 2025-12-20 00:26:34,329 basehttp 312823 124553044948544 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 3680
 INFO 2025-12-20 00:26:45,796 basehttp 312823 124553044948544 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
 INFO 2025-12-20 00:26:45,883 basehttp 312823 124553044948544 "GET /admin/ HTTP/1.1" 200 12373
+INFO 2025-12-20 13:52:52,952 autoreload 461566 140700532371456 Watching for file changes with StatReloader
+WARNING 2025-12-20 13:53:05,090 log 461566 140700478453312 Not Found: /
+WARNING 2025-12-20 13:53:05,091 basehttp 461566 140700478453312 "GET / HTTP/1.1" 404 2655
+INFO 2025-12-20 13:53:05,165 basehttp 461566 140700478453312 "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-12-20 13:53:05,303 basehttp 461566 140700478453312 "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 304 0
+INFO 2025-12-20 13:58:45,445 autoreload 464984 128277414961152 Watching for file changes with StatReloader
+WARNING 2025-12-20 13:58:52,393 log 464984 128277361047104 Not Found: /
+WARNING 2025-12-20 13:58:52,399 basehttp 464984 128277361047104 "GET / HTTP/1.1" 404 2655
+INFO 2025-12-20 13:58:57,925 basehttp 464984 128277351605824 "GET /admin/ HTTP/1.1" 200 12357
+INFO 2025-12-20 13:58:57,961 basehttp 464984 128277351605824 "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+INFO 2025-12-20 13:58:57,987 basehttp 464984 128277333771840 "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+INFO 2025-12-20 13:58:57,992 basehttp 464984 128276982920768 "GET /static/vendor/adminlte/img/AdminLTELogo.png HTTP/1.1" 304 0
+INFO 2025-12-20 13:58:57,993 basehttp 464984 128277333771840 "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+INFO 2025-12-20 13:58:57,993 basehttp 464984 128276966135360 "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2025-12-20 13:58:57,995 basehttp 464984 128276974528064 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-12-20 13:58:58,002 basehttp 464984 128276966135360 "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+INFO 2025-12-20 13:58:58,234 basehttp 464984 128277342164544 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-12-20 13:58:58,320 basehttp 464984 128277342164544 "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+INFO 2025-12-20 13:58:58,321 basehttp 464984 128276966135360 "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+INFO 2025-12-20 13:59:28,204 autoreload 464984 128277414961152 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 13:59:28,705 autoreload 465596 132262738112512 Watching for file changes with StatReloader
+INFO 2025-12-20 13:59:37,813 autoreload 465596 132262738112512 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 13:59:38,277 autoreload 465777 130594448506880 Watching for file changes with StatReloader
+INFO 2025-12-20 13:59:39,513 autoreload 465777 130594448506880 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 13:59:40,000 autoreload 465832 138502048485376 Watching for file changes with StatReloader
+INFO 2025-12-20 13:59:42,208 autoreload 465832 138502048485376 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 13:59:42,650 autoreload 465889 140509500272640 Watching for file changes with StatReloader
+INFO 2025-12-20 13:59:43,845 autoreload 465889 140509500272640 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 13:59:44,302 autoreload 465897 134047747477504 Watching for file changes with StatReloader
+INFO 2025-12-20 13:59:48,521 autoreload 465897 134047747477504 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 13:59:49,081 autoreload 466008 140590193111040 Watching for file changes with StatReloader
+INFO 2025-12-20 13:59:51,294 autoreload 466008 140590193111040 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 13:59:51,740 autoreload 466084 135489369874432 Watching for file changes with StatReloader
+INFO 2025-12-20 13:59:53,944 autoreload 466084 135489369874432 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 13:59:54,396 autoreload 466114 130418872328192 Watching for file changes with StatReloader
+INFO 2025-12-20 13:59:56,596 autoreload 466114 130418872328192 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 13:59:57,071 autoreload 466206 134691792146432 Watching for file changes with StatReloader
+INFO 2025-12-20 13:59:58,269 autoreload 466206 134691792146432 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 13:59:58,787 autoreload 466212 132951171534848 Watching for file changes with StatReloader
+INFO 2025-12-20 14:00:00,018 autoreload 466212 132951171534848 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 14:00:00,473 autoreload 466250 133084448976896 Watching for file changes with StatReloader
+INFO 2025-12-20 14:00:06,708 autoreload 466250 133084448976896 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 14:00:07,269 autoreload 466412 134399359094784 Watching for file changes with StatReloader
+INFO 2025-12-20 14:00:08,533 basehttp 466412 134399296775744 "GET /admin/ HTTP/1.1" 200 12357
+INFO 2025-12-20 14:00:08,702 autoreload 466412 134399359094784 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 14:00:09,959 autoreload 466466 134694756335616 Watching for file changes with StatReloader
+INFO 2025-12-20 14:00:12,176 autoreload 466466 134694756335616 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 14:00:12,619 autoreload 466544 131344068337664 Watching for file changes with StatReloader
+INFO 2025-12-20 14:00:14,928 autoreload 466544 131344068337664 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 14:00:15,423 autoreload 466602 137425609441280 Watching for file changes with StatReloader
+INFO 2025-12-20 14:00:15,738 basehttp 466602 137425547093568 "GET /admin/ HTTP/1.1" 200 12357
+INFO 2025-12-20 14:00:17,726 autoreload 466602 137425609441280 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 14:00:18,213 autoreload 466665 129566614163456 Watching for file changes with StatReloader
+INFO 2025-12-20 14:00:18,455 basehttp 466665 129566479742528 "GET /admin/ HTTP/1.1" 200 12357
+INFO 2025-12-20 14:00:23,680 autoreload 466665 129566614163456 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 14:00:24,154 autoreload 466781 133164640501760 Watching for file changes with StatReloader
+INFO 2025-12-20 14:00:24,400 basehttp 466781 133164578170432 "GET /admin/ HTTP/1.1" 200 12357
+INFO 2025-12-20 14:00:26,543 autoreload 466781 133164640501760 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 14:00:27,039 autoreload 466882 130933179133952 Watching for file changes with StatReloader
+INFO 2025-12-20 14:00:27,367 basehttp 466882 130933116794432 "GET /admin/ HTTP/1.1" 200 12357
+INFO 2025-12-20 14:00:33,469 autoreload 466882 130933179133952 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 14:00:33,998 autoreload 466997 138051359956992 Watching for file changes with StatReloader
+INFO 2025-12-20 14:00:34,309 basehttp 466997 138051297592896 "GET /admin/ HTTP/1.1" 200 12357
+INFO 2025-12-20 14:00:36,312 autoreload 466997 138051359956992 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 14:00:36,806 autoreload 467088 139789926584320 Watching for file changes with StatReloader
+INFO 2025-12-20 14:00:37,137 basehttp 467088 139789864183360 "GET /admin/ HTTP/1.1" 200 12357
+INFO 2025-12-20 14:00:41,658 basehttp 467088 139789872576064 "GET /admin/ HTTP/1.1" 200 12357
+INFO 2025-12-20 14:00:52,614 autoreload 467088 139789926584320 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 14:00:53,118 autoreload 467280 127397366165504 Watching for file changes with StatReloader
+INFO 2025-12-20 14:01:02,383 autoreload 467280 127397366165504 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 14:01:02,840 autoreload 467476 130355485839360 Watching for file changes with StatReloader
+INFO 2025-12-20 14:01:04,045 autoreload 467476 130355485839360 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 14:01:04,511 autoreload 467508 126693576417280 Watching for file changes with StatReloader
+INFO 2025-12-20 14:01:10,748 autoreload 467508 126693576417280 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 14:01:11,217 autoreload 467654 130496372097024 Watching for file changes with StatReloader
+INFO 2025-12-20 14:01:12,592 basehttp 467654 130496309712448 "GET /admin/ HTTP/1.1" 200 13929
+INFO 2025-12-20 14:01:13,901 autoreload 467654 130496372097024 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 14:01:14,467 autoreload 467725 138414671646720 Watching for file changes with StatReloader
+INFO 2025-12-20 14:01:15,675 autoreload 467725 138414671646720 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/admin.py changed, reloading.
+INFO 2025-12-20 14:01:16,154 autoreload 467773 133283328122880 Watching for file changes with StatReloader
+INFO 2025-12-20 14:01:16,678 basehttp 467773 133283265803840 "GET /admin/ HTTP/1.1" 200 13929
+INFO 2025-12-20 14:01:20,543 basehttp 467773 133283274196544 "GET /admin/userauths/opt/ HTTP/1.1" 200 11964
+INFO 2025-12-20 14:01:20,570 basehttp 467773 133283274196544 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+INFO 2025-12-20 14:01:20,582 basehttp 467773 133283246921280 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-12-20 14:01:20,583 basehttp 467773 133282901521984 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-12-20 14:01:20,583 basehttp 467773 133282893129280 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-12-20 14:01:20,587 basehttp 467773 133283246921280 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-12-20 14:01:20,591 basehttp 467773 133282893129280 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-12-20 14:01:20,592 basehttp 467773 133282884736576 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-12-20 14:01:20,593 basehttp 467773 133282901521984 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-12-20 14:01:20,604 basehttp 467773 133282884736576 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+INFO 2025-12-20 14:01:20,618 basehttp 467773 133283274196544 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-12-20 14:01:20,649 basehttp 467773 133283255313984 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:01:23,359 basehttp 467773 133283255313984 "GET /admin/userauths/opt/add/ HTTP/1.1" 200 17971
+INFO 2025-12-20 14:01:23,408 basehttp 467773 133282884736576 "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+INFO 2025-12-20 14:01:23,409 basehttp 467773 133282901521984 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+INFO 2025-12-20 14:01:23,409 basehttp 467773 133283246921280 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-12-20 14:01:23,409 basehttp 467773 133282893129280 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-12-20 14:01:23,432 basehttp 467773 133282893129280 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-12-20 14:01:23,438 basehttp 467773 133283255313984 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:02:05,951 basehttp 467773 133282893129280 "POST /admin/userauths/opt/add/ HTTP/1.1" 302 0
+INFO 2025-12-20 14:02:06,085 basehttp 467773 133282893129280 "GET /admin/userauths/opt/ HTTP/1.1" 200 15913
+INFO 2025-12-20 14:02:06,248 basehttp 467773 133282893129280 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:02:06,248 basehttp 467773 133282901521984 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-12-20 14:02:35,184 basehttp 467773 133282893129280 "GET /admin/userauths/user/ HTTP/1.1" 200 16571
+INFO 2025-12-20 14:02:35,261 basehttp 467773 133282893129280 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:02:37,206 basehttp 467773 133283246921280 "GET /admin/userauths/user/add/ HTTP/1.1" 200 33022
+INFO 2025-12-20 14:02:37,273 basehttp 467773 133282884736576 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-12-20 14:02:37,273 basehttp 467773 133283246921280 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:03:42,619 autoreload 467773 133283328122880 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:03:43,469 autoreload 469024 127297292922880 Watching for file changes with StatReloader
+INFO 2025-12-20 14:03:43,888 basehttp 469024 127297230517824 "GET /admin/userauths/user/add/ HTTP/1.1" 200 33022
+INFO 2025-12-20 14:03:44,024 basehttp 469024 127297230517824 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:04:01,471 autoreload 469024 127297292922880 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:04:01,965 autoreload 469351 131557999919104 Watching for file changes with StatReloader
+INFO 2025-12-20 14:04:03,926 autoreload 469351 131557999919104 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:04:04,399 autoreload 469437 138165405388800 Watching for file changes with StatReloader
+INFO 2025-12-20 14:04:10,953 autoreload 469437 138165405388800 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:04:11,410 autoreload 469545 133880953049088 Watching for file changes with StatReloader
+INFO 2025-12-20 14:04:13,599 autoreload 469545 133880953049088 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:04:15,537 autoreload 469623 135703323578368 Watching for file changes with StatReloader
+INFO 2025-12-20 14:04:16,897 basehttp 469623 135703261201984 "GET /admin/userauths/user/add/ HTTP/1.1" 200 33022
+INFO 2025-12-20 14:04:17,006 basehttp 469623 135703261201984 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:04:18,110 autoreload 469623 135703323578368 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:04:19,211 autoreload 469710 124661707980800 Watching for file changes with StatReloader
+INFO 2025-12-20 14:04:20,419 autoreload 469710 124661707980800 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:04:20,888 autoreload 469783 127822111354880 Watching for file changes with StatReloader
+INFO 2025-12-20 14:04:22,211 autoreload 469783 127822111354880 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:04:23,249 autoreload 469790 124587222798336 Watching for file changes with StatReloader
+INFO 2025-12-20 14:04:29,487 autoreload 469790 124587222798336 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:04:29,935 autoreload 469924 126797608280064 Watching for file changes with StatReloader
+INFO 2025-12-20 14:04:32,129 autoreload 469924 126797608280064 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:04:33,236 autoreload 470005 139370534866944 Watching for file changes with StatReloader
+INFO 2025-12-20 14:04:33,641 basehttp 470005 139370405291584 "GET /admin/userauths/user/add/ HTTP/1.1" 200 33022
+INFO 2025-12-20 14:04:33,737 basehttp 470005 139370405291584 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:04:34,529 autoreload 470005 139370534866944 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:04:35,044 autoreload 470049 124777501249536 Watching for file changes with StatReloader
+INFO 2025-12-20 14:04:45,255 autoreload 470049 124777501249536 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:04:46,988 autoreload 470242 140113320783872 Watching for file changes with StatReloader
+INFO 2025-12-20 14:04:47,752 basehttp 470242 140113258415680 "GET /admin/userauths/user/add/ HTTP/1.1" 200 33022
+INFO 2025-12-20 14:04:47,834 basehttp 470242 140113258415680 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:04:50,623 autoreload 470242 140113320783872 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:04:51,127 autoreload 470288 137535866155008 Watching for file changes with StatReloader
+INFO 2025-12-20 14:04:52,315 autoreload 470288 137535866155008 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:04:52,777 autoreload 470330 124255992946688 Watching for file changes with StatReloader
+INFO 2025-12-20 14:04:53,274 basehttp 470330 124255930607168 "GET /admin/userauths/user/add/ HTTP/1.1" 200 33022
+INFO 2025-12-20 14:04:53,347 basehttp 470330 124255930607168 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:04:59,196 autoreload 470330 124255992946688 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:04:59,698 autoreload 470488 129449087127552 Watching for file changes with StatReloader
+INFO 2025-12-20 14:05:02,903 autoreload 470488 129449087127552 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:05:04,105 autoreload 470577 124332775895040 Watching for file changes with StatReloader
+INFO 2025-12-20 14:05:04,628 basehttp 470577 124332713510464 "GET /admin/userauths/user/add/ HTTP/1.1" 200 33022
+INFO 2025-12-20 14:05:04,745 basehttp 470577 124332713510464 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:05:34,429 autoreload 470577 124332775895040 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:05:34,887 autoreload 470825 125731287150592 Watching for file changes with StatReloader
+INFO 2025-12-20 14:05:35,243 basehttp 470825 125731224798784 "GET /admin/userauths/user/add/ HTTP/1.1" 200 33022
+INFO 2025-12-20 14:05:35,346 basehttp 470825 125731224798784 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:05:43,410 autoreload 470825 125731287150592 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:05:43,935 autoreload 471032 126837585252352 Watching for file changes with StatReloader
+INFO 2025-12-20 14:05:46,134 autoreload 471032 126837585252352 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:05:46,608 autoreload 471093 132079769849856 Watching for file changes with StatReloader
+INFO 2025-12-20 14:05:50,824 autoreload 471093 132079769849856 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:05:51,243 autoreload 471183 132504114200576 Watching for file changes with StatReloader
+INFO 2025-12-20 14:05:58,578 autoreload 471183 132504114200576 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:05:59,071 autoreload 471327 137362053214208 Watching for file changes with StatReloader
+INFO 2025-12-20 14:06:02,277 autoreload 471327 137362053214208 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:06:02,739 autoreload 471425 128199480029184 Watching for file changes with StatReloader
+INFO 2025-12-20 14:06:03,951 autoreload 471425 128199480029184 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:06:04,385 autoreload 471443 129169807798272 Watching for file changes with StatReloader
+INFO 2025-12-20 14:06:06,572 autoreload 471443 129169807798272 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:06:06,970 autoreload 471525 129983626174464 Watching for file changes with StatReloader
+INFO 2025-12-20 14:06:11,176 autoreload 471525 129983626174464 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/admin.py changed, reloading.
+INFO 2025-12-20 14:06:11,649 autoreload 471587 135894755168256 Watching for file changes with StatReloader
+INFO 2025-12-20 14:06:14,831 basehttp 471587 135894692845120 "GET /admin/userauths/user/add/ HTTP/1.1" 200 33022
+INFO 2025-12-20 14:06:15,135 basehttp 471587 135894692845120 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:06:15,840 basehttp 471587 135894682355264 "GET /admin/ HTTP/1.1" 200 15258
+INFO 2025-12-20 14:06:25,342 basehttp 471587 135894692845120 "GET /admin/userauths/user/ HTTP/1.1" 200 16571
+INFO 2025-12-20 14:06:25,415 basehttp 471587 135894692845120 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:07:13,336 basehttp 471587 135894682355264 "GET /admin/userauths/user/1/change/ HTTP/1.1" 200 33886
+INFO 2025-12-20 14:07:13,504 basehttp 471587 135894682355264 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:07:23,888 basehttp 471587 135894692845120 "POST /admin/userauths/user/1/change/ HTTP/1.1" 200 34726
+INFO 2025-12-20 14:07:24,975 basehttp 471587 135894692845120 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:07:46,418 basehttp 471587 135894682355264 "GET /admin/userauths/user/1/history/ HTTP/1.1" 200 10262
+INFO 2025-12-20 14:07:52,902 basehttp 471587 135894692845120 "GET /admin/userauths/ HTTP/1.1" 200 13532
+INFO 2025-12-20 14:07:56,490 basehttp 471587 135894692845120 "GET /admin/userauths/opt/ HTTP/1.1" 200 15340
+INFO 2025-12-20 14:07:56,555 basehttp 471587 135894692845120 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:08:17,748 autoreload 471587 135894755168256 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:08:18,295 autoreload 472618 138977151844352 Watching for file changes with StatReloader
+INFO 2025-12-20 14:08:20,489 autoreload 472618 138977151844352 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:08:20,997 autoreload 472704 133294623494144 Watching for file changes with StatReloader
+INFO 2025-12-20 14:08:23,177 autoreload 472704 133294623494144 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:08:24,662 autoreload 472762 124541991993344 Watching for file changes with StatReloader
+INFO 2025-12-20 14:08:25,852 autoreload 472762 124541991993344 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:08:27,176 autoreload 472818 132223897169920 Watching for file changes with StatReloader
+INFO 2025-12-20 14:08:28,377 autoreload 472818 132223897169920 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:08:29,395 autoreload 472834 130604088504320 Watching for file changes with StatReloader
+INFO 2025-12-20 14:11:03,437 autoreload 472834 130604088504320 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:11:04,248 autoreload 474213 132043082731520 Watching for file changes with StatReloader
+INFO 2025-12-20 14:11:08,450 autoreload 474213 132043082731520 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:11:09,539 autoreload 474304 132543042461696 Watching for file changes with StatReloader
+INFO 2025-12-20 14:11:22,851 autoreload 474304 132543042461696 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:11:23,282 autoreload 474517 134863680176128 Watching for file changes with StatReloader
+INFO 2025-12-20 14:11:24,554 basehttp 474517 134863617865280 "GET /admin/userauths/opt/ HTTP/1.1" 200 15354
+INFO 2025-12-20 14:11:24,680 basehttp 474517 134863617865280 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:11:29,970 autoreload 474517 134863680176128 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:11:31,475 autoreload 474637 128489758040064 Watching for file changes with StatReloader
+INFO 2025-12-20 14:11:31,744 basehttp 474637 128489695729216 "GET /admin/userauths/opt/ HTTP/1.1" 200 15348
+INFO 2025-12-20 14:11:31,844 basehttp 474637 128489695729216 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:11:34,796 autoreload 474637 128489758040064 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:11:36,222 autoreload 474742 125771052257280 Watching for file changes with StatReloader
+INFO 2025-12-20 14:11:36,541 basehttp 474742 125770989954624 "GET /admin/userauths/opt/ HTTP/1.1" 200 15348
+INFO 2025-12-20 14:11:36,609 basehttp 474742 125770989954624 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:11:40,557 autoreload 474742 125771052257280 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:11:41,071 autoreload 474858 125846143954944 Watching for file changes with StatReloader
+INFO 2025-12-20 14:11:41,402 basehttp 474858 125846081619520 "GET /admin/userauths/opt/ HTTP/1.1" 200 15336
+INFO 2025-12-20 14:11:41,476 basehttp 474858 125846081619520 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:14:54,799 autoreload 474858 125846143954944 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:14:55,987 autoreload 476389 126834025234432 Watching for file changes with StatReloader
+INFO 2025-12-20 14:14:56,380 basehttp 476389 126833962931776 "GET /admin/userauths/opt/ HTTP/1.1" 200 15336
+INFO 2025-12-20 14:14:56,560 basehttp 476389 126833962931776 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:15:44,925 autoreload 476389 126834025234432 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:15:45,573 autoreload 476998 126995031502848 Watching for file changes with StatReloader
+INFO 2025-12-20 14:15:46,782 autoreload 476998 126995031502848 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:15:47,261 autoreload 477042 126488086614016 Watching for file changes with StatReloader
+INFO 2025-12-20 14:15:51,480 autoreload 477042 126488086614016 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:15:51,918 autoreload 477131 136241332350976 Watching for file changes with StatReloader
+INFO 2025-12-20 14:15:53,120 autoreload 477131 136241332350976 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:15:54,786 autoreload 477179 135058857021440 Watching for file changes with StatReloader
+INFO 2025-12-20 14:15:56,987 autoreload 477179 135058857021440 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:15:58,118 autoreload 477273 138687440408576 Watching for file changes with StatReloader
+INFO 2025-12-20 14:15:59,231 basehttp 477273 138687304164928 "GET /admin/userauths/opt/ HTTP/1.1" 200 15336
+INFO 2025-12-20 14:15:59,343 basehttp 477273 138687304164928 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:16:00,769 autoreload 477273 138687440408576 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:16:02,069 autoreload 477341 134741047230464 Watching for file changes with StatReloader
+INFO 2025-12-20 14:16:02,485 basehttp 477341 134740984886848 "GET /admin/userauths/opt/ HTTP/1.1" 200 15336
+INFO 2025-12-20 14:16:02,674 basehttp 477341 134740984886848 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:16:05,442 autoreload 477341 134741047230464 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:16:05,936 autoreload 477446 131225917886464 Watching for file changes with StatReloader
+INFO 2025-12-20 14:16:09,140 autoreload 477446 131225917886464 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:16:09,638 autoreload 477533 140643211407360 Watching for file changes with StatReloader
+INFO 2025-12-20 14:16:11,841 autoreload 477533 140643211407360 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:16:12,365 autoreload 477578 127182554435584 Watching for file changes with StatReloader
+INFO 2025-12-20 14:16:12,788 basehttp 477578 127182492051008 "GET /admin/userauths/opt/ HTTP/1.1" 200 15336
+INFO 2025-12-20 14:16:12,858 basehttp 477578 127182492051008 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:16:29,187 autoreload 477578 127182554435584 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:16:29,658 autoreload 477749 130256588464128 Watching for file changes with StatReloader
+INFO 2025-12-20 14:16:37,892 autoreload 477749 130256588464128 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:16:38,304 autoreload 477935 138488554897408 Watching for file changes with StatReloader
+INFO 2025-12-20 14:16:41,495 autoreload 477935 138488554897408 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:16:41,929 autoreload 478033 126157763776512 Watching for file changes with StatReloader
+INFO 2025-12-20 14:16:43,120 autoreload 478033 126157763776512 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:16:43,565 autoreload 478054 125915587969024 Watching for file changes with StatReloader
+INFO 2025-12-20 14:16:44,763 autoreload 478054 125915587969024 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:16:45,150 autoreload 478065 126133129203712 Watching for file changes with StatReloader
+INFO 2025-12-20 14:16:49,350 autoreload 478065 126133129203712 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:16:49,793 autoreload 478170 127140210110464 Watching for file changes with StatReloader
+INFO 2025-12-20 14:16:50,977 autoreload 478170 127140210110464 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:16:51,396 autoreload 478211 134841831923712 Watching for file changes with StatReloader
+INFO 2025-12-20 14:17:01,682 autoreload 478211 134841831923712 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:17:02,129 autoreload 478381 127683590627328 Watching for file changes with StatReloader
+INFO 2025-12-20 14:17:21,497 autoreload 478381 127683590627328 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:17:21,910 autoreload 478645 135898965889024 Watching for file changes with StatReloader
+INFO 2025-12-20 14:17:26,108 autoreload 478645 135898965889024 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:17:27,101 autoreload 478744 133407535984640 Watching for file changes with StatReloader
+INFO 2025-12-20 14:17:28,282 autoreload 478744 133407535984640 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:17:28,690 autoreload 478790 139761384128512 Watching for file changes with StatReloader
+INFO 2025-12-20 14:17:31,898 autoreload 478790 139761384128512 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:17:32,309 autoreload 478856 129047860928512 Watching for file changes with StatReloader
+INFO 2025-12-20 14:17:34,494 autoreload 478856 129047860928512 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:17:34,902 autoreload 478936 136360086134784 Watching for file changes with StatReloader
+INFO 2025-12-20 14:17:36,126 autoreload 478936 136360086134784 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:17:36,546 autoreload 478950 123471082524672 Watching for file changes with StatReloader
+INFO 2025-12-20 14:17:38,743 autoreload 478950 123471082524672 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:17:39,256 autoreload 478996 134583007711232 Watching for file changes with StatReloader
+INFO 2025-12-20 14:18:04,691 autoreload 478996 134583007711232 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/models.py changed, reloading.
+INFO 2025-12-20 14:18:05,174 autoreload 479279 133528519217152 Watching for file changes with StatReloader
+INFO 2025-12-20 14:18:07,383 autoreload 479279 133528519217152 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/models.py changed, reloading.
+INFO 2025-12-20 14:18:07,823 autoreload 479363 131946528890880 Watching for file changes with StatReloader
+INFO 2025-12-20 14:18:09,005 autoreload 479363 131946528890880 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/models.py changed, reloading.
+INFO 2025-12-20 14:18:09,833 autoreload 479384 123978198409216 Watching for file changes with StatReloader
+INFO 2025-12-20 14:18:17,069 autoreload 479384 123978198409216 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/models.py changed, reloading.
+INFO 2025-12-20 14:18:17,965 autoreload 479505 128282709811200 Watching for file changes with StatReloader
+INFO 2025-12-20 14:18:26,228 autoreload 479505 128282709811200 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/models.py changed, reloading.
+INFO 2025-12-20 14:18:27,077 autoreload 479701 129539789320192 Watching for file changes with StatReloader
+INFO 2025-12-20 14:19:34,072 autoreload 479701 129539789320192 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:19:34,554 autoreload 480354 127906544447488 Watching for file changes with StatReloader
+INFO 2025-12-20 14:19:36,760 autoreload 480354 127906544447488 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:19:37,764 autoreload 480431 132010723291136 Watching for file changes with StatReloader
+INFO 2025-12-20 14:19:41,978 autoreload 480431 132010723291136 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:19:42,385 autoreload 480547 128683397971968 Watching for file changes with StatReloader
+INFO 2025-12-20 14:19:43,566 autoreload 480547 128683397971968 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:19:43,994 autoreload 480558 139593537523712 Watching for file changes with StatReloader
+INFO 2025-12-20 14:19:45,175 autoreload 480558 139593537523712 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:19:45,597 autoreload 480576 135680113725440 Watching for file changes with StatReloader
+INFO 2025-12-20 14:19:51,829 autoreload 480576 135680113725440 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-20 14:19:52,315 autoreload 480739 127782361796608 Watching for file changes with StatReloader
+INFO 2025-12-20 14:19:55,759 basehttp 480739 127782307812928 "GET /admin/userauths/user/ HTTP/1.1" 200 16570
+INFO 2025-12-20 14:19:55,867 basehttp 480739 127782307812928 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+ERROR 2025-12-20 14:19:58,938 log 480739 127782299420224 Internal Server Error: /admin/userauths/opt/
+Traceback (most recent call last):
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UndefinedColumn: ERREUR:  la colonne userauths_opt.id_opt n'existe pas
+LINE 1: ..._opt"."updated_at", "userauths_opt"."deleted_at", "userauths...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 719, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/contrib/admin/sites.py", line 246, in inner
+    return view(request, *args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 48, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/utils/decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/contrib/admin/options.py", line 2163, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 366, in __len__
+    self._fetch_all()
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.ProgrammingError: ERREUR:  la colonne userauths_opt.id_opt n'existe pas
+LINE 1: ..._opt"."updated_at", "userauths_opt"."deleted_at", "userauths...
+                                                             ^
+
+ERROR 2025-12-20 14:19:58,948 basehttp 480739 127782299420224 "GET /admin/userauths/opt/ HTTP/1.1" 500 174973
+INFO 2025-12-20 14:21:06,274 autoreload 481444 140077406289920 Watching for file changes with StatReloader
+INFO 2025-12-20 14:21:07,755 basehttp 481444 140077271348800 "GET /admin/userauths/opt/ HTTP/1.1" 200 15336
+INFO 2025-12-20 14:21:07,866 basehttp 481444 140077271348800 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:21:09,528 basehttp 481444 140077262956096 "GET /admin/userauths/opt/ HTTP/1.1" 200 15336
+INFO 2025-12-20 14:21:09,609 basehttp 481444 140077262956096 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:21:11,633 basehttp 481444 140077271348800 "GET /admin/userauths/opt/ HTTP/1.1" 200 15336
+INFO 2025-12-20 14:21:11,696 basehttp 481444 140077271348800 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:21:12,611 basehttp 481444 140077352269376 "GET /admin/userauths/user/ HTTP/1.1" 200 16570
+INFO 2025-12-20 14:21:12,674 basehttp 481444 140077352269376 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:21:26,909 basehttp 481444 140077271348800 "GET /admin/userauths/user/1/change/ HTTP/1.1" 200 33885
+INFO 2025-12-20 14:21:26,978 basehttp 481444 140077271348800 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:21:28,938 basehttp 481444 140077262956096 "GET /admin/ HTTP/1.1" 200 15257
+INFO 2025-12-20 14:22:05,765 basehttp 481444 140077262956096 "GET /admin/userauths/opt/ HTTP/1.1" 200 15336
+INFO 2025-12-20 14:22:05,905 basehttp 481444 140077262956096 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:22:08,184 basehttp 481444 140077271348800 "GET /admin/userauths/user/ HTTP/1.1" 200 16570
+INFO 2025-12-20 14:22:08,267 basehttp 481444 140077271348800 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:23:24,342 autoreload 481444 140077406289920 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/models.py changed, reloading.
+INFO 2025-12-20 14:23:24,805 autoreload 482717 128962001948672 Watching for file changes with StatReloader
+INFO 2025-12-20 14:23:25,073 basehttp 482717 128961939572288 "GET /admin/userauths/user/ HTTP/1.1" 200 16570
+INFO 2025-12-20 14:23:25,181 basehttp 482717 128961939572288 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:23:27,296 autoreload 482717 128962001948672 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/models.py changed, reloading.
+INFO 2025-12-20 14:23:27,750 autoreload 482836 132468660146176 Watching for file changes with StatReloader
+INFO 2025-12-20 14:23:41,044 autoreload 482836 132468660146176 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/models.py changed, reloading.
+INFO 2025-12-20 14:23:41,513 autoreload 483004 124941623422976 Watching for file changes with StatReloader
+INFO 2025-12-20 14:23:50,771 autoreload 483004 124941623422976 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/models.py changed, reloading.
+INFO 2025-12-20 14:23:51,223 autoreload 483239 128957840658432 Watching for file changes with StatReloader
+INFO 2025-12-20 14:23:52,132 basehttp 483239 128957778282048 "GET /admin/userauths/user/ HTTP/1.1" 200 16570
+INFO 2025-12-20 14:23:52,218 basehttp 483239 128957778282048 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:24:33,632 basehttp 483239 128957786674752 "GET /admin/userauths/user/ HTTP/1.1" 200 16570
+INFO 2025-12-20 14:24:33,749 basehttp 483239 128957786674752 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:24:36,034 basehttp 483239 128957778282048 "GET /admin/userauths/opt/ HTTP/1.1" 200 15336
+INFO 2025-12-20 14:24:36,113 basehttp 483239 128957778282048 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-20 14:24:39,401 basehttp 483239 128957786674752 "GET /admin/ HTTP/1.1" 200 15257

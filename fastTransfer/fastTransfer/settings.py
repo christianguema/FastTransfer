@@ -178,6 +178,26 @@ TAILWIND_APP_NAME = "theme"
 
 AUTH_USER_MODEL = 'userauths.User'
 
+
+
+#-----------------------------
+#Configuration d'email
+#-----------------------------
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+
+EMAIL_HOST_USER = 'christdeyong@gmail.com'
+EMAIL_HOST_PASSWORD = 'lhor zdba alxz tscn'
+
+DEFAULT_FROM_EMAIL = 'FastTransfer <christdeyong@gmail.com>'
+
+
+
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
