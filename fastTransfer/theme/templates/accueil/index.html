@@ -1,0 +1,114 @@
+{% load static tailwind_tags %}
+{% load django_browser_reload %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuil</title>
+    {% tailwind_css %}
+    {% load static %}
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="bg-white shadow">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-900">FastTransfer</h1>
+
+            <!-- <div class="space-x-4">
+                <a href="{% url 'userauths:login' %}"" class="text-gray-600 hover:text-blue-600">Connexion</a>
+                <a href="{% url 'userauths:register' %}"
+                   class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
+                    Inscription
+                </a>
+            </div> -->
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="relative bg-cover bg-center text-white h-[500px]" style="background-image: url('{% static 'images/transfer3.jpg' %}')">
+        <div class="max-w-7xl mx-auto px-6 py-20 text-center">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-6">
+                Transférez votre argent<br class="hidden md:block">
+                simplement et en toute sécurité
+            </h2>
+            <p class="text-lg md:text-xl max-w-2xl mx-auto mb-8">
+                FastTransfer est une plateforme de monnaie électronique locale,
+                rapide, fiable et sécurisée.
+            </p>
+
+            <div class="flex justify-center gap-4">
+                <a href="{% url 'userauths:register' %}"
+                   class="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">
+                    Créer un compte
+                </a>
+                <a href="{% url 'userauths:login' %}"
+                   class="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-blue-900 transition">
+                    Se connecter
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="max-w-7xl mx-auto px-7 py-10">
+        <h3 class="text-3xl font-bold text-center mb-12">
+            Pourquoi choisir FastTransfer ?
+        </h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <h4 class="text-xl font-semibold mb-3 text-blue-900">Compte virtuel</h4>
+                <p class="text-black">
+                    Chaque utilisateur dispose d’un compte virtuel sécurisé
+                    pour gérer ses dépôts, transferts et retraits.
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <h4 class="text-xl font-semibold mb-3 text-blue-900">Transactions traçables</h4>
+                <p class="text-black">
+                    Toutes les opérations sont enregistrées et consultables
+                    à tout moment pour une transparence totale.
+                </p>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+                <h4 class="text-xl font-semibold mb-3 text-blue-900">Sécurité renforcée</h4>
+                <p class="text-black">
+                    Validation par OTP, suspension des comptes et protection
+                    contre les opérations frauduleuses.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section class="bg-blue-600/20 text-white">
+        <div class="max-w-7xl mx-auto px-6 py-16 text-center">
+            <h3 class="text-3xl font-bold mb-4">
+                Prêt à commencer ?
+            </h3>
+            <p class="mb-8">
+                Rejoignez FastTransfer et gérez votre argent autrement.
+            </p>
+
+            <a href="{% url 'userauths:register' %}"
+               class="bg-white text-blue-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100">
+                Ouvrir un compte
+            </a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-400">
+        <div class="max-w-7xl mx-auto px-6 py-6 text-center text-sm">
+            © {{ year|default:"2025" }} FastTransfer – Plateforme de transfert d’argent
+        </div>
+    </footer>
+    {% django_browser_reload_script %}
+</body>
+
+</html>

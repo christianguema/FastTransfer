@@ -1,11 +1,10 @@
 from django.db import models
 from shortuuid import ShortUUID
-from django.conf import settings
 
 class TimeStampMixin(models.Model):
-    created_at = models.DateField()
-    updated_at = models.DateField()
-    deleted_at = models.DateField()
+    created_at = models.DateField(auto_now_add=True)
+    updated_at = models.DateField(auto_now=True)
+    deleted_at = models.DateField(null=True, blank=True)
     class Meta:
         abstract = True
 
@@ -24,8 +23,9 @@ class TransactionStatus(models.TextChoices):
 
 
 class AccountOwner(TimeStampMixin):
+    platform = models.OneToOneField('Platform', on_delete=models.CASCADE, blank=True, null=True)
     owner = models.OneToOneField(
-        settings.AUTH_USER_MODEL,
+        "userauths.User",
         on_delete=models.CASCADE
     )
 
@@ -33,6 +33,13 @@ class Platform(models.Model):
     name = models.CharField(max_length=255)
     withdrawal_fee_rate = models.IntegerField()
 
+    class Meta:
+        verbose_name = "Platform"
+        verbose_name_plural = "Platforms"
+
+
+    def __str__(self):
+        return f'{self.name}'
 
 class VirtualAccount(TimeStampMixin):
     balance = models.IntegerField()
@@ -43,13 +50,17 @@ class VirtualAccount(TimeStampMixin):
         on_delete=models.CASCADE
     )
 
+    class Meta:
+        verbose_name = "Compte"
+        verbose_name_plural = "Comptes"
+
 class Transactions(TimeStampMixin):
     reference = models.CharField(max_length=255)
     types = models.CharField(
         max_length=20,
         choices=TypeTransaction.choices
     )
-    amount = models.CharField(max_length=50)
+    amount = models.CharField(max_length=50,)
     fee = models.IntegerField()
     net_amount = models.IntegerField()
     status = models.CharField(
@@ -68,3 +79,10 @@ class Transactions(TimeStampMixin):
         related_name="received_transactions",
         on_delete=models.PROTECT
     )
+
+    class Meta:
+        verbose_name = "Transaction"
+        verbose_name_plural = "Transactions"
+
+    def __str__(self):
+        return f"{self.reference}"

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from userauths.models import User, OPT
+from userauths.models import User, OTP
 
 class AdminUser(admin.ModelAdmin):
     list_display = [
@@ -18,4 +18,4 @@ class adminOPT(admin.ModelAdmin):
         "expire_at"
     ]
 admin.site.register(User, AdminUser)
-admin.site.register(OPT, adminOPT)
+admin.site.register(OTP, adminOPT)

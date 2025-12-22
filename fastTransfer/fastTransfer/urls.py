@@ -17,7 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 from userauths import urls as urluserauths
+from core import urls as coreurls
 urlpatterns = [
+    path("", include(coreurls)),
     path('admin/', admin.site.urls),
     path('auth/', include(urluserauths)),
     path("__reload__/", include("django_browser_reload.urls")),

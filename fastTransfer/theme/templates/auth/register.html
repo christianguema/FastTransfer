@@ -1,0 +1,173 @@
+{% load static tailwind_tags %}
+{% load django_browser_reload %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    {% tailwind_css %}
+    {% load static %}
+    <link href="{% static 'css/dist/auth.css' %}">
+</head>
+<body class="min-h-screen bg-gray-100 flex items-center justify-center">
+    
+    <div class="absolute inset-0 z-0 pointer-events-none">
+        <div class="slider">
+            <div class="slide bg1"></div>
+            <div class="slide bg2"></div>
+            <div class="slide bg3"></div>
+        </div>
+
+        <!-- overlay -->
+        <div class="absolute inset-0 bg-black/50"></div>
+    </div>
+    
+    <div class="relative z-10 w-full max-w-lg bg-white rounded-xl shadow-lg p-8">
+        <h2 class="text-3xl font-bold text-center text-blue-900 mb-6">
+            Créer un compte
+        </h2>
+
+        {% if messages %}
+            <div class="mb-4">
+                {% for message in messages %}
+                    <div class="p-4 bg-green-100 text-green-800 rounded-lg">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        <form method="post" class="space-y-4">
+            {% csrf_token %}
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-blue-900 text-sm font-medium mb-1">Prénom</label>
+                    {{ form.first_name }}
+                    {% if form.first_name.errors %}
+                        <ul class="text-red-600 text-sm mt-1">
+                            {% for error in form.first_name.errors %}
+                                <li>{{ error }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+
+                <div>
+                    <label class="block text-sm text-blue-900 font-medium mb-1">Nom</label>
+                    {{ form.last_name }}
+                    {% if form.last_name.errors %}
+                        <ul class="text-red-600 text-sm mt-1">
+                            {% for error in form.last_name.errors %}
+                                <li>{{ error }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div>
+                <label class="block text-sm text-blue-900 font-medium mb-1">Email</label>
+                {{ form.email }}
+                {% if form.email.errors %}
+                    <ul class="text-red-600 text-sm mt-1">
+                        {% for error in form.email.errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </div>
+
+            <div>
+                <label class="block text-sm text-blue-900 font-medium mb-1">Téléphone</label>
+                {{ form.phone }}
+                {% if form.phone.errors %}
+                    <ul class="text-red-600 text-sm mt-1">
+                        {% for error in form.phone.errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </div>
+
+            <div>
+                <label class="block text-sm text-blue-900 font-medium mb-1" for="gender">Genre</label>
+                {{ form.gender }}
+                {% if form.gender.errors %}
+                    <ul class="text-red-600 text-sm mt-1">
+                        {% for error in form.gender.errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </div>
+
+            <div>
+                <label class="block text-sm text-blue-900 font-medium mb-1">Mot de passe</label>
+                {{ form.password1 }}
+                {% if form.password1.errors %}
+                    <ul class="text-red-600 text-sm mt-1">
+                        {% for error in form.password1.errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+                {% if form.password1.help_text %}
+                    <p class="text-gray-600 text-xs mt-1">{{ form.password1.help_text | safe }}</p>
+                {% endif %}
+            </div>
+
+            <div>
+                <label class="block text-sm text-blue-900 font-medium mb-1" for="{{ form.password2.id_for_label }}">
+                    Confirmer le mot de passe
+                </label>
+                {{ form.password2 }}
+                {% if form.password2.errors %}
+                    <ul class="text-red-600 text-sm mt-1">
+                        {% for error in form.password2.errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+                {% if form.password2.help_text %}
+                    <p class="text-gray-600 text-xs mt-1">{{ form.password2.help_text | safe }}</p>
+                {% endif %}
+            </div>
+
+            <!-- Erreurs non-champ (globales) -->
+            {% if form.non_field_errors %}
+                <div class="p-4 bg-red-100 text-red-800 rounded-lg">
+                    {% for error in form.non_field_errors %}
+                        <p>{{ error }}</p>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            <button type="submit"
+                class="w-full bg-blue-800 text-white py-2 rounded-lg font-semibold hover:bg-blue-900 transition">
+                S’inscrire
+            </button>
+        </form>
+
+        <p class="text-center text-sm text-gray-600 mt-6">
+            Déjà un compte ?
+            <a href="{% url 'userauths:login' %}" class="text-blue-900 hover:underline">
+                Se connecter
+            </a>
+        </p>
+    </div>
+    
+    <div class="absolute inset-0 z-0 pointer-events-none">
+        <div class="slider">
+            <div class="slide bg1"></div>
+            <div class="slide bg2"></div>
+            <div class="slide bg3"></div>
+        </div>
+
+        <!-- overlay -->
+        <div class="absolute inset-0 bg-black/50"></div>
+    </div>
+    {% django_browser_reload_script %}
+</body>
+</html>

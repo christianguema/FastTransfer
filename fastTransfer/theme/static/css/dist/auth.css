@@ -1,0 +1,28 @@
+.slider {
+    position: absolute;
+    inset: 0;
+}
+
+.slide {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    filter: blur(6px);
+    opacity: 0;
+    animation: fade 24s infinite;
+}
+
+/* images */
+.bg1 { background-image: url('../../images/auth-bg/bg1.jpg'); animation-delay: 0s; }
+.bg2 { background-image: url('../../images/auth-bg/bg2.jpg'); animation-delay: 6s; }
+.bg3 { background-image: url('../../images/auth-bg/bg3.jpg'); animation-delay: 12s; }
+.bg4 { background-image: url('../../images/auth-bg/bg4.jpg'); animation-delay: 18s; }
+
+@keyframes fade {
+    0%   { opacity: 0; }
+    8%   { opacity: 1; }
+    25%  { opacity: 1; }
+    33%  { opacity: 0; }
+    100% { opacity: 0; }
+}
