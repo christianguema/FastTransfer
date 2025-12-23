@@ -2,6 +2,7 @@
 {% load django_browser_reload %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Django Tailwind</title>
     <meta charset="UTF-8">
@@ -11,18 +12,36 @@
 </head>
 
 <body class="bg-gray-50 text-black font-serif leading-normal tracking-normal">
-{% load django_browser_reload %}
+    {% load django_browser_reload %}
+
+    {% if messages %}
+    {% for message in messages %}
+    <div class="alert {{ message.tags }}">
+        {{ message }}
+    </div>
+    {% endfor %}
+    {% endif %}
+    
+    <form method="POST" action="{% url 'userauths:logout' %}">
+        {% csrf_token %}
+        <button type="submit">Déconnexion</button>
+    </form>
+
     <div class="toast toast-top toast-end">
         <div class="alert alert-info">
             <span>Hello from daisyUi 👋</span>
         </div>
     </div>
 
-<div class="container mx-auto">
-    <section class="flex items-center justify-center h-screen">
-        <h1 class="text-5xl">Django + Tailwind = ❤️</h1>
-    </section>
-</div>
-{% django_browser_reload_script %}
+    <div class="container mx-auto">
+        <section class="flex items-center justify-center h-screen">
+            <h1 class="text-5xl">Django + Tailwind = ❤️</h1>
+        </section>
+    </div>
+
+
+
+    {% django_browser_reload_script %}
 </body>
+
 </html>

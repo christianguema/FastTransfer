@@ -3991,3 +3991,1328 @@ INFO 2025-12-22 00:43:11,631 basehttp 793642 127206118385216 "GET /auth/login/ H
 INFO 2025-12-22 00:43:11,668 basehttp 793642 127206118385216 "GET /static/css/dist/styles.css?v=1766364191 HTTP/1.1" 200 37711
 INFO 2025-12-22 00:43:19,176 basehttp 793642 127206126777920 "GET / HTTP/1.1" 200 4731
 INFO 2025-12-22 00:43:19,196 basehttp 793642 127206126777920 "GET /static/css/dist/styles.css?v=1766364199 HTTP/1.1" 200 37711
+INFO 2025-12-22 21:45:34,212 autoreload 13901 127583690379264 Watching for file changes with StatReloader
+INFO 2025-12-22 21:45:39,063 basehttp 13901 127583635412544 "GET / HTTP/1.1" 200 4731
+INFO 2025-12-22 21:45:39,119 basehttp 13901 127583635412544 "GET /static/css/dist/styles.css?v=1766439938 HTTP/1.1" 200 37711
+WARNING 2025-12-22 21:45:39,176 basehttp 13901 127583635412544 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:45:39,179 basehttp 13901 127583627019840 "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+INFO 2025-12-22 21:45:39,299 basehttp 13901 127583627019840 "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 304 0
+WARNING 2025-12-22 21:45:39,966 log 13901 127583627019840 Not Found: /favicon.ico
+WARNING 2025-12-22 21:45:39,967 basehttp 13901 127583627019840 "GET /favicon.ico HTTP/1.1" 404 3216
+INFO 2025-12-22 21:45:43,325 basehttp 13901 127583627019840 "GET / HTTP/1.1" 200 4731
+INFO 2025-12-22 21:45:43,361 basehttp 13901 127583627019840 "GET /static/css/dist/styles.css?v=1766439943 HTTP/1.1" 200 37711
+WARNING 2025-12-22 21:45:43,420 basehttp 13901 127583627019840 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:45:44,145 basehttp 13901 127583412811328 "GET / HTTP/1.1" 200 4731
+INFO 2025-12-22 21:45:44,184 basehttp 13901 127583412811328 "GET /static/css/dist/styles.css?v=1766439944 HTTP/1.1" 200 37711
+WARNING 2025-12-22 21:45:44,242 basehttp 13901 127583412811328 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:45:44,519 basehttp 13901 127583404418624 "GET / HTTP/1.1" 200 4731
+WARNING 2025-12-22 21:45:44,581 basehttp 13901 127583404418624 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:45:44,797 basehttp 13901 127583635412544 "GET / HTTP/1.1" 200 4731
+WARNING 2025-12-22 21:45:44,854 basehttp 13901 127583635412544 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:45:52,781 basehttp 13901 127583404418624 "GET / HTTP/1.1" 200 4731
+INFO 2025-12-22 21:45:52,811 basehttp 13901 127583404418624 "GET /static/css/dist/styles.css?v=1766439952 HTTP/1.1" 200 37711
+WARNING 2025-12-22 21:45:52,868 basehttp 13901 127583404418624 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:45:53,460 basehttp 13901 127583412811328 "GET / HTTP/1.1" 200 4731
+INFO 2025-12-22 21:45:53,495 basehttp 13901 127583412811328 "GET /static/css/dist/styles.css?v=1766439953 HTTP/1.1" 200 37711
+WARNING 2025-12-22 21:45:53,565 basehttp 13901 127583412811328 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:45:53,702 basehttp 13901 127583627019840 "GET / HTTP/1.1" 200 4731
+WARNING 2025-12-22 21:45:53,752 basehttp 13901 127583627019840 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:45:53,986 basehttp 13901 127583635412544 "GET / HTTP/1.1" 200 4731
+WARNING 2025-12-22 21:45:54,041 basehttp 13901 127583635412544 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:46:03,221 basehttp 13901 127583635412544 "GET / HTTP/1.1" 200 4731
+INFO 2025-12-22 21:46:03,280 basehttp 13901 127583635412544 "GET /static/css/dist/styles.css?v=1766439963 HTTP/1.1" 200 37711
+WARNING 2025-12-22 21:46:03,363 basehttp 13901 127583635412544 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:46:05,523 basehttp 13901 127583635412544 "GET /auth/register/ HTTP/1.1" 200 5548
+INFO 2025-12-22 21:46:05,557 basehttp 13901 127583635412544 "GET /static/css/dist/styles.css?v=1766439965 HTTP/1.1" 200 37711
+INFO 2025-12-22 21:46:07,749 basehttp 13901 127583627019840 "GET /auth/login/ HTTP/1.1" 200 2760
+INFO 2025-12-22 21:46:07,776 basehttp 13901 127583627019840 "GET /static/css/dist/styles.css?v=1766439967 HTTP/1.1" 200 37711
+INFO 2025-12-22 21:46:08,445 basehttp 13901 127583627019840 "GET /static/css/dist/auth.css HTTP/1.1" 304 0
+INFO 2025-12-22 21:46:08,509 basehttp 13901 127583627019840 "GET /static/images/auth-bg/bg2.jpg HTTP/1.1" 200 2003212
+INFO 2025-12-22 21:46:08,654 basehttp 13901 127583412811328 "GET /static/images/auth-bg/bg3.jpg HTTP/1.1" 200 4787886
+ERROR 2025-12-22 21:46:16,224 log 13901 127583412811328 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py", line 95, in login_view
+    virtual_account = VirtualAccount.objects.get(owner=user)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 619, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1563, in build_filter
+    self.check_related_objects(join_info.final_field, value, join_info.opts)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1372, in check_related_objects
+    self.check_query_object_type(value, opts, field)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1349, in check_query_object_type
+    raise ValueError(
+ValueError: Cannot query " ": Must be "AccountOwner" instance.
+ERROR 2025-12-22 21:46:16,228 basehttp 13901 127583412811328 "POST /auth/login/ HTTP/1.1" 500 126873
+INFO 2025-12-22 21:46:39,974 basehttp 13901 127583412811328 "GET /auth/register/ HTTP/1.1" 200 5548
+INFO 2025-12-22 21:46:40,000 basehttp 13901 127583412811328 "GET /static/css/dist/styles.css?v=1766439999 HTTP/1.1" 200 37711
+INFO 2025-12-22 21:46:48,888 autoreload 15439 134895166435328 Watching for file changes with StatReloader
+INFO 2025-12-22 21:46:49,284 basehttp 15439 134895104112192 "GET /auth/register/ HTTP/1.1" 200 5548
+INFO 2025-12-22 21:46:49,321 basehttp 15439 134895104112192 "GET /static/css/dist/styles.css?v=1766440009 HTTP/1.1" 200 37711
+INFO 2025-12-22 21:47:32,866 basehttp 15439 134895112504896 "GET / HTTP/1.1" 200 4731
+INFO 2025-12-22 21:47:32,970 basehttp 15439 134895112504896 "GET /static/css/dist/styles.css?v=1766440052 HTTP/1.1" 200 37711
+WARNING 2025-12-22 21:47:33,020 basehttp 15439 134895112504896 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:47:36,395 basehttp 15439 134895112504896 "GET /auth/login/ HTTP/1.1" 200 2760
+INFO 2025-12-22 21:47:36,417 basehttp 15439 134895112504896 "GET /static/css/dist/styles.css?v=1766440056 HTTP/1.1" 200 37711
+INFO 2025-12-22 21:48:07,064 basehttp 15439 134895104112192 "GET /auth/register/ HTTP/1.1" 200 5548
+INFO 2025-12-22 21:48:07,126 basehttp 15439 134895104112192 "GET /static/css/dist/styles.css?v=1766440087 HTTP/1.1" 200 37711
+INFO 2025-12-22 21:49:34,806 basehttp 15439 134895112504896 "GET /auth/login/ HTTP/1.1" 200 2760
+INFO 2025-12-22 21:49:34,852 basehttp 15439 134895112504896 "GET /static/css/dist/styles.css?v=1766440174 HTTP/1.1" 200 37711
+INFO 2025-12-22 21:49:45,393 basehttp 15439 134895085229632 "GET /auth/register/ HTTP/1.1" 200 5548
+INFO 2025-12-22 21:49:45,426 basehttp 15439 134895085229632 "GET /static/css/dist/styles.css?v=1766440185 HTTP/1.1" 200 37711
+INFO 2025-12-22 21:49:52,132 basehttp 15439 134895085229632 "GET /auth/register/ HTTP/1.1" 200 5548
+INFO 2025-12-22 21:49:52,156 basehttp 15439 134895085229632 "GET /static/css/dist/styles.css?v=1766440192 HTTP/1.1" 200 37711
+INFO 2025-12-22 21:50:21,322 basehttp 15439 134895104112192 "GET / HTTP/1.1" 200 4731
+INFO 2025-12-22 21:50:21,351 basehttp 15439 134895104112192 "GET /static/css/dist/styles.css?v=1766440221 HTTP/1.1" 200 37711
+WARNING 2025-12-22 21:50:21,410 basehttp 15439 134895104112192 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:50:24,404 basehttp 15439 134895085229632 "GET / HTTP/1.1" 200 4732
+INFO 2025-12-22 21:50:24,433 basehttp 15439 134895085229632 "GET /static/css/dist/styles.css?v=1766440224 HTTP/1.1" 200 37711
+WARNING 2025-12-22 21:50:24,489 basehttp 15439 134895085229632 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:50:28,335 basehttp 15439 134895104112192 "GET / HTTP/1.1" 200 4732
+INFO 2025-12-22 21:50:28,365 basehttp 15439 134895104112192 "GET /static/css/dist/styles.css?v=1766440228 HTTP/1.1" 200 37711
+WARNING 2025-12-22 21:50:28,420 basehttp 15439 134895104112192 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:50:29,061 basehttp 15439 134895093622336 "GET / HTTP/1.1" 200 4732
+INFO 2025-12-22 21:50:29,086 basehttp 15439 134895093622336 "GET /static/css/dist/styles.css?v=1766440229 HTTP/1.1" 200 37711
+WARNING 2025-12-22 21:50:29,142 basehttp 15439 134895093622336 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:51:10,614 basehttp 15439 134895104112192 "GET /auth/register/ HTTP/1.1" 200 5548
+INFO 2025-12-22 21:51:10,670 basehttp 15439 134895104112192 "GET /static/css/dist/styles.css?v=1766440270 HTTP/1.1" 200 37711
+INFO 2025-12-22 21:51:22,169 basehttp 15439 134895104112192 "GET / HTTP/1.1" 200 4732
+INFO 2025-12-22 21:51:22,202 basehttp 15439 134895104112192 "GET /static/css/dist/styles.css?v=1766440282 HTTP/1.1" 200 37711
+WARNING 2025-12-22 21:51:22,259 basehttp 15439 134895104112192 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:51:22,799 basehttp 15439 134895085229632 "GET / HTTP/1.1" 200 4732
+WARNING 2025-12-22 21:51:22,852 basehttp 15439 134895085229632 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:51:23,062 basehttp 15439 134895112504896 "GET / HTTP/1.1" 200 4732
+INFO 2025-12-22 21:51:23,097 basehttp 15439 134895112504896 "GET /static/css/dist/styles.css?v=1766440283 HTTP/1.1" 200 37711
+WARNING 2025-12-22 21:51:23,151 basehttp 15439 134895112504896 "GET /static/images/transfer3.jpg HTTP/1.1" 404 1874
+INFO 2025-12-22 21:51:53,565 basehttp 15439 134895085229632 "GET / HTTP/1.1" 200 4733
+INFO 2025-12-22 21:51:53,630 basehttp 15439 134895085229632 "GET /static/css/dist/styles.css?v=1766440313 HTTP/1.1" 200 37711
+WARNING 2025-12-22 21:51:53,669 basehttp 15439 134895085229632 "GET /static/images/ftransfer3.jpg HTTP/1.1" 404 1877
+INFO 2025-12-22 21:51:55,640 basehttp 15439 134895112504896 "GET / HTTP/1.1" 200 4735
+INFO 2025-12-22 21:51:55,674 basehttp 15439 134895112504896 "GET /static/css/dist/styles.css?v=1766440315 HTTP/1.1" 200 37711
+WARNING 2025-12-22 21:51:55,730 basehttp 15439 134895112504896 "GET /static/images/featransfer3.jpg HTTP/1.1" 404 1883
+INFO 2025-12-22 21:51:58,749 basehttp 15439 134895085229632 "GET / HTTP/1.1" 200 4740
+INFO 2025-12-22 21:51:58,776 basehttp 15439 134895085229632 "GET /static/css/dist/styles.css?v=1766440318 HTTP/1.1" 200 37711
+WARNING 2025-12-22 21:51:59,076 basehttp 15439 134895085229632 "GET /static/images/featurestransfer3.jpg HTTP/1.1" 404 1898
+INFO 2025-12-22 21:52:01,861 basehttp 15439 134895112504896 "GET / HTTP/1.1" 200 4743
+INFO 2025-12-22 21:52:01,892 basehttp 15439 134895112504896 "GET /static/css/dist/styles.css?v=1766440321 HTTP/1.1" 200 37711
+WARNING 2025-12-22 21:52:01,946 basehttp 15439 134895112504896 "GET /static/images/features-bgtransfer3.jpg HTTP/1.1" 404 1907
+INFO 2025-12-22 21:52:02,904 basehttp 15439 134895085229632 "GET / HTTP/1.1" 200 4744
+INFO 2025-12-22 21:52:02,928 basehttp 15439 134895085229632 "GET /static/css/dist/styles.css?v=1766440322 HTTP/1.1" 200 37711
+INFO 2025-12-22 21:52:03,266 basehttp 15439 134895085229632 "GET /static/images/features-bg/transfer3.jpg HTTP/1.1" 200 662195
+INFO 2025-12-22 21:52:23,663 basehttp 15439 134895112504896 "GET /auth/login/ HTTP/1.1" 200 2760
+INFO 2025-12-22 21:52:23,690 basehttp 15439 134895112504896 "GET /static/css/dist/styles.css?v=1766440343 HTTP/1.1" 200 37711
+INFO 2025-12-22 21:52:25,984 basehttp 15439 134895085229632 "GET /auth/register/ HTTP/1.1" 200 5548
+INFO 2025-12-22 21:52:26,009 basehttp 15439 134895085229632 "GET /static/css/dist/styles.css?v=1766440345 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:06:30,656 basehttp 15439 134895112504896 "GET / HTTP/1.1" 200 4768
+INFO 2025-12-22 22:06:30,700 basehttp 15439 134895112504896 "GET /static/css/dist/styles.css?v=1766441190 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:06:43,081 basehttp 15439 134895085229632 "GET / HTTP/1.1" 200 4775
+INFO 2025-12-22 22:06:43,119 basehttp 15439 134895085229632 "GET /static/css/dist/styles.css?v=1766441203 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:06:46,198 basehttp 15439 134895112504896 "GET / HTTP/1.1" 200 4802
+INFO 2025-12-22 22:06:46,233 basehttp 15439 134895112504896 "GET /static/css/dist/styles.css?v=1766441206 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:06:55,445 basehttp 15439 134895085229632 "GET / HTTP/1.1" 200 4874
+INFO 2025-12-22 22:06:55,466 basehttp 15439 134895085229632 "GET /static/css/dist/styles.css?v=1766441215 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:06:58,532 basehttp 15439 134895112504896 "GET / HTTP/1.1" 200 4882
+INFO 2025-12-22 22:06:58,552 basehttp 15439 134895112504896 "GET /static/css/dist/styles.css?v=1766441218 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:06:59,562 basehttp 15439 134895085229632 "GET / HTTP/1.1" 200 4890
+INFO 2025-12-22 22:06:59,584 basehttp 15439 134895085229632 "GET /static/css/dist/styles.css?v=1766441219 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:07:01,622 basehttp 15439 134895112504896 "GET / HTTP/1.1" 200 4898
+INFO 2025-12-22 22:07:01,643 basehttp 15439 134895112504896 "GET /static/css/dist/styles.css?v=1766441221 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:07:03,699 basehttp 15439 134895085229632 "GET / HTTP/1.1" 200 4897
+INFO 2025-12-22 22:07:03,718 basehttp 15439 134895085229632 "GET /static/css/dist/styles.css?v=1766441223 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:07:38,906 basehttp 15439 134895112504896 "GET / HTTP/1.1" 200 4904
+INFO 2025-12-22 22:07:38,956 basehttp 15439 134895112504896 "GET /static/css/dist/styles.css?v=1766441258 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:07:39,940 basehttp 15439 134895085229632 "GET / HTTP/1.1" 200 4906
+INFO 2025-12-22 22:07:39,971 basehttp 15439 134895085229632 "GET /static/css/dist/styles.css?v=1766441259 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:08:08,940 basehttp 15439 134895112504896 "GET / HTTP/1.1" 200 4919
+INFO 2025-12-22 22:08:08,973 basehttp 15439 134895112504896 "GET /static/css/dist/styles.css?v=1766441288 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:08:25,527 basehttp 15439 134895085229632 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 22:08:25,566 basehttp 15439 134895085229632 "GET /static/css/dist/styles.css?v=1766441305 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:08:35,037 basehttp 15439 134895112504896 "GET /auth/login/ HTTP/1.1" 200 2760
+INFO 2025-12-22 22:08:35,063 basehttp 15439 134895112504896 "GET /static/css/dist/styles.css?v=1766441315 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:08:37,258 basehttp 15439 134895085229632 "GET /auth/register/ HTTP/1.1" 200 5548
+INFO 2025-12-22 22:08:37,284 basehttp 15439 134895085229632 "GET /static/css/dist/styles.css?v=1766441317 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:08:47,267 basehttp 15439 134895112504896 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 22:08:47,289 basehttp 15439 134895112504896 "GET /static/css/dist/styles.css?v=1766441327 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:15:32,351 basehttp 15439 134895112504896 "GET /auth/login/ HTTP/1.1" 200 2760
+INFO 2025-12-22 22:15:32,426 basehttp 15439 134895112504896 "GET /static/css/dist/styles.css?v=1766441732 HTTP/1.1" 200 37711
+ERROR 2025-12-22 22:15:36,357 log 15439 134895085229632 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py", line 95, in login_view
+    virtual_account = VirtualAccount.objects.get(owner=user)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 619, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1563, in build_filter
+    self.check_related_objects(join_info.final_field, value, join_info.opts)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1372, in check_related_objects
+    self.check_query_object_type(value, opts, field)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1349, in check_query_object_type
+    raise ValueError(
+ValueError: Cannot query " ": Must be "AccountOwner" instance.
+ERROR 2025-12-22 22:15:36,360 basehttp 15439 134895085229632 "POST /auth/login/ HTTP/1.1" 500 126873
+INFO 2025-12-22 22:18:47,911 autoreload 15439 134895166435328 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:18:48,380 autoreload 30129 138336746610688 Watching for file changes with StatReloader
+ERROR 2025-12-22 22:18:49,716 log 30129 138336684287552 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py", line 95, in login_view
+    try:
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 619, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1563, in build_filter
+    self.check_related_objects(join_info.final_field, value, join_info.opts)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1372, in check_related_objects
+    self.check_query_object_type(value, opts, field)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1349, in check_query_object_type
+    raise ValueError(
+ValueError: Cannot query " ": Must be "AccountOwner" instance.
+ERROR 2025-12-22 22:18:49,731 basehttp 30129 138336684287552 "POST /auth/login/ HTTP/1.1" 500 126657
+INFO 2025-12-22 22:18:49,837 autoreload 30129 138336746610688 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:18:50,407 autoreload 30209 123260873547776 Watching for file changes with StatReloader
+INFO 2025-12-22 22:18:51,740 autoreload 30209 123260873547776 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:18:52,306 autoreload 30250 130385302360064 Watching for file changes with StatReloader
+INFO 2025-12-22 22:18:53,500 basehttp 30250 130385240028736 "POST /auth/login/ HTTP/1.1" 200 2966
+INFO 2025-12-22 22:18:53,535 basehttp 30250 130385240028736 "GET /static/css/dist/styles.css?v=1766441933 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:19:03,936 autoreload 30250 130385302360064 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:19:04,433 autoreload 30413 128487468113920 Watching for file changes with StatReloader
+INFO 2025-12-22 22:19:05,613 basehttp 30413 128487405803072 "POST /auth/login/ HTTP/1.1" 200 2966
+INFO 2025-12-22 22:19:05,643 basehttp 30413 128487405803072 "GET /static/css/dist/styles.css?v=1766441945 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:19:41,047 basehttp 30413 128487414195776 "POST /auth/login/ HTTP/1.1" 200 2966
+INFO 2025-12-22 22:19:41,085 basehttp 30413 128487414195776 "GET /static/css/dist/styles.css?v=1766441981 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:20:06,926 basehttp 30413 128487405803072 "POST /auth/login/ HTTP/1.1" 200 2966
+INFO 2025-12-22 22:20:06,959 basehttp 30413 128487405803072 "GET /static/css/dist/styles.css?v=1766442006 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:20:18,733 basehttp 30413 128487414195776 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 22:20:19,068 basehttp 30413 128487414195776 "GET /static/css/dist/styles.css?v=1766442018 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:20:19,132 basehttp 30413 128487414195776 "GET /static/images/features-bg/transfer3.jpg HTTP/1.1" 200 662195
+WARNING 2025-12-22 22:20:19,518 log 30413 128487414195776 Not Found: /favicon.ico
+WARNING 2025-12-22 22:20:19,519 basehttp 30413 128487414195776 "GET /favicon.ico HTTP/1.1" 404 3216
+INFO 2025-12-22 22:20:24,399 basehttp 30413 128487414195776 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-12-22 22:20:24,726 basehttp 30413 128487414195776 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3296
+INFO 2025-12-22 22:20:25,025 basehttp 30413 128487386920512 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-12-22 22:20:25,193 basehttp 30413 128487414195776 "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+INFO 2025-12-22 22:20:32,775 basehttp 30413 128487386920512 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-12-22 22:20:33,019 basehttp 30413 128487386920512 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:20:51,086 basehttp 30413 128487414195776 "GET /auth/register/ HTTP/1.1" 200 5548
+INFO 2025-12-22 22:20:51,119 basehttp 30413 128487414195776 "GET /static/css/dist/styles.css?v=1766442051 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:21:32,231 basehttp 30413 128487405803072 "POST /auth/register/ HTTP/1.1" 200 5916
+INFO 2025-12-22 22:21:32,290 basehttp 30413 128487405803072 "GET /static/css/dist/styles.css?v=1766442092 HTTP/1.1" 200 37711
+ERROR 2025-12-22 22:24:35,182 log 30413 128487414195776 Internal Server Error: /auth/register/
+Traceback (most recent call last):
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py", line 59, in register_views
+    return redirect('userauths:verify-opt')
+  File "/home/christian/.local/lib/python3.10/site-packages/django/shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+  File "/home/christian/.local/lib/python3.10/site-packages/django/shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'verify-opt' not found. 'verify-opt' is not a valid view function or pattern name.
+ERROR 2025-12-22 22:24:35,186 basehttp 30413 128487414195776 "POST /auth/register/ HTTP/1.1" 500 99648
+INFO 2025-12-22 22:30:06,875 basehttp 30413 128487405803072 "GET /auth/register/ HTTP/1.1" 200 5836
+INFO 2025-12-22 22:30:06,902 basehttp 30413 128487405803072 "GET /static/css/dist/styles.css?v=1766442606 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:30:12,030 basehttp 30413 128487395313216 "GET /auth/login/ HTTP/1.1" 200 2760
+INFO 2025-12-22 22:30:12,057 basehttp 30413 128487395313216 "GET /static/css/dist/styles.css?v=1766442612 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:30:32,269 basehttp 30413 128487405803072 "POST /auth/login/ HTTP/1.1" 302 0
+ERROR 2025-12-22 22:30:33,008 log 30413 128487405803072 Internal Server Error: /auth/verify-otp/
+Traceback (most recent call last):
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py", line 150, in verify_otp_view
+    return render(request, "auth/verify_otp.html")
+  File "/home/christian/.local/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: auth/verify_otp.html
+ERROR 2025-12-22 22:30:33,011 basehttp 30413 128487405803072 "GET /auth/verify-otp/ HTTP/1.1" 500 92673
+INFO 2025-12-22 22:32:38,870 autoreload 30413 128487468113920 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:32:39,359 autoreload 36877 126358689501184 Watching for file changes with StatReloader
+ERROR 2025-12-22 22:32:39,633 log 36877 126358618793536 Internal Server Error: /auth/verify-otp/
+Traceback (most recent call last):
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py", line 150, in verify_otp_view
+    return render(request, "auth/verify-otp.html")
+  File "/home/christian/.local/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: auth/verify-otp.html
+ERROR 2025-12-22 22:32:39,654 basehttp 36877 126358618793536 "GET /auth/verify-otp/ HTTP/1.1" 500 92547
+INFO 2025-12-22 22:32:39,672 basehttp 36877 126358407607872 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:33:00,548 basehttp 36877 126358627186240 "GET /auth/verify-otp/ HTTP/1.1" 200 3122
+INFO 2025-12-22 22:33:00,624 basehttp 36877 126358635578944 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:33:01,020 basehttp 36877 126358627186240 "GET /static/css/dist/styles.css?v=1766442780 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:37:10,889 basehttp 36877 126358407607872 "POST /auth/verify-otp/ HTTP/1.1" 302 0
+INFO 2025-12-22 22:37:10,895 basehttp 36877 126358407607872 "GET /auth/verify-otp/ HTTP/1.1" 200 3098
+INFO 2025-12-22 22:37:10,997 basehttp 36877 126358407607872 "GET /static/css/dist/styles.css?v=1766443030 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:38:13,362 basehttp 36877 126358627186240 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 22:38:13,423 basehttp 36877 126358627186240 "GET /static/css/dist/styles.css?v=1766443093 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:38:14,405 basehttp 36877 126358618793536 "GET /auth/login/ HTTP/1.1" 200 2760
+INFO 2025-12-22 22:38:14,437 basehttp 36877 126358618793536 "GET /static/css/dist/styles.css?v=1766443094 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:38:24,119 basehttp 36877 126358627186240 "POST /auth/login/ HTTP/1.1" 302 0
+INFO 2025-12-22 22:38:24,127 basehttp 36877 126358627186240 "GET /auth/verify-otp/ HTTP/1.1" 200 3122
+INFO 2025-12-22 22:38:24,207 basehttp 36877 126358627186240 "GET /static/css/dist/styles.css?v=1766443104 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:41:47,976 basehttp 36877 126358618793536 "GET /auth/login/ HTTP/1.1" 200 2760
+INFO 2025-12-22 22:41:48,032 basehttp 36877 126358618793536 "GET /static/css/dist/styles.css?v=1766443307 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:41:49,823 basehttp 36877 126358627186240 "GET /auth/register/ HTTP/1.1" 200 5548
+INFO 2025-12-22 22:41:49,846 basehttp 36877 126358627186240 "GET /static/css/dist/styles.css?v=1766443309 HTTP/1.1" 200 37711
+ERROR 2025-12-22 22:42:23,751 log 36877 126358618793536 Internal Server Error: /auth/register/
+Traceback (most recent call last):
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py", line 59, in register_views
+    return redirect('userauths:verify-opt')
+  File "/home/christian/.local/lib/python3.10/site-packages/django/shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+  File "/home/christian/.local/lib/python3.10/site-packages/django/shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/urls/base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/urls/resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'verify-opt' not found. 'verify-opt' is not a valid view function or pattern name.
+ERROR 2025-12-22 22:42:23,754 basehttp 36877 126358618793536 "POST /auth/register/ HTTP/1.1" 500 99648
+INFO 2025-12-22 22:45:05,508 autoreload 36877 126358689501184 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:45:06,013 autoreload 42702 127951325708288 Watching for file changes with StatReloader
+INFO 2025-12-22 22:45:06,411 basehttp 42702 127951255004736 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:45:06,434 basehttp 42702 127951246612032 "POST /auth/register/ HTTP/1.1" 200 6204
+INFO 2025-12-22 22:45:06,540 basehttp 42702 127951246612032 "GET /static/css/dist/styles.css?v=1766443506 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:45:07,313 autoreload 42702 127951325708288 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:45:07,830 autoreload 42786 129337874051072 Watching for file changes with StatReloader
+INFO 2025-12-22 22:45:08,227 basehttp 42786 129337794958912 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:45:08,246 basehttp 42786 129337803351616 "POST /auth/register/ HTTP/1.1" 200 5916
+INFO 2025-12-22 22:45:08,305 basehttp 42786 129337803351616 "GET /static/css/dist/styles.css?v=1766443508 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:46:47,752 basehttp 42786 129337820137024 "POST /auth/register/ HTTP/1.1" 302 0
+INFO 2025-12-22 22:46:47,768 basehttp 42786 129337820137024 "GET /auth/verify-otp/ HTTP/1.1" 200 3146
+INFO 2025-12-22 22:46:47,860 basehttp 42786 129337820137024 "GET /static/css/dist/styles.css?v=1766443607 HTTP/1.1" 200 37711
+ERROR 2025-12-22 22:47:37,864 log 42786 129337803351616 Internal Server Error: /auth/verify-otp/
+Traceback (most recent call last):
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2128, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'SimpleLazyObject'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py", line 133, in verify_otp_view
+    virtual_account = VirtualAccount.objects.get(owner=request.user)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 619, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1588, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1415, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/lookups.py", line 38, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 112, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x75a1ccb12830>>.
+ERROR 2025-12-22 22:47:37,868 basehttp 42786 129337803351616 "POST /auth/verify-otp/ HTTP/1.1" 500 142303
+INFO 2025-12-22 22:48:53,736 autoreload 42786 129337874051072 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:48:54,236 autoreload 44728 124454488535040 Watching for file changes with StatReloader
+INFO 2025-12-22 22:48:54,518 basehttp 44728 124454409365056 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:48:54,614 basehttp 44728 124454417757760 "POST /auth/verify-otp/ HTTP/1.1" 302 0
+INFO 2025-12-22 22:48:54,644 basehttp 44728 124454417757760 "GET /auth/verify-otp/ HTTP/1.1" 200 3098
+INFO 2025-12-22 22:48:54,789 basehttp 44728 124454417757760 "GET /static/css/dist/styles.css?v=1766443734 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:48:55,624 autoreload 44728 124454488535040 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:48:56,137 autoreload 44822 131446430367744 Watching for file changes with StatReloader
+INFO 2025-12-22 22:48:56,401 basehttp 44822 131446359664192 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 22:48:56,464 basehttp 44822 131446359664192 "GET /static/css/dist/styles.css?v=1766443736 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:48:56,480 basehttp 44822 131446351271488 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:49:13,830 autoreload 44822 131446430367744 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:49:14,308 autoreload 45048 131912015233024 Watching for file changes with StatReloader
+INFO 2025-12-22 22:49:14,489 basehttp 45048 131911733212736 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 22:49:14,534 basehttp 45048 131911733212736 "GET /static/css/dist/styles.css?v=1766443754 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:49:14,573 basehttp 45048 131911944529472 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:49:17,770 autoreload 45048 131912015233024 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:49:18,217 autoreload 45143 140692012027904 Watching for file changes with StatReloader
+INFO 2025-12-22 22:49:18,445 basehttp 45143 140691932907072 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 22:49:18,543 basehttp 45143 140691932907072 "GET /static/css/dist/styles.css?v=1766443758 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:49:18,637 basehttp 45143 140691941299776 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:49:21,781 autoreload 45143 140692012027904 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:49:22,348 autoreload 45244 137552651747328 Watching for file changes with StatReloader
+INFO 2025-12-22 22:49:22,584 basehttp 45244 137552580994624 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 22:49:22,674 basehttp 45244 137552580994624 "GET /static/css/dist/styles.css?v=1766443762 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:49:22,695 basehttp 45244 137552367449664 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:49:23,793 autoreload 45244 137552651747328 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:49:24,355 autoreload 45276 127609388564480 Watching for file changes with StatReloader
+INFO 2025-12-22 22:49:24,582 basehttp 45276 127609107113536 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 22:49:24,665 basehttp 45276 127609107113536 "GET /static/css/dist/styles.css?v=1766443764 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:49:24,692 basehttp 45276 127609115506240 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:49:26,908 autoreload 45276 127609388564480 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:49:27,377 autoreload 45359 138869090271232 Watching for file changes with StatReloader
+INFO 2025-12-22 22:49:33,355 autoreload 45359 138869090271232 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:49:33,874 autoreload 45465 133809457938432 Watching for file changes with StatReloader
+INFO 2025-12-22 22:49:35,013 autoreload 45465 133809457938432 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:49:35,568 autoreload 45508 131230155206656 Watching for file changes with StatReloader
+INFO 2025-12-22 22:49:36,695 autoreload 45508 131230155206656 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:49:37,153 autoreload 45558 133586301370368 Watching for file changes with StatReloader
+INFO 2025-12-22 22:49:38,069 basehttp 45558 133586158085696 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 22:49:38,143 basehttp 45558 133586158085696 "GET /static/css/dist/styles.css?v=1766443778 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:49:38,171 basehttp 45558 133586149692992 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:49:38,460 autoreload 45558 133586301370368 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:49:39,030 autoreload 45581 133431247200256 Watching for file changes with StatReloader
+INFO 2025-12-22 22:49:39,317 basehttp 45581 133431184897600 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:49:41,353 autoreload 45581 133431247200256 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:49:41,802 autoreload 45675 133817800269824 Watching for file changes with StatReloader
+INFO 2025-12-22 22:49:42,320 basehttp 45675 133817729545792 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 22:49:42,394 basehttp 45675 133817729545792 "GET /static/css/dist/styles.css?v=1766443782 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:49:42,413 basehttp 45675 133817721153088 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:49:43,553 autoreload 45675 133817800269824 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:49:44,071 autoreload 45709 127622936031232 Watching for file changes with StatReloader
+INFO 2025-12-22 22:49:44,249 basehttp 45709 127622788929088 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 22:49:44,309 basehttp 45709 127622788929088 "GET /static/css/dist/styles.css?v=1766443784 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:49:44,325 basehttp 45709 127622797321792 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:49:51,649 autoreload 45709 127622936031232 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:49:52,144 autoreload 45825 124855031980032 Watching for file changes with StatReloader
+INFO 2025-12-22 22:49:54,305 autoreload 45825 124855031980032 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:49:54,781 autoreload 45928 128329369436160 Watching for file changes with StatReloader
+INFO 2025-12-22 22:49:55,040 basehttp 45928 128329290253888 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 22:49:55,060 basehttp 45928 128329298646592 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:49:55,080 basehttp 45928 128329290253888 "GET /static/css/dist/styles.css?v=1766443795 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:49:56,183 autoreload 45928 128329369436160 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:49:56,769 autoreload 45953 133177120432128 Watching for file changes with StatReloader
+INFO 2025-12-22 22:49:59,963 autoreload 45953 133177120432128 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:50:00,382 autoreload 46042 128729006387200 Watching for file changes with StatReloader
+INFO 2025-12-22 22:50:00,733 basehttp 46042 128728935630400 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 22:50:00,801 basehttp 46042 128728935630400 "GET /static/css/dist/styles.css?v=1766443800 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:50:00,816 basehttp 46042 128728927237696 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:50:02,746 autoreload 46042 128729006387200 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:50:03,259 autoreload 46104 129559010209792 Watching for file changes with StatReloader
+INFO 2025-12-22 22:50:03,503 basehttp 46104 129558931097152 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 22:50:03,563 basehttp 46104 129558931097152 "GET /static/css/dist/styles.css?v=1766443803 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:50:03,581 basehttp 46104 129558939489856 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:50:07,634 autoreload 46104 129559010209792 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:50:08,139 autoreload 46207 131825392656384 Watching for file changes with StatReloader
+INFO 2025-12-22 22:50:16,425 autoreload 46207 131825392656384 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:50:16,926 autoreload 46382 134226703486976 Watching for file changes with StatReloader
+INFO 2025-12-22 22:50:17,814 basehttp 46382 134226624374336 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 22:50:17,872 basehttp 46382 134226624374336 "GET /static/css/dist/styles.css?v=1766443817 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:50:17,887 basehttp 46382 134226632767040 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:50:21,325 autoreload 46382 134226703486976 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:50:21,860 autoreload 46484 134526104489984 Watching for file changes with StatReloader
+INFO 2025-12-22 22:50:22,098 basehttp 46484 134525824792128 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 22:50:22,166 basehttp 46484 134525824792128 "GET /static/css/dist/styles.css?v=1766443822 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:50:22,182 basehttp 46484 134525816399424 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:50:23,294 autoreload 46484 134526104489984 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 22:50:23,786 autoreload 46533 127357221351424 Watching for file changes with StatReloader
+INFO 2025-12-22 22:50:24,061 basehttp 46533 127357142271552 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 22:50:24,129 basehttp 46533 127357142271552 "GET /static/css/dist/styles.css?v=1766443824 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:50:24,146 basehttp 46533 127357150664256 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 22:51:17,522 basehttp 46533 127357159056960 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 22:51:17,564 basehttp 46533 127357159056960 "GET /static/css/dist/styles.css?v=1766443877 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:51:20,644 basehttp 46533 127357159056960 "GET /auth/register/ HTTP/1.1" 200 5548
+INFO 2025-12-22 22:51:20,673 basehttp 46533 127357159056960 "GET /static/css/dist/styles.css?v=1766443880 HTTP/1.1" 200 37711
+INFO 2025-12-22 22:51:47,658 basehttp 46533 127357142271552 "POST /auth/register/ HTTP/1.1" 302 0
+INFO 2025-12-22 22:51:47,667 basehttp 46533 127357142271552 "GET /auth/verify-otp/ HTTP/1.1" 200 3146
+INFO 2025-12-22 22:51:47,742 basehttp 46533 127357142271552 "GET /static/css/dist/styles.css?v=1766443907 HTTP/1.1" 200 37711
+ERROR 2025-12-22 22:52:32,248 log 46533 127357159056960 Internal Server Error: /auth/verify-otp/
+Traceback (most recent call last):
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2128, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'SimpleLazyObject'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py", line 132, in verify_otp_view
+    account_owner = AccountOwner.objects.get(owner = request.user)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 619, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1493, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1511, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1518, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1646, in add_q
+    clause, _ = self._add_q(q_object, can_reuse)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1678, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1588, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1415, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/lookups.py", line 38, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 112, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2130, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x73d4a49cf880>>.
+ERROR 2025-12-22 22:52:32,253 basehttp 46533 127357159056960 "POST /auth/verify-otp/ HTTP/1.1" 500 142178
+INFO 2025-12-22 23:00:47,419 autoreload 46533 127357221351424 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-22 23:00:47,921 autoreload 51205 131603303178240 Watching for file changes with StatReloader
+INFO 2025-12-22 23:00:48,198 basehttp 51205 131603158263360 "GET /admin/ HTTP/1.1" 200 23733
+INFO 2025-12-22 23:00:48,199 basehttp 51205 131603149870656 "POST /auth/verify-otp/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:00:48,220 basehttp 51205 131603149870656 "GET /auth/verify-otp/ HTTP/1.1" 200 3098
+INFO 2025-12-22 23:00:48,317 basehttp 51205 131603149870656 "GET /static/css/dist/styles.css?v=1766444448 HTTP/1.1" 200 37711
+INFO 2025-12-22 23:02:00,778 autoreload 51205 131603303178240 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-22 23:02:01,245 autoreload 51893 124054545297408 Watching for file changes with StatReloader
+INFO 2025-12-22 23:02:20,937 autoreload 51893 124054545297408 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:02:21,502 autoreload 52171 139792351703040 Watching for file changes with StatReloader
+INFO 2025-12-22 23:02:24,716 autoreload 52171 139792351703040 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:02:25,153 autoreload 52269 130816057794560 Watching for file changes with StatReloader
+INFO 2025-12-22 23:02:38,766 autoreload 52269 130816057794560 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:02:39,228 autoreload 52432 140564451274752 Watching for file changes with StatReloader
+INFO 2025-12-22 23:02:42,514 autoreload 52432 140564451274752 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:02:42,996 autoreload 52524 125592332795904 Watching for file changes with StatReloader
+INFO 2025-12-22 23:02:46,286 autoreload 52524 125592332795904 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:02:46,761 autoreload 52619 132064351727616 Watching for file changes with StatReloader
+INFO 2025-12-22 23:02:56,240 autoreload 52619 132064351727616 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:02:56,727 autoreload 52751 124903664996352 Watching for file changes with StatReloader
+INFO 2025-12-22 23:03:00,031 autoreload 52751 124903664996352 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:03:00,464 autoreload 52836 127342459113472 Watching for file changes with StatReloader
+INFO 2025-12-22 23:03:09,917 autoreload 52836 127342459113472 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-22 23:03:10,470 autoreload 52973 134138707206144 Watching for file changes with StatReloader
+INFO 2025-12-22 23:03:11,756 autoreload 52973 134138707206144 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-22 23:03:12,291 autoreload 53019 124110271062016 Watching for file changes with StatReloader
+INFO 2025-12-22 23:03:23,871 autoreload 53019 124110271062016 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-22 23:03:24,527 autoreload 53208 131319446831104 Watching for file changes with StatReloader
+INFO 2025-12-22 23:03:26,812 autoreload 53208 131319446831104 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-22 23:03:27,316 autoreload 53286 123951447023616 Watching for file changes with StatReloader
+INFO 2025-12-22 23:03:28,598 autoreload 53286 123951447023616 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-22 23:03:29,076 autoreload 53305 131269122945024 Watching for file changes with StatReloader
+INFO 2025-12-22 23:03:31,369 autoreload 53305 131269122945024 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-22 23:03:31,894 autoreload 53393 125270926368768 Watching for file changes with StatReloader
+INFO 2025-12-22 23:03:37,282 autoreload 53393 125270926368768 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-22 23:03:37,806 autoreload 53493 133453520015360 Watching for file changes with StatReloader
+INFO 2025-12-22 23:03:50,347 autoreload 53493 133453520015360 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-22 23:03:50,842 autoreload 53701 139313250553856 Watching for file changes with StatReloader
+INFO 2025-12-22 23:03:52,103 autoreload 53701 139313250553856 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-22 23:03:52,608 autoreload 53741 131943024459776 Watching for file changes with StatReloader
+INFO 2025-12-22 23:03:55,937 autoreload 53741 131943024459776 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/models.py changed, reloading.
+INFO 2025-12-22 23:03:56,439 autoreload 53814 128851010007040 Watching for file changes with StatReloader
+INFO 2025-12-22 23:05:20,542 autoreload 53814 128851010007040 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:05:21,038 autoreload 54508 134814251331584 Watching for file changes with StatReloader
+INFO 2025-12-22 23:05:39,842 autoreload 54508 134814251331584 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:05:40,334 autoreload 54784 129066188959744 Watching for file changes with StatReloader
+INFO 2025-12-22 23:05:43,518 autoreload 54784 129066188959744 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:05:43,994 autoreload 54878 125187643158528 Watching for file changes with StatReloader
+INFO 2025-12-22 23:05:45,144 autoreload 54878 125187643158528 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:05:45,671 autoreload 54886 128079095840768 Watching for file changes with StatReloader
+INFO 2025-12-22 23:14:18,860 autoreload 59638 124992820887552 Watching for file changes with StatReloader
+INFO 2025-12-22 23:14:22,510 basehttp 59638 124992765933120 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:14:22,525 basehttp 59638 124992765933120 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3296
+INFO 2025-12-22 23:16:51,296 autoreload 61328 123177129455616 Watching for file changes with StatReloader
+INFO 2025-12-22 23:16:53,765 basehttp 61328 123177066071616 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3296
+INFO 2025-12-22 23:17:12,301 basehttp 61328 123177074464320 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:17:12,397 basehttp 61328 123177074464320 "GET /admin/ HTTP/1.1" 200 20994
+INFO 2025-12-22 23:18:33,685 basehttp 61328 123177066071616 "GET /admin/core/accountowner/ HTTP/1.1" 200 14083
+INFO 2025-12-22 23:18:33,744 basehttp 61328 123177066071616 "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+INFO 2025-12-22 23:18:33,760 basehttp 61328 123177066071616 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-12-22 23:18:33,765 basehttp 61328 123177055581760 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-12-22 23:18:33,765 basehttp 61328 123176835081792 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-12-22 23:18:33,765 basehttp 61328 123176843474496 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-12-22 23:18:33,775 basehttp 61328 123176843474496 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-12-22 23:18:33,776 basehttp 61328 123177055581760 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-12-22 23:18:33,791 basehttp 61328 123176826689088 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-12-22 23:18:33,819 basehttp 61328 123177055581760 "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+INFO 2025-12-22 23:18:33,826 basehttp 61328 123176818296384 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:18:33,840 basehttp 61328 123177066071616 "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+INFO 2025-12-22 23:18:36,338 basehttp 61328 123177066071616 "GET /admin/core/accountowner/add/ HTTP/1.1" 200 19228
+INFO 2025-12-22 23:18:36,416 basehttp 61328 123176826689088 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2025-12-22 23:18:36,416 basehttp 61328 123176835081792 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-12-22 23:18:36,420 basehttp 61328 123177066071616 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:18:36,425 basehttp 61328 123176818296384 "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2025-12-22 23:18:36,426 basehttp 61328 123176843474496 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-12-22 23:18:36,481 basehttp 61328 123177066071616 "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+INFO 2025-12-22 23:18:36,490 basehttp 61328 123176843474496 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2025-12-22 23:18:36,500 basehttp 61328 123176843474496 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-12-22 23:18:36,509 basehttp 61328 123176818296384 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2025-12-22 23:18:49,346 basehttp 61328 123177055581760 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 23:18:49,367 basehttp 61328 123177055581760 "GET /static/css/dist/styles.css?v=1766445529 HTTP/1.1" 200 37711
+INFO 2025-12-22 23:18:53,723 basehttp 61328 123177074464320 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:18:53,745 basehttp 61328 123177074464320 "GET /static/css/dist/styles.css?v=1766445533 HTTP/1.1" 200 37711
+INFO 2025-12-22 23:18:56,187 basehttp 61328 123177074464320 "GET /auth/register/ HTTP/1.1" 200 5548
+INFO 2025-12-22 23:18:56,221 basehttp 61328 123177074464320 "GET /static/css/dist/styles.css?v=1766445536 HTTP/1.1" 200 37711
+INFO 2025-12-22 23:19:30,408 basehttp 61328 123177055581760 "POST /auth/register/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:19:30,413 basehttp 61328 123177055581760 "GET /auth/verify-otp/ HTTP/1.1" 200 3146
+INFO 2025-12-22 23:19:30,505 basehttp 61328 123177055581760 "GET /static/css/dist/styles.css?v=1766445570 HTTP/1.1" 200 37711
+INFO 2025-12-22 23:20:13,788 basehttp 61328 123177074464320 "POST /auth/verify-otp/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:20:13,796 basehttp 61328 123177074464320 "GET /dashboard/ HTTP/1.1" 200 1156
+INFO 2025-12-22 23:20:13,883 basehttp 61328 123177074464320 "GET /static/css/dist/styles.css?v=1766445613 HTTP/1.1" 200 37711
+INFO 2025-12-22 23:22:51,168 basehttp 61328 123177066071616 "GET /admin/auth/group/ HTTP/1.1" 200 14433
+INFO 2025-12-22 23:22:51,256 basehttp 61328 123177066071616 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:22:53,687 basehttp 61328 123176818296384 "GET /admin/core/accountowner/ HTTP/1.1" 200 16580
+INFO 2025-12-22 23:22:53,771 basehttp 61328 123176818296384 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:22:54,124 basehttp 61328 123176835081792 "GET /admin/core/accountowner/ HTTP/1.1" 200 16580
+INFO 2025-12-22 23:22:54,191 basehttp 61328 123176835081792 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:22:56,910 basehttp 61328 123176826689088 "GET /admin/core/virtualaccount/ HTTP/1.1" 200 17441
+INFO 2025-12-22 23:22:56,975 basehttp 61328 123176826689088 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:22:57,340 basehttp 61328 123176826689088 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2025-12-22 23:23:02,366 basehttp 61328 123176835081792 "GET /admin/core/virtualaccount/?o=3 HTTP/1.1" 200 17917
+INFO 2025-12-22 23:23:02,453 basehttp 61328 123176835081792 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:23:03,823 basehttp 61328 123176826689088 "GET /admin/core/virtualaccount/?o=-3 HTTP/1.1" 200 17914
+INFO 2025-12-22 23:23:03,898 basehttp 61328 123176826689088 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:23:10,338 basehttp 61328 123176835081792 "GET /admin/core/platform/ HTTP/1.1" 200 14050
+INFO 2025-12-22 23:23:10,409 basehttp 61328 123176835081792 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:23:11,794 basehttp 61328 123176818296384 "GET /admin/core/transactions/ HTTP/1.1" 200 14073
+INFO 2025-12-22 23:23:11,863 basehttp 61328 123176818296384 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:23:13,153 basehttp 61328 123176826689088 "GET /admin/core/platform/ HTTP/1.1" 200 14050
+INFO 2025-12-22 23:23:13,222 basehttp 61328 123176826689088 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:23:14,028 basehttp 61328 123176835081792 "GET /admin/core/virtualaccount/ HTTP/1.1" 200 17441
+INFO 2025-12-22 23:23:14,099 basehttp 61328 123176835081792 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:23:19,030 basehttp 61328 123176826689088 "GET /admin/core/virtualaccount/1/change/ HTTP/1.1" 200 19772
+INFO 2025-12-22 23:23:19,106 basehttp 61328 123176826689088 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:23:30,427 basehttp 61328 123176835081792 "GET /admin/core/accountowner/ HTTP/1.1" 200 16580
+INFO 2025-12-22 23:23:30,495 basehttp 61328 123176835081792 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:23:33,889 basehttp 61328 123176826689088 "GET /admin/core/virtualaccount/ HTTP/1.1" 200 17441
+INFO 2025-12-22 23:23:33,979 basehttp 61328 123176826689088 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:23:35,465 basehttp 61328 123176818296384 "GET /admin/core/platform/ HTTP/1.1" 200 14050
+INFO 2025-12-22 23:23:35,541 basehttp 61328 123176818296384 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:24:30,990 basehttp 61328 123176826689088 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:24:31,016 basehttp 61328 123176826689088 "GET /static/css/dist/styles.css?v=1766445870 HTTP/1.1" 200 37711
+INFO 2025-12-22 23:24:38,516 basehttp 61328 123176826689088 "GET /auth/login/ HTTP/1.1" 200 2967
+INFO 2025-12-22 23:24:38,550 basehttp 61328 123176826689088 "GET /static/css/dist/styles.css?v=1766445878 HTTP/1.1" 200 37711
+INFO 2025-12-22 23:24:47,642 basehttp 61328 123177074464320 "POST /auth/login/ HTTP/1.1" 200 2958
+INFO 2025-12-22 23:24:47,676 basehttp 61328 123177074464320 "GET /static/css/dist/styles.css?v=1766445887 HTTP/1.1" 200 37711
+INFO 2025-12-22 23:24:52,173 basehttp 61328 123176826689088 "POST /auth/login/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:24:52,179 basehttp 61328 123176826689088 "GET /dashboard/ HTTP/1.1" 200 1156
+INFO 2025-12-22 23:24:52,253 basehttp 61328 123176826689088 "GET /static/css/dist/styles.css?v=1766445892 HTTP/1.1" 200 37711
+INFO 2025-12-22 23:26:11,652 basehttp 61328 123177074464320 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:26:11,740 basehttp 61328 123177074464320 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:26:20,982 basehttp 61328 123176818296384 "GET /admin/userauths/otp/1/change/ HTTP/1.1" 200 20914
+INFO 2025-12-22 23:26:21,066 basehttp 61328 123176818296384 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:26:37,626 basehttp 61328 123177074464320 "GET /admin/userauths/otp/1/delete/ HTTP/1.1" 200 13676
+INFO 2025-12-22 23:26:37,683 basehttp 61328 123177074464320 "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+INFO 2025-12-22 23:26:46,927 basehttp 61328 123176818296384 "GET /admin/userauths/otp/1/change/ HTTP/1.1" 200 20914
+INFO 2025-12-22 23:26:49,207 basehttp 61328 123177074464320 "GET /admin/userauths/user/ HTTP/1.1" 200 19229
+INFO 2025-12-22 23:26:49,285 basehttp 61328 123177074464320 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:26:50,685 basehttp 61328 123176835081792 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:26:50,762 basehttp 61328 123176835081792 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:27:50,641 basehttp 61328 123177074464320 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:27:50,671 basehttp 61328 123177074464320 "GET /static/css/dist/styles.css?v=1766446070 HTTP/1.1" 200 37711
+WARNING 2025-12-22 23:28:00,707 log 61328 123177074464320 Not Found: /verify_otp
+WARNING 2025-12-22 23:28:00,708 basehttp 61328 123177074464320 "GET /verify_otp HTTP/1.1" 404 3213
+INFO 2025-12-22 23:28:19,744 basehttp 61328 123176826689088 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:28:19,764 basehttp 61328 123176826689088 "GET /static/css/dist/styles.css?v=1766446099 HTTP/1.1" 200 37711
+WARNING 2025-12-22 23:28:28,852 log 61328 123176826689088 Not Found: /userauths/verify-otp/
+WARNING 2025-12-22 23:28:28,852 basehttp 61328 123176826689088 "GET /userauths/verify-otp/ HTTP/1.1" 404 3246
+INFO 2025-12-22 23:29:14,689 basehttp 61328 123176826689088 "GET /auth/verify-otp HTTP/1.1" 301 0
+INFO 2025-12-22 23:29:14,697 basehttp 61328 123176826689088 "GET /auth/verify-otp/ HTTP/1.1" 200 3102
+INFO 2025-12-22 23:29:14,742 basehttp 61328 123176826689088 "GET /static/css/dist/styles.css?v=1766446154 HTTP/1.1" 200 37711
+INFO 2025-12-22 23:30:24,791 basehttp 61328 123176818296384 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 23:30:24,876 basehttp 61328 123176818296384 "GET /static/css/dist/styles.css?v=1766446224 HTTP/1.1" 200 37711
+INFO 2025-12-22 23:30:24,923 basehttp 61328 123177074464320 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:30:25,170 basehttp 61328 123177074464320 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:30:28,755 basehttp 61328 123176826689088 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 23:30:28,790 basehttp 61328 123176826689088 "GET /static/css/dist/styles.css?v=1766446228 HTTP/1.1" 200 37711
+INFO 2025-12-22 23:30:28,866 basehttp 61328 123176835081792 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:30:28,993 basehttp 61328 123176835081792 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:30:32,061 basehttp 61328 123176818296384 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 23:30:32,119 basehttp 61328 123176818296384 "GET /static/css/dist/styles.css?v=1766446232 HTTP/1.1" 200 37711
+INFO 2025-12-22 23:30:32,145 basehttp 61328 123177074464320 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:30:32,244 basehttp 61328 123177074464320 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:30:43,493 basehttp 61328 123176826689088 "GET /auth/verify-otp/ HTTP/1.1" 200 2822
+INFO 2025-12-22 23:30:43,588 basehttp 61328 123176835081792 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:30:43,644 basehttp 61328 123176835081792 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:30:43,802 basehttp 61328 123176826689088 "GET /static/css/dist/styles.css?v=1766446243 HTTP/1.1" 200 37711
+INFO 2025-12-22 23:30:44,556 basehttp 61328 123177074464320 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 23:30:44,636 basehttp 61328 123176818296384 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:30:44,697 basehttp 61328 123176818296384 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:30:44,699 basehttp 61328 123177074464320 "GET /static/css/dist/styles.css?v=1766446244 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:30:52,769 basehttp 61328 123176826689088 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 23:30:52,832 basehttp 61328 123176826689088 "GET /static/css/dist/styles.css?v=1766446252 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:30:52,885 basehttp 61328 123176835081792 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:30:52,988 basehttp 61328 123176835081792 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:31:23,708 basehttp 61328 123177074464320 "GET /auth/verify-otp/ HTTP/1.1" 200 2829
+INFO 2025-12-22 23:31:23,775 basehttp 61328 123177074464320 "GET /static/css/dist/styles.css?v=1766446283 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:31:23,817 basehttp 61328 123176818296384 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:31:25,124 basehttp 61328 123176818296384 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:31:25,771 basehttp 61328 123176835081792 "GET /auth/verify-otp/ HTTP/1.1" 200 2830
+INFO 2025-12-22 23:31:25,836 basehttp 61328 123176835081792 "GET /static/css/dist/styles.css?v=1766446285 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:31:25,880 basehttp 61328 123176826689088 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:31:26,112 basehttp 61328 123176826689088 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:31:27,836 basehttp 61328 123177074464320 "GET /auth/verify-otp/ HTTP/1.1" 200 2832
+INFO 2025-12-22 23:31:27,899 basehttp 61328 123177074464320 "GET /static/css/dist/styles.css?v=1766446287 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:31:27,928 basehttp 61328 123176818296384 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:31:28,005 basehttp 61328 123176818296384 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:31:32,981 basehttp 61328 123176835081792 "GET /auth/verify-otp/ HTTP/1.1" 200 2838
+INFO 2025-12-22 23:31:33,050 basehttp 61328 123176826689088 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:31:33,109 basehttp 61328 123176826689088 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:31:33,374 basehttp 61328 123176835081792 "GET /static/css/dist/styles.css?v=1766446292 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:31:37,097 basehttp 61328 123177074464320 "GET /auth/verify-otp/ HTTP/1.1" 200 2824
+INFO 2025-12-22 23:31:37,131 basehttp 61328 123177074464320 "GET /static/css/dist/styles.css?v=1766446297 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:31:37,176 basehttp 61328 123176818296384 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:31:38,189 basehttp 61328 123176818296384 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:31:41,250 basehttp 61328 123176835081792 "GET /auth/verify-otp/ HTTP/1.1" 200 2826
+INFO 2025-12-22 23:31:41,310 basehttp 61328 123176835081792 "GET /static/css/dist/styles.css?v=1766446301 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:31:41,336 basehttp 61328 123176826689088 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:31:41,406 basehttp 61328 123176826689088 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:31:46,401 basehttp 61328 123177074464320 "GET /auth/verify-otp/ HTTP/1.1" 200 2823
+INFO 2025-12-22 23:31:46,452 basehttp 61328 123177074464320 "GET /static/css/dist/styles.css?v=1766446306 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:31:46,483 basehttp 61328 123176818296384 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:31:47,488 basehttp 61328 123176818296384 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:31:48,550 basehttp 61328 123176826689088 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:31:48,614 basehttp 61328 123176826689088 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:31:51,567 basehttp 61328 123176818296384 "GET /auth/verify-otp/ HTTP/1.1" 200 2829
+INFO 2025-12-22 23:31:51,616 basehttp 61328 123176818296384 "GET /static/css/dist/styles.css?v=1766446311 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:31:51,691 basehttp 61328 123176835081792 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:31:51,782 basehttp 61328 123176835081792 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:31:55,680 basehttp 61328 123176826689088 "GET /auth/verify-otp/ HTTP/1.1" 200 2829
+INFO 2025-12-22 23:31:55,718 basehttp 61328 123176826689088 "GET /static/css/dist/styles.css?v=1766446315 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:32:50,722 basehttp 61328 123176818296384 "POST /auth/verify-otp/ HTTP/1.1" 200 3099
+INFO 2025-12-22 23:32:50,770 basehttp 61328 123176818296384 "GET /static/css/dist/styles.css?v=1766446370 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:33:05,566 basehttp 61328 123177074464320 "POST /auth/verify-otp/ HTTP/1.1" 200 3096
+INFO 2025-12-22 23:33:05,608 basehttp 61328 123177074464320 "GET /static/css/dist/styles.css?v=1766446385 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:33:05,621 basehttp 61328 123176826689088 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:33:05,795 basehttp 61328 123176826689088 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:33:13,725 basehttp 61328 123176835081792 "POST /auth/verify-otp/ HTTP/1.1" 200 3096
+INFO 2025-12-22 23:33:13,757 basehttp 61328 123176835081792 "GET /static/css/dist/styles.css?v=1766446393 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:33:16,942 basehttp 61328 123177074464320 "POST /auth/verify-otp/ HTTP/1.1" 200 3096
+INFO 2025-12-22 23:33:17,987 basehttp 61328 123177074464320 "GET /static/css/dist/styles.css?v=1766446396 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:34:04,631 basehttp 61328 123176818296384 "POST /auth/verify-otp/ HTTP/1.1" 200 3105
+INFO 2025-12-22 23:34:04,665 basehttp 61328 123176835081792 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:34:04,697 basehttp 61328 123176818296384 "GET /static/css/dist/styles.css?v=1766446444 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:34:04,821 basehttp 61328 123176835081792 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:34:06,494 basehttp 61328 123176826689088 "POST /auth/verify-otp/ HTTP/1.1" 200 3110
+INFO 2025-12-22 23:34:06,533 basehttp 61328 123176826689088 "GET /static/css/dist/styles.css?v=1766446446 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:34:06,568 basehttp 61328 123177074464320 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:34:06,696 basehttp 61328 123177074464320 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:34:21,053 basehttp 61328 123176818296384 "POST /auth/verify-otp/ HTTP/1.1" 200 3110
+INFO 2025-12-22 23:34:21,090 basehttp 61328 123176835081792 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:34:21,094 basehttp 61328 123176818296384 "GET /static/css/dist/styles.css?v=1766446461 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:34:21,172 basehttp 61328 123176835081792 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:35:05,737 basehttp 61328 123177074464320 "POST /auth/verify-otp/ HTTP/1.1" 200 3110
+INFO 2025-12-22 23:35:05,791 basehttp 61328 123176826689088 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:35:05,809 basehttp 61328 123177074464320 "GET /static/css/dist/styles.css?v=1766446505 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:35:05,981 basehttp 61328 123176826689088 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:35:16,215 basehttp 61328 123176818296384 "POST /auth/verify-otp/ HTTP/1.1" 200 3110
+INFO 2025-12-22 23:35:16,257 basehttp 61328 123176818296384 "GET /static/css/dist/styles.css?v=1766446516 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:36:13,627 basehttp 61328 123176835081792 "POST /auth/verify-otp/ HTTP/1.1" 200 3110
+INFO 2025-12-22 23:36:13,661 basehttp 61328 123177074464320 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:36:14,710 basehttp 61328 123176835081792 "GET /static/css/dist/styles.css?v=1766446573 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:36:14,948 basehttp 61328 123177074464320 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:36:22,928 basehttp 61328 123176826689088 "POST /auth/verify-otp/ HTTP/1.1" 200 3110
+INFO 2025-12-22 23:36:22,970 basehttp 61328 123176818296384 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:36:23,056 basehttp 61328 123176818296384 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:36:23,471 basehttp 61328 123176826689088 "GET /static/css/dist/styles.css?v=1766446582 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:36:25,017 basehttp 61328 123177074464320 "POST /auth/verify-otp/ HTTP/1.1" 200 3110
+INFO 2025-12-22 23:36:25,040 basehttp 61328 123176835081792 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:36:25,077 basehttp 61328 123177074464320 "GET /static/css/dist/styles.css?v=1766446584 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:36:25,225 basehttp 61328 123176835081792 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:36:33,316 basehttp 61328 123176818296384 "GET /auth/register/ HTTP/1.1" 200 5565
+INFO 2025-12-22 23:36:33,357 basehttp 61328 123176818296384 "GET /static/css/dist/styles.css?v=1766446593 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:37:07,546 basehttp 61328 123176826689088 "GET /auth/register/ HTTP/1.1" 200 5566
+INFO 2025-12-22 23:37:07,629 basehttp 61328 123176826689088 "GET /static/css/dist/styles.css?v=1766446627 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:37:07,641 basehttp 61328 123177074464320 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:37:07,830 basehttp 61328 123177074464320 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:37:09,631 basehttp 61328 123176835081792 "GET /auth/register/ HTTP/1.1" 200 5568
+INFO 2025-12-22 23:37:09,692 basehttp 61328 123176835081792 "GET /static/css/dist/styles.css?v=1766446629 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:37:09,732 basehttp 61328 123176818296384 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:37:09,970 basehttp 61328 123176818296384 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:37:23,184 basehttp 61328 123176826689088 "GET /auth/register/ HTTP/1.1" 200 5568
+INFO 2025-12-22 23:37:23,231 basehttp 61328 123176826689088 "GET /static/css/dist/styles.css?v=1766446643 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:37:23,258 basehttp 61328 123177074464320 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:37:23,326 basehttp 61328 123177074464320 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:37:26,086 basehttp 61328 123176818296384 "GET /auth/login/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:37:26,093 basehttp 61328 123176818296384 "GET /dashboard/ HTTP/1.1" 200 1156
+INFO 2025-12-22 23:37:26,166 basehttp 61328 123176818296384 "GET /static/css/dist/styles.css?v=1766446646 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:38:38,859 basehttp 61328 123176835081792 "GET /dashboard/ HTTP/1.1" 200 1176
+INFO 2025-12-22 23:38:38,926 basehttp 61328 123176835081792 "GET /static/css/dist/styles.css?v=1766446718 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:38:38,959 basehttp 61328 123176826689088 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:38:39,131 basehttp 61328 123176826689088 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:38:41,949 basehttp 61328 123176818296384 "GET /dashboard/ HTTP/1.1" 200 1408
+INFO 2025-12-22 23:38:41,975 basehttp 61328 123176818296384 "GET /static/css/dist/styles.css?v=1766446721 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:38:42,042 basehttp 61328 123177074464320 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:38:42,164 basehttp 61328 123177074464320 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:38:45,041 basehttp 61328 123176826689088 "GET /dashboard/ HTTP/1.1" 200 1416
+INFO 2025-12-22 23:38:45,068 basehttp 61328 123176826689088 "GET /static/css/dist/styles.css?v=1766446725 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:38:45,137 basehttp 61328 123176835081792 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:38:45,221 basehttp 61328 123176835081792 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:38:47,114 basehttp 61328 123177074464320 "GET /dashboard/ HTTP/1.1" 200 1420
+INFO 2025-12-22 23:38:47,150 basehttp 61328 123177074464320 "GET /static/css/dist/styles.css?v=1766446727 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:38:47,211 basehttp 61328 123176818296384 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:38:47,282 basehttp 61328 123176818296384 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:38:58,449 autoreload 61328 123177129455616 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:38:58,936 autoreload 73155 136886143963136 Watching for file changes with StatReloader
+INFO 2025-12-22 23:38:59,134 basehttp 73155 136886073243200 "GET /dashboard/ HTTP/1.1" 200 1420
+INFO 2025-12-22 23:38:59,215 basehttp 73155 136886073243200 "GET /static/css/dist/styles.css?v=1766446739 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:38:59,302 basehttp 73155 136886064850496 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:38:59,376 basehttp 73155 136886064850496 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:39:12,752 basehttp 73155 136886090028608 "GET /dashboard/ HTTP/1.1" 200 1182
+INFO 2025-12-22 23:39:12,822 basehttp 73155 136886081635904 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:39:12,872 basehttp 73155 136886081635904 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:39:13,461 basehttp 73155 136886090028608 "GET /static/css/dist/styles.css?v=1766446752 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:39:15,856 basehttp 73155 136886064850496 "GET /dashboard/ HTTP/1.1" 200 1187
+INFO 2025-12-22 23:39:15,900 basehttp 73155 136886064850496 "GET /static/css/dist/styles.css?v=1766446755 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:39:15,944 basehttp 73155 136886073243200 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:39:16,018 basehttp 73155 136886073243200 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:39:17,928 basehttp 73155 136886090028608 "GET /dashboard/ HTTP/1.1" 200 1425
+INFO 2025-12-22 23:39:17,967 basehttp 73155 136886090028608 "GET /static/css/dist/styles.css?v=1766446757 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:39:18,012 basehttp 73155 136886081635904 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:39:18,078 basehttp 73155 136886081635904 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:39:22,079 basehttp 73155 136886064850496 "GET /dashboard/ HTTP/1.1" 200 1424
+INFO 2025-12-22 23:39:22,140 basehttp 73155 136886064850496 "GET /static/css/dist/styles.css?v=1766446762 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:39:22,168 basehttp 73155 136886073243200 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:39:22,234 basehttp 73155 136886073243200 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:39:24,149 basehttp 73155 136886090028608 "GET /dashboard/ HTTP/1.1" 200 1429
+INFO 2025-12-22 23:39:24,190 basehttp 73155 136886090028608 "GET /static/css/dist/styles.css?v=1766446764 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:39:24,234 basehttp 73155 136886081635904 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:39:24,305 basehttp 73155 136886081635904 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:39:26,272 basehttp 73155 136886073243200 "POST /auth/logout/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:39:26,280 basehttp 73155 136886073243200 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:39:26,364 basehttp 73155 136886073243200 "GET /static/css/dist/styles.css?v=1766446766 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:39:29,320 basehttp 73155 136886090028608 "GET /auth/login/ HTTP/1.1" 200 3306
+INFO 2025-12-22 23:39:29,342 basehttp 73155 136886090028608 "GET /static/css/dist/styles.css?v=1766446769 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:39:48,953 autoreload 73155 136886143963136 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:39:49,402 autoreload 73802 139814337257472 Watching for file changes with StatReloader
+INFO 2025-12-22 23:39:49,632 basehttp 73802 139814196209216 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:39:49,687 basehttp 73802 139814196209216 "GET /static/css/dist/styles.css?v=1766446789 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:39:49,726 basehttp 73802 139814187816512 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:39:49,807 basehttp 73802 139814187816512 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:40:01,636 basehttp 73802 139814204601920 "GET /auth/login/ HTTP/1.1" 200 2776
+INFO 2025-12-22 23:40:01,665 basehttp 73802 139814204601920 "GET /static/css/dist/styles.css?v=1766446801 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:40:05,231 basehttp 73802 139814196209216 "POST /auth/login/ HTTP/1.1" 200 3051
+INFO 2025-12-22 23:40:05,266 basehttp 73802 139814196209216 "GET /static/css/dist/styles.css?v=1766446805 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:40:31,006 autoreload 73802 139814337257472 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:40:31,511 autoreload 74210 134249755680768 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:40:31,821 log 74210 134249470490176 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:40:31,830 basehttp 74210 134249470490176 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:40:31,907 basehttp 74210 134249684981312 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:40:32,040 basehttp 74210 134249684981312 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:40:33,837 autoreload 74210 134249755680768 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:40:34,350 autoreload 74329 130845976875008 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:40:34,510 log 74329 130845834733120 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:40:34,525 basehttp 74329 130845834733120 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:40:34,660 basehttp 74329 130845826340416 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:40:34,778 basehttp 74329 130845826340416 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:40:35,833 autoreload 74329 130845976875008 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:40:36,371 autoreload 74358 140130059567104 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:40:36,617 log 74358 140129988851264 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:40:36,636 basehttp 74358 140129988851264 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:40:36,773 basehttp 74358 140129980458560 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:40:36,873 basehttp 74358 140129980458560 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:40:39,704 autoreload 74358 140130059567104 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:40:40,228 autoreload 74459 125742436622336 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:40:40,473 log 74459 125742357530176 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:40:40,487 basehttp 74459 125742357530176 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:40:40,579 basehttp 74459 125742365922880 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:40:40,656 basehttp 74459 125742365922880 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:40:53,871 autoreload 74459 125742436622336 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:40:54,485 autoreload 74633 137105733894144 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:40:54,692 log 74633 137105663129152 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:40:54,717 basehttp 74633 137105663129152 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:40:54,845 basehttp 74633 137105654736448 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:40:54,940 basehttp 74633 137105654736448 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:40:57,915 autoreload 74633 137105733894144 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:40:58,419 autoreload 74728 126506084253696 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:40:58,692 log 74728 126506005157440 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:40:58,706 basehttp 74728 126506005157440 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:40:58,805 basehttp 74728 126506013550144 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:40:58,885 basehttp 74728 126506013550144 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:41:00,731 autoreload 74728 126506084253696 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:41:01,241 autoreload 74784 126129633742848 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:41:01,487 log 74784 126129490880064 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:41:01,502 basehttp 74784 126129490880064 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:41:01,621 basehttp 74784 126129482487360 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:41:01,732 basehttp 74784 126129482487360 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:41:02,510 autoreload 74784 126129633742848 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:41:03,110 autoreload 74842 128929273438208 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:41:03,301 log 74842 128929121683008 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:41:03,317 basehttp 74842 128929121683008 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:41:03,432 basehttp 74842 128929130075712 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:41:03,532 basehttp 74842 128929130075712 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:41:04,559 autoreload 74842 128929273438208 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:41:05,038 autoreload 74879 123235749691392 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:41:05,217 log 74879 123235678987840 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:41:05,236 basehttp 74879 123235678987840 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:41:05,356 basehttp 74879 123235670595136 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:41:05,430 basehttp 74879 123235670595136 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:41:09,557 autoreload 74879 123235749691392 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:41:10,073 autoreload 74980 133712113422336 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:41:10,333 log 74980 133712042726976 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:41:10,346 basehttp 74980 133712042726976 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:41:10,450 basehttp 74980 133712034334272 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:41:10,530 basehttp 74980 133712034334272 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:41:11,348 autoreload 74980 133712113422336 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:41:11,855 autoreload 75062 129273920172032 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:41:12,099 log 75062 129273841075776 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:41:12,118 basehttp 75062 129273841075776 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:41:12,231 basehttp 75062 129273849468480 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:41:12,339 basehttp 75062 129273849468480 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:41:14,185 autoreload 75062 129273920172032 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:41:14,700 autoreload 75103 125841303953408 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:41:14,862 log 75103 125841224840768 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:41:14,885 basehttp 75103 125841224840768 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:41:15,066 basehttp 75103 125841233233472 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:41:15,187 basehttp 75103 125841233233472 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:41:16,195 autoreload 75103 125841303953408 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:41:16,687 autoreload 75188 134545564241920 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:41:16,936 log 75188 134545286362688 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:41:16,952 basehttp 75188 134545286362688 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:41:17,057 basehttp 75188 134545277969984 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:41:17,145 basehttp 75188 134545277969984 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:41:17,971 autoreload 75188 134545564241920 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:41:18,410 autoreload 75221 126446105182208 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:41:18,620 log 75221 126446026065472 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:41:18,636 basehttp 75221 126446026065472 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:41:18,790 basehttp 75221 126446034458176 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:41:18,909 basehttp 75221 126446034458176 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:41:20,919 autoreload 75221 126446105182208 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:41:21,458 autoreload 75313 123736832909312 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:41:21,621 log 75313 123736753743424 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:41:21,637 basehttp 75313 123736753743424 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:41:21,736 basehttp 75313 123736762136128 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:41:21,815 basehttp 75313 123736762136128 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:41:45,455 autoreload 75313 123736832909312 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:41:45,915 autoreload 75580 129790636642304 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:41:46,141 log 75580 129790354912832 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:41:46,157 basehttp 75580 129790354912832 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:41:46,259 basehttp 75580 129790565848640 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:41:46,340 basehttp 75580 129790565848640 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:41:49,233 autoreload 75580 129790636642304 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:41:49,740 autoreload 75690 133585628188672 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:41:49,990 log 75690 133585486997056 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:41:50,010 basehttp 75690 133585486997056 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:41:50,131 basehttp 75690 133585478604352 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:41:50,216 basehttp 75690 133585478604352 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:42:17,086 basehttp 75690 133585470211648 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:42:17,109 basehttp 75690 133585470211648 "GET /static/css/dist/styles.css?v=1766446937 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:42:21,410 basehttp 75690 133585486997056 "GET /auth/login/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:42:21,417 basehttp 75690 133585486997056 "GET /dashboard/ HTTP/1.1" 200 1429
+INFO 2025-12-22 23:42:21,492 basehttp 75690 133585486997056 "GET /static/css/dist/styles.css?v=1766446941 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:42:24,891 basehttp 75690 133585470211648 "POST /auth/logout/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:42:24,899 basehttp 75690 133585470211648 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:42:24,976 basehttp 75690 133585470211648 "GET /static/css/dist/styles.css?v=1766446944 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:42:26,421 basehttp 75690 133585461818944 "GET /auth/login/ HTTP/1.1" 200 3054
+INFO 2025-12-22 23:42:26,443 basehttp 75690 133585461818944 "GET /static/css/dist/styles.css?v=1766446946 HTTP/1.1" 200 37777
+ERROR 2025-12-22 23:42:31,841 log 75690 133585470211648 Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py", line 116, in login_view
+    return render(request, "core:dashboard")
+  File "/home/christian/.local/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/christian/.local/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: core:dashboard
+ERROR 2025-12-22 23:42:31,845 basehttp 75690 133585470211648 "POST /auth/login/ HTTP/1.1" 500 94178
+INFO 2025-12-22 23:42:51,884 autoreload 75690 133585628188672 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:42:52,366 autoreload 76226 139275736645632 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:42:52,555 log 76226 139275665905216 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:42:52,574 basehttp 76226 139275665905216 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:42:52,688 basehttp 76226 139275454641728 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:42:52,786 basehttp 76226 139275454641728 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:43:14,326 autoreload 76226 139275736645632 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:43:14,780 autoreload 76498 131292432613376 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:43:14,966 log 76498 131292361889344 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:43:14,984 basehttp 76498 131292361889344 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:43:15,113 basehttp 76498 131292353496640 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:43:15,195 basehttp 76498 131292353496640 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:43:38,704 autoreload 76498 131292432613376 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:43:39,151 autoreload 76784 127878598914048 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:43:39,346 log 76784 127878519776832 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:43:39,363 basehttp 76784 127878519776832 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:43:39,473 basehttp 76784 127878528169536 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:43:39,559 basehttp 76784 127878528169536 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:43:50,925 autoreload 76784 127878598914048 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:43:51,400 autoreload 76978 130840736641024 Watching for file changes with StatReloader
+WARNING 2025-12-22 23:43:51,571 log 76978 130840583456320 Forbidden (CSRF token from POST incorrect.): /auth/login/
+WARNING 2025-12-22 23:43:51,591 basehttp 76978 130840583456320 "POST /auth/login/ HTTP/1.1" 403 2716
+INFO 2025-12-22 23:43:51,692 basehttp 76978 130840591849024 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:43:51,776 basehttp 76978 130840591849024 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:43:58,071 basehttp 76978 130840575063616 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:43:58,098 basehttp 76978 130840575063616 "GET /static/css/dist/styles.css?v=1766447038 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:44:00,528 basehttp 76978 130840608634432 "GET /auth/login/ HTTP/1.1" 200 3051
+INFO 2025-12-22 23:44:00,552 basehttp 76978 130840608634432 "GET /static/css/dist/styles.css?v=1766447040 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:44:04,793 basehttp 76978 130840575063616 "POST /auth/login/ HTTP/1.1" 200 1429
+INFO 2025-12-22 23:44:04,828 basehttp 76978 130840575063616 "GET /static/css/dist/styles.css?v=1766447044 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:44:06,772 basehttp 76978 130840608634432 "POST /auth/logout/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:44:06,780 basehttp 76978 130840608634432 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:44:06,861 basehttp 76978 130840608634432 "GET /static/css/dist/styles.css?v=1766447046 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:44:08,322 basehttp 76978 130840575063616 "GET /auth/login/ HTTP/1.1" 200 3051
+INFO 2025-12-22 23:44:08,354 basehttp 76978 130840575063616 "GET /static/css/dist/styles.css?v=1766447048 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:44:11,038 basehttp 76978 130840608634432 "POST /auth/login/ HTTP/1.1" 200 1429
+INFO 2025-12-22 23:44:11,076 basehttp 76978 130840608634432 "GET /static/css/dist/styles.css?v=1766447051 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:44:13,048 basehttp 76978 130840575063616 "POST /auth/logout/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:44:13,056 basehttp 76978 130840575063616 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:44:13,135 basehttp 76978 130840575063616 "GET /static/css/dist/styles.css?v=1766447053 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:44:20,812 autoreload 76978 130840736641024 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:44:21,338 autoreload 77355 137133995311104 Watching for file changes with StatReloader
+INFO 2025-12-22 23:44:21,538 basehttp 77355 137133916194368 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:44:21,583 basehttp 77355 137133916194368 "GET /static/css/dist/styles.css?v=1766447061 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:44:21,656 basehttp 77355 137133924587072 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:44:21,783 basehttp 77355 137133924587072 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:44:23,883 autoreload 77355 137133995311104 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:44:24,374 autoreload 77455 133557058576384 Watching for file changes with StatReloader
+INFO 2025-12-22 23:44:24,567 basehttp 77455 133556987803200 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:44:24,620 basehttp 77455 133556987803200 "GET /static/css/dist/styles.css?v=1766447064 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:44:24,687 basehttp 77455 133556772795968 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:44:24,780 basehttp 77455 133556772795968 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:44:29,986 autoreload 77455 133557058576384 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:44:30,472 autoreload 77571 126073202278400 Watching for file changes with StatReloader
+INFO 2025-12-22 23:44:30,662 basehttp 77571 126072926500416 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:44:30,731 basehttp 77571 126072926500416 "GET /static/css/dist/styles.css?v=1766447070 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:44:30,764 basehttp 77571 126072918107712 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:44:30,847 basehttp 77571 126072918107712 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:44:38,089 autoreload 77571 126073202278400 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:44:38,558 autoreload 77710 124502523092992 Watching for file changes with StatReloader
+INFO 2025-12-22 23:44:38,766 basehttp 77710 124502235145792 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:44:38,813 basehttp 77710 124502235145792 "GET /static/css/dist/styles.css?v=1766447078 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:44:38,870 basehttp 77710 124502243538496 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:44:38,942 basehttp 77710 124502243538496 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:44:41,015 autoreload 77710 124502523092992 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:44:41,500 autoreload 77803 139937405624320 Watching for file changes with StatReloader
+INFO 2025-12-22 23:44:41,764 basehttp 77803 139937257080384 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:44:41,818 basehttp 77803 139937257080384 "GET /static/css/dist/styles.css?v=1766447081 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:44:41,867 basehttp 77803 139937265473088 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:44:41,954 basehttp 77803 139937265473088 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:44:44,840 autoreload 77803 139937405624320 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:44:45,337 autoreload 77864 137796480249856 Watching for file changes with StatReloader
+INFO 2025-12-22 23:44:45,607 basehttp 77864 137796409517632 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:44:45,689 basehttp 77864 137796409517632 "GET /static/css/dist/styles.css?v=1766447085 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:44:45,722 basehttp 77864 137796401124928 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:44:45,812 basehttp 77864 137796401124928 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:44:46,807 basehttp 77864 137796389586496 "GET /auth/login/ HTTP/1.1" 200 3051
+INFO 2025-12-22 23:44:46,833 basehttp 77864 137796389586496 "GET /static/css/dist/styles.css?v=1766447086 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:44:51,756 basehttp 77864 137796409517632 "POST /auth/login/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:44:51,766 basehttp 77864 137796409517632 "GET /dashboard/ HTTP/1.1" 200 1429
+INFO 2025-12-22 23:44:51,840 basehttp 77864 137796409517632 "GET /static/css/dist/styles.css?v=1766447091 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:44:54,444 basehttp 77864 137796389586496 "POST /auth/logout/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:44:54,451 basehttp 77864 137796389586496 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:44:54,541 basehttp 77864 137796389586496 "GET /static/css/dist/styles.css?v=1766447094 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:44:59,514 basehttp 77864 137796409517632 "GET /auth/login/ HTTP/1.1" 200 3051
+INFO 2025-12-22 23:44:59,542 basehttp 77864 137796409517632 "GET /static/css/dist/styles.css?v=1766447099 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:45:03,266 basehttp 77864 137796389586496 "POST /auth/login/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:45:03,275 basehttp 77864 137796389586496 "GET /dashboard/ HTTP/1.1" 200 1429
+INFO 2025-12-22 23:45:03,347 basehttp 77864 137796389586496 "GET /static/css/dist/styles.css?v=1766447103 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:45:06,001 basehttp 77864 137796409517632 "GET /auth/login/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:45:06,007 basehttp 77864 137796409517632 "GET /dashboard/ HTTP/1.1" 200 1429
+INFO 2025-12-22 23:45:06,080 basehttp 77864 137796409517632 "GET /static/css/dist/styles.css?v=1766447106 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:45:09,525 basehttp 77864 137796389586496 "GET /auth/login/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:45:09,533 basehttp 77864 137796389586496 "GET /dashboard/ HTTP/1.1" 200 1429
+INFO 2025-12-22 23:45:09,609 basehttp 77864 137796389586496 "GET /static/css/dist/styles.css?v=1766447109 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:45:11,645 basehttp 77864 137796417910336 "POST /auth/logout/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:45:11,654 basehttp 77864 137796417910336 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:45:11,733 basehttp 77864 137796417910336 "GET /static/css/dist/styles.css?v=1766447111 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:45:14,313 basehttp 77864 137796389586496 "GET /auth/login/ HTTP/1.1" 200 3555
+INFO 2025-12-22 23:45:14,337 basehttp 77864 137796389586496 "GET /static/css/dist/styles.css?v=1766447114 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:48:04,627 basehttp 77864 137796409517632 "GET /auth/login/ HTTP/1.1" 200 2776
+INFO 2025-12-22 23:48:04,689 basehttp 77864 137796409517632 "GET /static/css/dist/styles.css?v=1766447284 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:48:04,731 basehttp 77864 137796417910336 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:48:04,853 basehttp 77864 137796417910336 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:48:07,716 basehttp 77864 137796401124928 "GET /auth/login/ HTTP/1.1" 200 2776
+INFO 2025-12-22 23:48:07,807 basehttp 77864 137796401124928 "GET /static/css/dist/styles.css?v=1766447287 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:48:07,807 basehttp 77864 137796389586496 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:48:07,890 basehttp 77864 137796389586496 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:49:21,107 autoreload 77864 137796480249856 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:49:21,628 autoreload 79959 134572190867456 Watching for file changes with StatReloader
+INFO 2025-12-22 23:49:23,805 autoreload 79959 134572190867456 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:49:24,265 autoreload 80055 136153914728448 Watching for file changes with StatReloader
+INFO 2025-12-22 23:49:30,518 autoreload 80055 136153914728448 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:49:30,988 autoreload 80162 129036047622144 Watching for file changes with StatReloader
+INFO 2025-12-22 23:49:33,184 autoreload 80162 129036047622144 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:49:33,681 autoreload 80255 126198263754752 Watching for file changes with StatReloader
+INFO 2025-12-22 23:49:36,888 autoreload 80255 126198263754752 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:49:37,372 autoreload 80278 124154995232768 Watching for file changes with StatReloader
+INFO 2025-12-22 23:49:38,528 autoreload 80278 124154995232768 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:49:39,065 autoreload 80368 137191824003072 Watching for file changes with StatReloader
+INFO 2025-12-22 23:49:41,226 autoreload 80368 137191824003072 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:49:41,747 autoreload 80396 137541773864960 Watching for file changes with StatReloader
+INFO 2025-12-22 23:49:44,962 autoreload 80396 137541773864960 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:49:45,412 autoreload 80480 127001701195776 Watching for file changes with StatReloader
+INFO 2025-12-22 23:49:46,542 autoreload 80480 127001701195776 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:49:47,032 autoreload 80500 129496940630016 Watching for file changes with StatReloader
+INFO 2025-12-22 23:49:51,244 autoreload 80500 129496940630016 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:49:51,691 autoreload 80597 135043914436608 Watching for file changes with StatReloader
+INFO 2025-12-22 23:49:52,373 basehttp 80597 135043636786752 "GET /auth/login/ HTTP/1.1" 200 2776
+INFO 2025-12-22 23:49:52,465 basehttp 80597 135043636786752 "GET /static/css/dist/styles.css?v=1766447392 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:49:52,533 basehttp 80597 135043628394048 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:49:52,704 basehttp 80597 135043628394048 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:50:06,803 basehttp 80597 135043852056128 "POST /auth/login/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:50:06,813 basehttp 80597 135043852056128 "GET /dashboard/ HTTP/1.1" 200 1523
+INFO 2025-12-22 23:50:06,893 basehttp 80597 135043852056128 "GET /static/css/dist/styles.css?v=1766447406 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:50:13,004 basehttp 80597 135043636786752 "POST /auth/logout/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:50:13,014 basehttp 80597 135043636786752 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:50:13,095 basehttp 80597 135043636786752 "GET /static/css/dist/styles.css?v=1766447413 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:50:14,890 basehttp 80597 135043860448832 "GET /auth/login/ HTTP/1.1" 200 2776
+INFO 2025-12-22 23:50:14,920 basehttp 80597 135043860448832 "GET /static/css/dist/styles.css?v=1766447414 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:50:18,548 basehttp 80597 135043636786752 "POST /auth/login/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:50:18,556 basehttp 80597 135043636786752 "GET /dashboard/ HTTP/1.1" 200 1523
+INFO 2025-12-22 23:50:18,626 basehttp 80597 135043636786752 "GET /static/css/dist/styles.css?v=1766447418 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:50:24,115 basehttp 80597 135043860448832 "POST /auth/logout/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:50:24,124 basehttp 80597 135043860448832 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:50:24,193 basehttp 80597 135043860448832 "GET /static/css/dist/styles.css?v=1766447424 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:50:25,748 basehttp 80597 135043852056128 "GET /auth/login/ HTTP/1.1" 200 2776
+INFO 2025-12-22 23:50:25,777 basehttp 80597 135043852056128 "GET /static/css/dist/styles.css?v=1766447425 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:50:30,126 basehttp 80597 135043860448832 "POST /auth/login/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:50:30,133 basehttp 80597 135043860448832 "GET /dashboard/ HTTP/1.1" 200 1523
+INFO 2025-12-22 23:50:30,212 basehttp 80597 135043860448832 "GET /static/css/dist/styles.css?v=1766447430 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:50:37,226 basehttp 80597 135043636786752 "GET /dashboard/ HTTP/1.1" 200 1442
+INFO 2025-12-22 23:50:37,285 basehttp 80597 135043636786752 "GET /static/css/dist/styles.css?v=1766447437 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:50:37,318 basehttp 80597 135043852056128 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:50:37,391 basehttp 80597 135043852056128 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:50:54,720 autoreload 80597 135043914436608 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:50:55,217 autoreload 81253 124309567254528 Watching for file changes with StatReloader
+INFO 2025-12-22 23:50:55,394 basehttp 81253 124309414594112 "GET /dashboard/ HTTP/1.1" 200 1442
+INFO 2025-12-22 23:50:55,462 basehttp 81253 124309414594112 "GET /static/css/dist/styles.css?v=1766447455 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:50:55,510 basehttp 81253 124309422986816 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:50:55,616 basehttp 81253 124309422986816 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:52:44,994 basehttp 81253 124309431379520 "POST /auth/logout/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:52:45,006 basehttp 81253 124309431379520 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:52:45,083 basehttp 81253 124309431379520 "GET /static/css/dist/styles.css?v=1766447565 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:52:49,680 basehttp 81253 124309414594112 "GET /auth/login/ HTTP/1.1" 200 2776
+INFO 2025-12-22 23:52:49,708 basehttp 81253 124309414594112 "GET /static/css/dist/styles.css?v=1766447569 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:52:53,091 basehttp 81253 124309431379520 "POST /auth/login/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:52:53,098 basehttp 81253 124309431379520 "GET /dashboard/ HTTP/1.1" 200 1528
+INFO 2025-12-22 23:52:53,175 basehttp 81253 124309431379520 "GET /static/css/dist/styles.css?v=1766447573 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:52:58,602 basehttp 81253 124309414594112 "POST /auth/logout/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:52:58,610 basehttp 81253 124309414594112 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:52:58,703 basehttp 81253 124309414594112 "GET /static/css/dist/styles.css?v=1766447578 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:54:34,686 basehttp 81253 124309431379520 "GET /auth/register/ HTTP/1.1" 200 5568
+INFO 2025-12-22 23:54:34,729 basehttp 81253 124309431379520 "GET /static/css/dist/styles.css?v=1766447674 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:54:55,969 basehttp 81253 124309414594112 "GET /auth/login/ HTTP/1.1" 200 2776
+INFO 2025-12-22 23:54:56,003 basehttp 81253 124309414594112 "GET /static/css/dist/styles.css?v=1766447695 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:54:58,407 basehttp 81253 124309431379520 "GET /auth/register/ HTTP/1.1" 200 5568
+INFO 2025-12-22 23:54:58,436 basehttp 81253 124309431379520 "GET /static/css/dist/styles.css?v=1766447698 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:55:01,792 basehttp 81253 124309414594112 "GET /auth/login/ HTTP/1.1" 200 2776
+INFO 2025-12-22 23:55:01,824 basehttp 81253 124309414594112 "GET /static/css/dist/styles.css?v=1766447701 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:55:05,157 basehttp 81253 124309431379520 "POST /auth/login/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:55:05,164 basehttp 81253 124309431379520 "GET /dashboard/ HTTP/1.1" 200 1528
+INFO 2025-12-22 23:55:05,251 basehttp 81253 124309431379520 "GET /static/css/dist/styles.css?v=1766447705 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:55:13,869 basehttp 81253 124309414594112 "POST /auth/logout/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:55:13,880 basehttp 81253 124309414594112 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:55:13,954 basehttp 81253 124309414594112 "GET /static/css/dist/styles.css?v=1766447713 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:55:52,158 autoreload 81253 124309567254528 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/views.py changed, reloading.
+INFO 2025-12-22 23:55:52,674 autoreload 83609 129508529078272 Watching for file changes with StatReloader
+INFO 2025-12-22 23:55:54,859 autoreload 83609 129508529078272 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/views.py changed, reloading.
+INFO 2025-12-22 23:55:55,360 autoreload 83699 127081036783616 Watching for file changes with StatReloader
+INFO 2025-12-22 23:55:56,511 autoreload 83699 127081036783616 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/core/views.py changed, reloading.
+INFO 2025-12-22 23:55:57,021 autoreload 83716 137141844766720 Watching for file changes with StatReloader
+INFO 2025-12-22 23:55:57,317 basehttp 83716 137141765596736 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:55:57,413 basehttp 83716 137141765596736 "GET /static/css/dist/styles.css?v=1766447757 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:55:57,449 basehttp 83716 137141773989440 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:55:57,583 basehttp 83716 137141773989440 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-22 23:56:24,048 basehttp 83716 137141782382144 "GET /dashboard HTTP/1.1" 301 0
+INFO 2025-12-22 23:56:24,055 basehttp 83716 137141782382144 "GET /dashboard/ HTTP/1.1" 302 0
+WARNING 2025-12-22 23:56:24,068 log 83716 137141782382144 Not Found: /accounts/login/
+WARNING 2025-12-22 23:56:24,069 basehttp 83716 137141782382144 "GET /accounts/login/?next=/dashboard/ HTTP/1.1" 404 3245
+WARNING 2025-12-22 23:56:29,428 log 83716 137141765596736 Not Found: /accounts/login/
+WARNING 2025-12-22 23:56:29,429 basehttp 83716 137141765596736 "GET /accounts/login/?next=/dashboard/ HTTP/1.1" 404 3245
+WARNING 2025-12-22 23:56:30,260 log 83716 137141790774848 Not Found: /accounts/login/
+WARNING 2025-12-22 23:56:30,261 basehttp 83716 137141790774848 "GET /accounts/login/?next=/dashboard/ HTTP/1.1" 404 3245
+WARNING 2025-12-22 23:56:48,546 log 83716 137141765596736 Not Found: /accounts/login/
+WARNING 2025-12-22 23:56:48,547 basehttp 83716 137141765596736 "GET /accounts/login/?next=/dashboard/ HTTP/1.1" 404 3245
+WARNING 2025-12-22 23:56:57,232 log 83716 137141790774848 Not Found: /accounts/login/
+WARNING 2025-12-22 23:56:57,232 basehttp 83716 137141790774848 "GET /accounts/login/ HTTP/1.1" 404 3228
+INFO 2025-12-22 23:57:02,630 basehttp 83716 137141765596736 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:57:02,653 basehttp 83716 137141765596736 "GET /static/css/dist/styles.css?v=1766447822 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:57:06,766 basehttp 83716 137141790774848 "GET /auth/register/ HTTP/1.1" 200 5568
+INFO 2025-12-22 23:57:06,800 basehttp 83716 137141790774848 "GET /static/css/dist/styles.css?v=1766447826 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:57:08,760 basehttp 83716 137141765596736 "GET /auth/login/ HTTP/1.1" 200 2776
+INFO 2025-12-22 23:57:08,788 basehttp 83716 137141765596736 "GET /static/css/dist/styles.css?v=1766447828 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:57:11,982 basehttp 83716 137141790774848 "POST /auth/login/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:57:12,031 basehttp 83716 137141790774848 "GET /dashboard/ HTTP/1.1" 200 1528
+INFO 2025-12-22 23:57:12,115 basehttp 83716 137141790774848 "GET /static/css/dist/styles.css?v=1766447832 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:57:14,988 basehttp 83716 137141765596736 "POST /auth/logout/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:57:14,997 basehttp 83716 137141765596736 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:57:15,059 basehttp 83716 137141765596736 "GET /static/css/dist/styles.css?v=1766447834 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:58:39,572 basehttp 83716 137141790774848 "GET /auth/login/ HTTP/1.1" 200 2776
+INFO 2025-12-22 23:58:39,634 basehttp 83716 137141790774848 "GET /static/css/dist/styles.css?v=1766447919 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:58:43,085 basehttp 83716 137141765596736 "POST /auth/login/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:58:43,116 basehttp 83716 137141765596736 "GET /dashboard/ HTTP/1.1" 200 1528
+INFO 2025-12-22 23:58:43,200 basehttp 83716 137141765596736 "GET /static/css/dist/styles.css?v=1766447923 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:58:47,219 basehttp 83716 137141790774848 "POST /auth/logout/ HTTP/1.1" 302 0
+INFO 2025-12-22 23:58:47,226 basehttp 83716 137141790774848 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:58:47,299 basehttp 83716 137141790774848 "GET /static/css/dist/styles.css?v=1766447927 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:59:31,279 autoreload 83716 137141844766720 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-22 23:59:31,811 autoreload 85462 132920596152320 Watching for file changes with StatReloader
+INFO 2025-12-22 23:59:32,974 autoreload 85462 132920596152320 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-22 23:59:33,430 autoreload 85517 129363431051264 Watching for file changes with StatReloader
+INFO 2025-12-22 23:59:55,184 autoreload 85517 129363431051264 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:59:55,749 autoreload 85776 138998450622464 Watching for file changes with StatReloader
+INFO 2025-12-22 23:59:56,902 autoreload 85776 138998450622464 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-22 23:59:57,363 autoreload 85819 131592730357760 Watching for file changes with StatReloader
+INFO 2025-12-22 23:59:58,531 basehttp 85819 131592651208256 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-22 23:59:58,636 basehttp 85819 131592651208256 "GET /static/css/dist/styles.css?v=1766447998 HTTP/1.1" 200 37777
+INFO 2025-12-22 23:59:58,694 basehttp 85819 131592659600960 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-22 23:59:58,913 basehttp 85819 131592659600960 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-23 00:00:00,928 autoreload 85819 131592730357760 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-23 00:00:01,432 autoreload 85933 132063931944960 Watching for file changes with StatReloader
+INFO 2025-12-23 00:00:01,611 basehttp 85933 132063793505856 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-23 00:00:01,675 basehttp 85933 132063793505856 "GET /static/css/dist/styles.css?v=1766448001 HTTP/1.1" 200 37777
+INFO 2025-12-23 00:00:01,736 basehttp 85933 132063785113152 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-23 00:00:01,840 basehttp 85933 132063785113152 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-23 00:00:02,888 autoreload 85933 132063931944960 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-23 00:00:03,349 autoreload 86015 137294919503872 Watching for file changes with StatReloader
+INFO 2025-12-23 00:00:03,562 basehttp 86015 137294848775744 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-23 00:00:03,637 basehttp 86015 137294848775744 "GET /static/css/dist/styles.css?v=1766448003 HTTP/1.1" 200 37777
+INFO 2025-12-23 00:00:03,682 basehttp 86015 137294840383040 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-23 00:00:03,774 basehttp 86015 137294840383040 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-23 00:00:05,919 autoreload 86015 137294919503872 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/views.py changed, reloading.
+INFO 2025-12-23 00:00:06,398 autoreload 86119 126222881366016 Watching for file changes with StatReloader
+INFO 2025-12-23 00:00:06,589 basehttp 86119 126222802245184 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-23 00:00:06,655 basehttp 86119 126222802245184 "GET /static/css/dist/styles.css?v=1766448006 HTTP/1.1" 200 37777
+INFO 2025-12-23 00:00:06,700 basehttp 86119 126222810637888 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-23 00:00:06,803 basehttp 86119 126222810637888 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-23 00:00:12,984 autoreload 86119 126222881366016 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-23 00:00:13,486 autoreload 86307 136955368251392 Watching for file changes with StatReloader
+INFO 2025-12-23 00:00:13,753 basehttp 86307 136955224385088 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-23 00:00:13,846 basehttp 86307 136955224385088 "GET /static/css/dist/styles.css?v=1766448013 HTTP/1.1" 200 37777
+INFO 2025-12-23 00:00:13,891 basehttp 86307 136955215992384 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-23 00:00:14,037 basehttp 86307 136955215992384 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-23 00:00:16,833 autoreload 86307 136955368251392 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-23 00:00:17,339 autoreload 86374 133920296067072 Watching for file changes with StatReloader
+INFO 2025-12-23 00:00:18,483 autoreload 86374 133920296067072 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-23 00:00:18,908 autoreload 86418 138934652153856 Watching for file changes with StatReloader
+INFO 2025-12-23 00:00:41,609 autoreload 86418 138934652153856 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-23 00:00:42,086 autoreload 86686 134549193052160 Watching for file changes with StatReloader
+INFO 2025-12-23 00:00:45,270 autoreload 86686 134549193052160 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-23 00:00:45,696 autoreload 86787 131500003205120 Watching for file changes with StatReloader
+INFO 2025-12-23 00:00:48,877 autoreload 86787 131500003205120 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-23 00:00:49,429 autoreload 86872 139683621584896 Watching for file changes with StatReloader
+INFO 2025-12-23 00:00:51,627 autoreload 86872 139683621584896 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-23 00:00:52,084 autoreload 86903 132694598569984 Watching for file changes with StatReloader
+INFO 2025-12-23 00:00:55,263 autoreload 86903 132694598569984 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-23 00:00:56,672 autoreload 86993 125117202055168 Watching for file changes with StatReloader
+INFO 2025-12-23 00:00:59,905 autoreload 86993 125117202055168 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-23 00:01:00,462 autoreload 87076 138355808288768 Watching for file changes with StatReloader
+INFO 2025-12-23 00:01:01,727 autoreload 87076 138355808288768 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-23 00:01:02,243 autoreload 87091 135315669745664 Watching for file changes with StatReloader
+INFO 2025-12-23 00:01:03,103 basehttp 87091 135315599054400 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-23 00:01:03,181 basehttp 87091 135315590661696 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-23 00:01:03,762 basehttp 87091 135315590661696 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-23 00:01:03,779 basehttp 87091 135315599054400 "GET /static/css/dist/styles.css?v=1766448063 HTTP/1.1" 200 37777
+INFO 2025-12-23 00:01:04,543 autoreload 87091 135315669745664 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-23 00:01:05,013 autoreload 87237 124829127311360 Watching for file changes with StatReloader
+INFO 2025-12-23 00:01:05,211 basehttp 87237 124828988204608 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-23 00:01:05,284 basehttp 87237 124828988204608 "GET /static/css/dist/styles.css?v=1766448065 HTTP/1.1" 200 37777
+INFO 2025-12-23 00:01:05,343 basehttp 87237 124828979811904 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-23 00:01:05,526 basehttp 87237 124828979811904 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-23 00:01:08,536 autoreload 87237 124829127311360 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-23 00:01:09,065 autoreload 87305 125095545212928 Watching for file changes with StatReloader
+INFO 2025-12-23 00:01:09,252 basehttp 87305 125095393609280 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-23 00:01:09,343 basehttp 87305 125095393609280 "GET /static/css/dist/styles.css?v=1766448069 HTTP/1.1" 200 37777
+INFO 2025-12-23 00:01:09,398 basehttp 87305 125095402001984 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-23 00:01:09,522 basehttp 87305 125095402001984 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-23 00:01:10,559 autoreload 87305 125095545212928 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-23 00:01:11,030 autoreload 87363 125272521502720 Watching for file changes with StatReloader
+INFO 2025-12-23 00:01:15,271 autoreload 87363 125272521502720 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-23 00:01:15,788 autoreload 87460 130112391999488 Watching for file changes with StatReloader
+INFO 2025-12-23 00:01:16,312 basehttp 87460 130112312886848 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-23 00:01:16,383 basehttp 87460 130112312886848 "GET /static/css/dist/styles.css?v=1766448076 HTTP/1.1" 200 37777
+INFO 2025-12-23 00:01:16,412 basehttp 87460 130112321279552 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-23 00:01:16,519 basehttp 87460 130112321279552 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-23 00:01:17,140 autoreload 87460 130112391999488 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-23 00:01:18,533 autoreload 87514 125499115507712 Watching for file changes with StatReloader
+INFO 2025-12-23 00:01:18,781 basehttp 87514 125499036395072 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-23 00:01:18,831 basehttp 87514 125499036395072 "GET /static/css/dist/styles.css?v=1766448078 HTTP/1.1" 200 37777
+INFO 2025-12-23 00:01:18,899 basehttp 87514 125499044787776 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-23 00:01:18,973 basehttp 87514 125499044787776 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-23 00:01:19,810 autoreload 87514 125499115507712 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-23 00:01:20,308 autoreload 87585 124728559132672 Watching for file changes with StatReloader
+INFO 2025-12-23 00:01:21,457 autoreload 87585 124728559132672 /home/christian/Documents/Cours_L3/Semestre5/ProjetNoel/Projet_django/FastTransfert/fastTransfer/userauths/utils.py changed, reloading.
+INFO 2025-12-23 00:01:22,790 autoreload 87599 136608451518464 Watching for file changes with StatReloader
+INFO 2025-12-23 00:01:23,145 basehttp 87599 136608380798528 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-23 00:01:23,202 basehttp 87599 136608380798528 "GET /static/css/dist/styles.css?v=1766448083 HTTP/1.1" 200 37777
+INFO 2025-12-23 00:01:23,244 basehttp 87599 136608372405824 "GET /admin/userauths/otp/ HTTP/1.1" 200 17403
+INFO 2025-12-23 00:01:23,325 basehttp 87599 136608372405824 "GET /admin/jsi18n/ HTTP/1.1" 200 8634
+INFO 2025-12-23 00:02:21,570 basehttp 87599 136608397583936 "GET /auth/login/ HTTP/1.1" 200 2776
+INFO 2025-12-23 00:02:21,653 basehttp 87599 136608397583936 "GET /static/css/dist/styles.css?v=1766448141 HTTP/1.1" 200 37777
+INFO 2025-12-23 00:02:26,448 basehttp 87599 136608380798528 "POST /auth/login/ HTTP/1.1" 302 0
+INFO 2025-12-23 00:02:26,495 basehttp 87599 136608380798528 "GET /dashboard/ HTTP/1.1" 200 1528
+INFO 2025-12-23 00:02:26,562 basehttp 87599 136608380798528 "GET /static/css/dist/styles.css?v=1766448146 HTTP/1.1" 200 37777
+INFO 2025-12-23 00:02:42,505 basehttp 87599 136608397583936 "POST /auth/logout/ HTTP/1.1" 302 0
+INFO 2025-12-23 00:02:42,514 basehttp 87599 136608397583936 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-23 00:02:42,582 basehttp 87599 136608397583936 "GET /static/css/dist/styles.css?v=1766448162 HTTP/1.1" 200 37777
+INFO 2025-12-23 00:06:58,438 basehttp 87599 136608380798528 "GET /auth/login/ HTTP/1.1" 200 2776
+INFO 2025-12-23 00:06:58,503 basehttp 87599 136608380798528 "GET /static/css/dist/styles.css?v=1766448418 HTTP/1.1" 200 37777
+INFO 2025-12-23 00:07:01,494 basehttp 87599 136608397583936 "POST /auth/login/ HTTP/1.1" 302 0
+INFO 2025-12-23 00:07:01,553 basehttp 87599 136608397583936 "GET /dashboard/ HTTP/1.1" 200 1528
+INFO 2025-12-23 00:07:01,626 basehttp 87599 136608397583936 "GET /static/css/dist/styles.css?v=1766448421 HTTP/1.1" 200 37777
+INFO 2025-12-23 00:07:04,504 basehttp 87599 136608380798528 "POST /auth/logout/ HTTP/1.1" 302 0
+INFO 2025-12-23 00:07:04,513 basehttp 87599 136608380798528 "GET / HTTP/1.1" 200 4930
+INFO 2025-12-23 00:07:04,585 basehttp 87599 136608380798528 "GET /static/css/dist/styles.css?v=1766448424 HTTP/1.1" 200 37777

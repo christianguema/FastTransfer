@@ -1,7 +1,7 @@
 from django.db import models
 from shortuuid.django_fields import ShortUUIDField
 from django.contrib.auth.models import AbstractUser
-from core.models import TimeStampMixin
+from core.models import TimeStampMixin, AccountOwner
 from django.utils import timezone
 from datetime import timedelta
 
@@ -11,6 +11,11 @@ class UserSatus(models.TextChoices):
     PENDING = "PENDING"
 
 class OTP(TimeStampMixin):
+    #Ajout d'une relation entre le model OTP et account owner pour la simplification de la gestion des verification du code OTP
+    account_owner = models.ForeignKey(
+        AccountOwner,
+        on_delete=models.CASCADE
+    )
     code = models.CharField(max_length=10)
     is_expire = models.BooleanField()
     expire_at = models.DateTimeField()

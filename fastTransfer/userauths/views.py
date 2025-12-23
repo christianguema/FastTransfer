@@ -6,7 +6,7 @@ from django.core.mail import send_mail
 from django.utils import timezone
 from userauths.forms import UserRegisterForm
 from userauths.models import User, OTP
-from userauths.utils import generate_otp, otp_expiration
+from userauths.utils import generate_otp, otp_login_expiration
 from core.models import VirtualAccount, AccountOwner
 
 
@@ -18,21 +18,22 @@ def register_views(request):
             new_user.status = "PENDING"
             new_user.save()
 
-            account0wner = AccountOwner.objects.create(
+            account_owner = AccountOwner.objects.create(
                 owner = new_user
             )
 
             virtual_account = VirtualAccount.objects.create(
-                owner=account0wner,
+                owner=account_owner,
                 balance=0,
                 is_active=False
             )
             
             #Code d'activation
             otp_code = generate_otp()
-            expire_at = otp_expiration()
+            expire_at = otp_login_expiration()
 
             otp = OTP.objects.update_or_create(
+                account_owner=account_owner,
                 defaults={
                     "code":otp_code,
                     "is_expire":False,
@@ -56,7 +57,7 @@ def register_views(request):
 
             messages.success(request,"Compte créé. Veuillez vérifier votre email pour l’activation.")
 
-            return redirect('userauths:verify-opt')
+            return redirect('userauths:verify-otp')
     else:
         form = UserRegisterForm()
         # print("User can not be registered")
@@ -90,9 +91,14 @@ def login_view(request):
             messages.error(request, "Email ou mot de passe incorrect.")
             return render(request, "auth/login.html")
         
+        try:
+            account_owner = AccountOwner.objects.get(owner=user)
+        except AccountOwner.DoesNotExist:
+            messages.error(request, "Compte utilisateur incomplet.")
+            return render(request, "auth/login.html")
 
         try:
-            virtual_account = VirtualAccount.objects.get(owner=user)
+            virtual_account = VirtualAccount.objects.get(owner=account_owner)
         except VirtualAccount.DoesNotExist:
             messages.error(request, "Compte virtuel introuvable.")
             return render(request, "auth/login.html")
@@ -107,7 +113,8 @@ def login_view(request):
         
         login(request, user)
         messages.success(request, "Connexion réussie.")    
-
+        return redirect("core:dashboard")
+    
     return render(request, 'auth/login.html')
 
 
@@ -123,15 +130,19 @@ def verify_otp_view(request):
                 otp.is_expire = True
                 otp.save()
                 return redirect("userauths:verify-otp")
+            #
+            account_owner = otp.account_owner
 
             # Activation du compte virtuel
-            virtual_account = VirtualAccount.objects.get(owner=request.user)
+            virtual_account = VirtualAccount.objects.get(owner=account_owner)
             virtual_account.is_active = True
             virtual_account.save()
 
             # Mise à jour du statut utilisateur
-            request.user.status = "ACTIVE"
-            request.user.save()
+            user = account_owner.owner
+            user.status = "ACTIVE"
+            user.save()
+
 
             otp.is_expire = True
             otp.save()
@@ -142,11 +153,10 @@ def verify_otp_view(request):
         except OTP.DoesNotExist:
             messages.error(request, "Code OTP invalide.")
 
-    return render(request, "auth/verify_otp.html")
+    return render(request, "auth/verify-otp.html")
 
 
 
-def logout_view(request, peanout):
+def logout_view(request):
     logout(request)
-    messages.success(request, "Vous etes déconnecté")
     return redirect("core:accueil")
