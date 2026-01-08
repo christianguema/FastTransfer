@@ -1,0 +1,140 @@
+{% extends "../partials/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="mx-auto max-w-(--breakpoint-2xl) p-4 pb-20 md:p-6 md:pb-6">
+    <div class="space-y-6">
+        <!-- message sections-->
+
+        {% if messages %}
+            {% for message in messages %}
+            <div class="mb-4 p-3 rounded-lg text-sm
+                        {% if message.tags == 'success' %}
+                            bg-green-100 text-green-700
+                        {% elif message.tags == 'error' %}
+                            bg-red-100 text-red-700
+                        {% elif message.tags == 'warning' %}
+                            bg-yellow-100 text-yellow-700
+                        {% else %}
+                            bg-blue-100 text-blue-700
+                        {% endif %}
+                    ">
+                {{ message }}
+            </div>
+            {% endfor %}
+        {% endif %}
+
+        <!-- Metrics Start -->
+        <div class="rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03]">
+            <div class="mb-8 flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
+                        SOLDE ACTUEL
+                    </h3>
+                </div>
+                
+            </div>
+            
+            <div class="grid rounded-2xl border border-gray-200 bg-white sm:grid-cols-2 xl:grid-cols-4 dark:border-gray-800 dark:bg-gray-900">
+                <div class="border-b p-5 sm:border-r xl:border-b-0">
+                    <p class="mb-1.5 text-sm text-gray-400 dark:text-gray-500">
+                        Total Balance
+                    </p>
+                    <h4 class="text-2xl font-semibold text-gray-800 dark:text-white">
+                        {{ virtual_account.balance|default:"0" }} FCFA
+                    </h4>
+                </div>
+            </div>
+            <div class="mt-4 text-sm text-gray-500 dark:text-gray-400">
+                Mise à jour récente : {% if recent_transactions and recent_transactions|length > 0 %}
+            {{ recent_transactions.0.created_at|default:recent_transactions.0|date:"d/m/Y " }}
+            {% elif virtual_account and virtual_account.updated_at %}
+                {{ virtual_account.updated_at|date:"d/m/Y " }}
+            {% else %}
+                -
+            {% endif %}
+            </div>
+        </div>
+        <!-- Metrics End -->
+
+        <!--Button d'action (depot, retrait et transfert)-->
+        <div class="flex flex-wrap gap-4">
+            <a href="{% url 'core:deposite' %}"
+                class="bg-brand-500 shadow-theme-xs hover:bg-brand-600 inline-flex items-center justify-center gap-2 rounded-lg px-4 py-3 text-sm font-medium text-white transition">
+                Déposer
+            </a>
+            <a href="#"
+                class="bg-brand-500 shadow-theme-xs hover:bg-brand-600 inline-flex items-center justify-center gap-2 rounded-lg px-4 py-3 text-sm font-medium text-white transition">
+                Retirer
+            </a>
+            <a href="{% url 'core:transfer' %}"
+                class="bg-brand-500 shadow-theme-xs hover:bg-brand-600 inline-flex items-center justify-center gap-2 rounded-lg px-4 py-3 text-sm font-medium text-white transition">
+                Transférer
+            </a>
+        </div>
+
+        <!-- Recent Transactions -->
+        <div
+            class="rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03]">
+            <div class="mb-6 flex items-center justify-between">
+                <div>
+                    <h2 class="font-semibold text-gray-800 dark:text-white/90">
+                        Recent Transactions
+                    </h2>
+                    <div>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">
+                            Liste des recentes transactions effectuées
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="w-full min-w-[640px] table-auto">
+                    <thead>
+                        <tr
+                            class="border-b border-gray-200 text-left text-sm font-semibold text-gray-500 dark:border-gray-800 dark:text-gray-400">
+                            <th class="px-4 py-3 sm:px-5">Date</th>
+                            <th class="px-4 py-3 sm:px-5">Description</th>
+                            <th class="px-4 py-3 sm:px-5">Montants</th>
+                            <th class="px-4 py-3 sm:px-5">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200 dark:divide-gray-800">
+                        <tr class="hover:bg-gray-50 dark:hover:bg-gray-800">
+                            <td class="px-4 py-3 sm:px-5">
+                                2024-06-01
+                            </td>
+                            <td class="px-4 py-3 sm:px-5">
+                                Deposit
+                            </td>
+                            <td class="px-4 py-3 sm:px-5">
+                                +100000 FCFA
+                            </td>
+                            <td class="px-4 py-3 sm:px-5">
+                                Completed
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-50 dark:hover:bg-gray-800">
+                            <td class="px-4 py-3 sm:px-5">
+                                2024-06-01
+                            </td>
+                            <td class="px-4 py-3 sm:px-5">
+                                Deposit
+                            </td>
+                            <td class="px-4 py-3 sm:px-5">
+                                -100000 FCFA
+                            </td>
+                            <td class="px-4 py-3 sm:px-5">
+                                Completed
+                            </td>
+                        </tr>
+                        <!-- More rows... -->
+                    </tbody>
+                </table>
+            </div>
+    </div>
+</div>
+
+{% endblock %}

@@ -1,5 +1,4 @@
 from django.db import models
-from shortuuid import ShortUUID
 
 class TimeStampMixin(models.Model):
     created_at = models.DateField(auto_now_add=True)

@@ -7,3 +7,7 @@ CREATE DATABASE fasttransfert_db;
 -- GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO fasttransfert_user;
 -- GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO fasttransfert_user;
 -- ALTER ROLE fasttransfert_user SET client_encoding TO 'utf8';
+
+
+--christian.guema@ifnti.com
+--chriesther2001

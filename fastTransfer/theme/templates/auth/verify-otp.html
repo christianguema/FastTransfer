@@ -61,23 +61,33 @@
                 <!-- OTP -->
                 <div>
                     <label class="block text-sm font-medium text-gray-700 mb-1">
-                        Code OTP
+                        Code OTP (One Time Password)
                     </label>
-                    <input type="text" name="otp" maxlength="6" placeholder="Ex: 123456" required
+                    <input type="text" name="otp" maxlength="6" placeholder="Ex: 123456"
                         class="w-full px-4 text-blue-900 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900">
                 </div>
 
-                <!-- SUBMIT -->
-                <button type="submit"
-                    class="w-full t bg-blue-800 text-white py-2 rounded-lg font-semibold hover:bg-blue-900 transition">
-                    Vérifier le code
-                </button>
+                {% if otp_code and not otp_code.is_expire %}
+                    <!-- SUBMIT -->
+                    <button type="submit" name="verify"
+                        class="w-full t bg-blue-800 text-white py-2 rounded-lg font-semibold hover:bg-blue-900 transition">
+                        Vérifier le code
+                    </button>
+
+        
+                {% else %}
+                     <!-- SUBMIT -->
+                    <button type="submit" name="resend"
+                        class="w-full t bg-blue-800 text-white py-2 rounded-lg font-semibold hover:bg-blue-900 transition">
+                        Renvoyer le code
+                    </button>
+                {% endif %}
             </form>
 
             <!-- FOOTER -->
             <div class="mt-6 text-center text-sm text-gray-600">
                 Le code expire dans
-                <span class="font-semibold text-red-600">2 minutes</span>
+                <span class="font-semib8000old text-red-600">2 minutes</span>
             </div>
 
         </div>

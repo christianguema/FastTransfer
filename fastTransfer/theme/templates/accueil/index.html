@@ -47,6 +47,12 @@
             </p>
 
             <div class="flex justify-center gap-4">
+                {% if user.is_authenticated %}
+                <a href="{% url 'userauths:login' %}"
+                   class="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">
+                    Connexion
+                </a>
+                {% else %}
                 <a href="{% url 'userauths:register' %}"
                    class="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">
                     Créer un compte
@@ -55,6 +61,7 @@
                    class="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-blue-900 transition">
                     Se connecter
                 </a>
+                {% endif %}
             </div>
         </div>
     </section>
