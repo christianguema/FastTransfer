@@ -129,7 +129,7 @@ def login_view(request):
             messages.error(request, "Email ou mot de passe incorrect.")
             return render(request, "auth/login.html")
         
-        if user.role == "ADMIN":
+        if user.is_staff and user.is_admin:
             login(request, user)
             return redirect("core:admin_dash")
         else:
@@ -273,6 +273,7 @@ def verify_otp_view(request):
 
     context = {"otp_code": otp}
     return render(request, "auth/verify-otp.html", context)
+
 
 def logout_view(request):
     logout(request)
