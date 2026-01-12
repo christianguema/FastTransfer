@@ -3,7 +3,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from django.db import models, transaction
 from userauths.models import User
-from .decorators import *
+from ...decorators import *
 from core.forms.deposit_form import DepositForm
 from core.forms.transfer_form import TransferForm
 from core.models import VirtualAccount, AccountOwner, Transactions, TypeTransaction, TransactionStatus
@@ -213,7 +213,3 @@ def transfer_view(request):
 
     return render(request, "user_pages/transfer_page.html", {"form": form, "recent_transactions": recent_display, "virtual_account": va_sender})
 
-@login_required 
-@admin_only
-def admin_dashbord_view(request):
-    return render(request, "admin_pages/dashboard.html")

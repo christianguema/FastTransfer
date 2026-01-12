@@ -1,0 +1,177 @@
+{% extends "../partials/base.html" %}
+
+
+{% load static %}
+
+{% block content %}
+<!-- ===== Main Content Start ===== -->
+<main>
+    <div class="mx-auto max-w-(--breakpoint-2xl) p-4 pb-20 md:p-6 md:pb-6">
+        <!-- Breadcrumb Start -->
+        <div x-data="{ pageName: `Gestion des utilisateurs` }" class="mb-6">
+            <div class="flex flex-wrap items-center justify-between gap-3 pb-6">
+                <h2 class="text-xl font-semibold text-gray-800 dark:text-white/90" x-text="pageName"></h2>
+            </div>
+        </div>
+        <!--Section des filtre (actif et suspendu)-->
+
+                <!--Section des messages d'alert-->
+        {% if messages %}
+        <div id="alerts-container" class="px-6">
+            {% for message in messages %}
+                {% if message.tags == 'error' %}
+                    <div class="rounded-xl border border-blue-light-500 bg-blue-light-50 p-4 dark:border-blue-light-500/30 dark:bg-blue-light-500/15 auto-dismiss">
+                        <div class="flex items-start gap-3">
+                            <div class="-mt-0.5 text-blue-light-500">
+                            <svg class="fill-current" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6501 11.9996C3.6501 7.38803 7.38852 3.64961 12.0001 3.64961C16.6117 3.64961 20.3501 7.38803 20.3501 11.9996C20.3501 16.6112 16.6117 20.3496 12.0001 20.3496C7.38852 20.3496 3.6501 16.6112 3.6501 11.9996ZM12.0001 1.84961C6.39441 1.84961 1.8501 6.39392 1.8501 11.9996C1.8501 17.6053 6.39441 22.1496 12.0001 22.1496C17.6058 22.1496 22.1501 17.6053 22.1501 11.9996C22.1501 6.39392 17.6058 1.84961 12.0001 1.84961ZM10.9992 7.52468C10.9992 8.07697 11.4469 8.52468 11.9992 8.52468H12.0002C12.5525 8.52468 13.0002 8.07697 13.0002 7.52468C13.0002 6.9724 12.5525 6.52468 12.0002 6.52468H11.9992C11.4469 6.52468 10.9992 6.9724 10.9992 7.52468ZM12.0002 17.371C11.586 17.371 11.2502 17.0352 11.2502 16.621V10.9445C11.2502 10.5303 11.586 10.1945 12.0002 10.1945C12.4144 10.1945 12.7502 10.5303 12.7502 10.9445V16.621C12.7502 17.0352 12.4144 17.371 12.0002 17.371Z" fill="" />
+                            </svg>
+                            </div>
+
+                            <div>
+                            <h4 class="mb-1 text-sm font-semibold text-gray-800 dark:text-white/90">Success Message</h4>
+
+                            <p class="text-sm text-gray-500 dark:text-gray-400">{{ message }}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% elif message.tags == 'success' %}
+                    <div class="rounded-xl border border-blue-light-500 bg-blue-light-50 p-4 dark:border-blue-light-500/30 dark:bg-blue-light-500/15 auto-dismiss">
+                        <div class="flex items-start gap-3">
+                            <div class="-mt-0.5 text-blue-light-500">
+                            <svg class="fill-current" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M3.6501 11.9996C3.6501 7.38803 7.38852 3.64961 12.0001 3.64961C16.6117 3.64961 20.3501 7.38803 20.3501 11.9996C20.3501 16.6112 16.6117 20.3496 12.0001 20.3496C7.38852 20.3496 3.6501 16.6112 3.6501 11.9996ZM12.0001 1.84961C6.39441 1.84961 1.8501 6.39392 1.8501 11.9996C1.8501 17.6053 6.39441 22.1496 12.0001 22.1496C17.6058 22.1496 22.1501 17.6053 22.1501 11.9996C22.1501 6.39392 17.6058 1.84961 12.0001 1.84961ZM10.9992 7.52468C10.9992 8.07697 11.4469 8.52468 11.9992 8.52468H12.0002C12.5525 8.52468 13.0002 8.07697 13.0002 7.52468C13.0002 6.9724 12.5525 6.52468 12.0002 6.52468H11.9992C11.4469 6.52468 10.9992 6.9724 10.9992 7.52468ZM12.0002 17.371C11.586 17.371 11.2502 17.0352 11.2502 16.621V10.9445C11.2502 10.5303 11.586 10.1945 12.0002 10.1945C12.4144 10.1945 12.7502 10.5303 12.7502 10.9445V16.621C12.7502 17.0352 12.4144 17.371 12.0002 17.371Z" fill="" />
+                            </svg>
+                            </div>
+
+                            <div>
+                            <h4 class="mb-1 text-sm font-semibold text-gray-800 dark:text-white/90">Success Message</h4>
+
+                            <p class="text-sm text-gray-500 dark:text-gray-400">{{ message }}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <script>
+          (function(){
+            const alerts = document.querySelectorAll('.auto-dismiss');
+            alerts.forEach((el)=>{
+              setTimeout(()=>{
+                el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(-6px)';
+                setTimeout(()=> el.remove(), 500);
+              }, 5000);
+            });
+          })();
+        </script>
+        {% endif %}
+        
+        <!-- ====== Users Table Section Start ===== -->
+        <div class="overflow-hidden rounded-2xl border border-gray-200 bg-white dark:border-gray-800 dark:bg-white/[0.03]">
+            <div class="p-5 sm:p-6">
+                <div class="overflow-x-auto">
+                    <table class="is-sticky-header w-full text-left">
+                        <thead>
+                            <tr>
+                                <th
+                                    class="bg-gray-50/50 dark:bg-gray-800/50 text-sm font-medium text-gray-900 dark:text-white/90 lg:pl-6 px-4 py-3.5">
+                                    Nom complet</th>
+                                <th
+                                    class="bg-gray-50/50 dark:bg-gray-800/50 text-sm font-medium text-gray-900 dark:text-white/90 px-4 py-3.5">
+                                    Email</th>
+                                <th
+                                    class="bg-gray-50/50 dark:bg-gray-800/50 text-sm font-medium text-gray-900 dark:text-white/90 px-4 py-3.5">
+                                    Telephone</th>
+                                <th
+                                    class="bg-gray-50/50 dark:bg-gray-800/50 text-sm font-medium text-gray-900 dark:text-white/90 px-4 py-3.5">
+                                    Rôle</th>
+                                <th
+                                    class="bg-gray-50/50 dark:bg-gray-800/50 text-sm font-medium text-gray-900 dark:text-white/90 px-4 py-3.5">
+                                    Compte</th>
+                                <th
+                                    class="bg-gray-50/50 dark:bg-gray-800/50 text-sm font-medium text-gray-900 dark:text-white/90 lg:pr-6 px-4 py-3.5">
+                                    Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100 border-t border-gray-100 dark:divide-gray-800 dark:border-gray-800">
+                            {% if users %}
+                            {% for u in users %}
+                            <tr>
+                                <td class="lg:pl-6 px-4 py-4">
+                                    <div class="flex items-center gap-2">
+                                        <div>
+                                            <div class="text-sm font-medium text-gray-800 dark:text-white/90">
+                                                {{ u.first_name }} {{ u.last_name }}
+                                            </div>
+                                            <div class="text-xs text-gray-500">{{ u.username }}</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="px-4 py-4 text-sm text-gray-500">{{ u.email }}</td>
+                                <td class="px-4 py-4 text-sm text-gray-500">{{ u.phone }}</td>
+                                <td class="px-4 py-4 text-sm text-gray-500">{{ u.get_role_display|default:u.role }}</td>
+                                <td class="px-4 py-4 text-sm">
+                                    {% if u.status == "SUSPENDED" %}
+                                    <span
+                                        class="inline-flex items-center justify-center gap-1 rounded-full bg-error-50 px-2.5 py-0.5 text-sm font-medium text-error-600 dark:bg-error-500/15 dark:text-error-500"
+                                    >
+                                        Suspendu
+                                    </span>
+                                    {% elif u.status == "PENDING" %}
+                                     <span
+                                        class="inline-flex items-center justify-center gap-1 rounded-full bg-warning-50 px-2.5 py-0.5 text-sm font-medium text-warning-600 dark:bg-warning-500/15 dark:text-orange-400"
+                                    >
+                                        Non confirmé
+                                    </span>
+                                    {% else %}
+                                    <span
+                                        class="inline-flex items-center justify-center gap-1 rounded-full bg-success-50 px-2.5 py-0.5 text-sm font-medium text-success-600 dark:bg-success-500/15 dark:text-success-500"
+                                    >
+                                        Activé
+                                    </span>
+                                    {% endif %}
+                                </td>
+                                <td class="lg:pr-6 px-4 py-4 text-sm">
+                                    <div class="flex gap-2 items-center">
+                                        <a href="{% url 'core:user_detail' u.id %}" class="inline-flex items-center justify-center gap-1 rounded-full bg-blue-light-500 py-0.5 pl-2 pr-2.5 text-sm font-medium text-white">Détails</a>
+                                        {% if u.status != "SUSPENDED" %}
+                                        <form method="post" action="{{ request.path }}">
+                                            {% csrf_token %}
+                                            <input type="hidden" name="user_id" value="{{ u.id }}">
+                                            <input type="hidden" name="action" value="suspend">
+                                            <button type="submit"
+                                                class="inline-flex items-center justify-center gap-1 rounded-full bg-error-500 py-0.5 pl-2 pr-2.5 text-sm font-medium text-white">Suspendre</button>
+                                        </form>
+                                        {% else %}
+                                        <form method="post" action="{{ request.path }}">
+                                            {% csrf_token %}
+                                            <input type="hidden" name="user_id" value="{{ u.id }}">
+                                            <input type="hidden" name="action" value="reactivate">
+                                            <button type="submit"
+                                                class="inline-flex items-center justify-center gap-1 rounded-full bg-success-500 py-0.5 pl-2 pr-2.5 text-sm font-medium text-white">Réactiver</button>
+                                        </form>
+                                        {% endif %}
+                                    </div>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                            {% else %}
+                            <tr>
+                                <td colspan="6" class="px-4 py-4 text-center text-sm text-gray-500">
+                                    Aucun utilisateur trouvé.
+                                </td>
+                            </tr>
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- ====== Users Table Section End ===== -->
+    </div>
+</main>
+
+{% endblock %}

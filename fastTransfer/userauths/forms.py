@@ -12,6 +12,11 @@ class UserRegisterForm(UserCreationForm):
             "class": "w-full text-blue-900 px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-900"
         })
     )
+
+    def clean_first_name(self):
+        first_name = self.cleaned_data.get('first_name')
+        return first_name.capitalize()
+    
     last_name = forms.CharField(
         max_length=30, 
         required=True, 
@@ -21,6 +26,11 @@ class UserRegisterForm(UserCreationForm):
             "class": "w-full text-blue-900 px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-900"
         })
     )
+
+    def clean_last_name(self):
+        last_name = self.cleaned_data.get('last_name')
+        return last_name.capitalize()
+    
     gender = forms.ChoiceField(
         choices=[('m', 'Homme'), ('f', 'Femme')], 
         required=True, 
@@ -29,6 +39,7 @@ class UserRegisterForm(UserCreationForm):
             "class": "w-full text-blue-900 px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-900"
         })
     )
+
     phone = forms.CharField(
         max_length=15, 
         required=True, 
@@ -38,6 +49,12 @@ class UserRegisterForm(UserCreationForm):
             "class": "w-full text-blue-900 px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-900"
         })
     )
+
+    def clean_phone(self):
+        phone = self.cleaned_data.get('phone')
+        return phone
+    
+    
     email = forms.EmailField(
         max_length=254, 
         required=True, 
