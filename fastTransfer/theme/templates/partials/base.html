@@ -86,7 +86,7 @@
 
                             <!-- Menu Item Dashboard -->
                             
-                            {% if request.user.is_customer %}
+                            {% if request.user.is_customer and request.user.status == "ACTIVE" %}
                             <!-- Menu Item actions -->
                             <li>
                                 <a href="#" @click="selected = (selected === 'actions' ? '':'actions')"
@@ -127,7 +127,7 @@
                                     <ul :class="sidebarToggle ? 'lg:hidden' : 'flex'"
                                         class="flex flex-col gap-1 mt-2 menu-dropdown pl-9">
                                         <li>
-                                            <a href="#" class="menu-dropdown-item group"
+                                            <a href="{% url 'core:withdraw' %}" class="menu-dropdown-item group"
                                                 :class="page === 'formElements' ? 'menu-dropdown-item-active' : 'menu-dropdown-item-inactive'">
                                                 Retrait
                                             </a>
@@ -151,7 +151,7 @@
 
                             <!-- Menu Item Calendar -->
                             <li>
-                                <a href="#" @click="selected = (selected === 'historique' ? '':'historique')"
+                                <a href="{% url 'core:history' %}" @click="selected = (selected === 'historique' ? '':'historique')"
                                     class="menu-item group"
                                     :class=" (selected === 'historique') && (page === 'historique') ? 'menu-item-active' : 'menu-item-inactive'">
 

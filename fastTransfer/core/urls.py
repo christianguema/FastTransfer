@@ -10,6 +10,10 @@ urlpatterns = [
     path('dashboard/', user_view.user_dashboard_view,name ="user_dash"),  
     path('deposit/', user_view.deposit_view, name="deposite"),
     path('transfer/', user_view.transfer_view, name="transfer"),
+    path('withdraw/', user_view.withdraw_view, name="withdraw"),
+    path('confirm_withdraw/', user_view.confirm_widraw_otp_view, name="confirm_withdraw_otp"),
+    path('resend_otp/', user_view.resend_otp_view, name="resend_otp"),
+    path('history/', user_view.history_view, name="history"),
 
 
     #Route pour les pages des administrateur

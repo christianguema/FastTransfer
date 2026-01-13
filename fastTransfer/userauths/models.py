@@ -25,7 +25,7 @@ class OTP(TimeStampMixin):
         verbose_name_plural = "Otp"
 
     def is_expired(self):
-        return timezone.now() > self.expires_at
+        return timezone.now() > self.expire_at
 
     def __str__(self):
         return self.code
@@ -45,7 +45,7 @@ class User(AbstractUser):
     gender = models.CharField(choices=[("f",'F'),("m","M")],max_length=10)
     phone = models.CharField(max_length=15)
     email = models.EmailField(unique=True)
-    status = models.CharField(choices=UserSatus.choices, max_length=20, default='active')
+    status = models.CharField(choices=UserSatus.choices, max_length=20, default=UserSatus.PENDING)
 
     role = models.CharField(max_length=10, choices=ROLE_CHOICES, default=UTILISATEUR)
 

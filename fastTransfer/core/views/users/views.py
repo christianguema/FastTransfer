@@ -1,12 +1,17 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
 from django.db import models, transaction
-from userauths.models import User
+from django.utils import timezone
+from datetime import timedelta
+from userauths.models import User, OTP
 from ...decorators import *
+from core.forms.retrait_form import widrawForm
 from core.forms.deposit_form import DepositForm
 from core.forms.transfer_form import TransferForm
-from core.models import VirtualAccount, AccountOwner, Transactions, TypeTransaction, TransactionStatus
+from core.models import VirtualAccount, AccountOwner, Transactions, TypeTransaction, TransactionStatus, Platform
+from core.utils import create_and_send_otp, verify_otp, invalidate_otp, get_active_otp
+
 
 
 def acceuil_view(request):
@@ -22,14 +27,19 @@ def user_dashboard_view(request):
     if account_owner:
         va = VirtualAccount.objects.filter(owner=account_owner).first()
         if va:
+
             recent_transactions = Transactions.objects.filter(
                 models.Q(sender_account=va) | models.Q(receiver_account=va)
-            ).order_by('-created_at')[:10]
+            ).exclude(types=TypeTransaction.FEE).order_by('-created_at')[:5]
+
+    if request.user.status == 'SUSPENDED':
+        messages.warning(request,"Votre compte virtuel à été géler par l'administrateur pour des évantuelle raison, veillez attendre la réactivation de votre compte!!")
 
     return render(request,"user_pages/dashboard.html",  {"virtual_account": va, "recent_transactions": recent_transactions})
 
 @login_required
 @allowed_user(allowed_roles=["custumer"])
+@active_user_only
 def deposit_view(request):
     form = DepositForm(request.POST or None)
 
@@ -94,7 +104,148 @@ def deposit_view(request):
 
 
 @login_required
-#@allowed_user(allowed_roles=["custumer"])
+@allowed_user(allowed_roles=["custumer"])
+@active_user_only
+def withdraw_view(request):
+    form = widrawForm(request.POST or None)
+
+    account_owner = AccountOwner.objects.filter(owner=request.user).first()
+
+    va = VirtualAccount.objects.filter(owner=account_owner).first()
+
+    recent_transactions = Transactions.objects.filter(
+        models.Q(sender_account=va) | models.Q(receiver_account=va),
+        types=TypeTransaction.WITHDRAWAL
+    ).order_by('-created_at')[:5]
+
+    if form.is_valid():
+        amount = form.cleaned_data['amount']
+        
+        # Récupérer le compte virtuel de l'utilisateur
+        account_owner = AccountOwner.objects.filter(owner=request.user).first()
+        if not account_owner:
+            messages.error(request, "Compte propriétaire introuvable.")
+            return redirect('core:withdraw')
+        
+        va = VirtualAccount.objects.filter(owner=account_owner).first()
+        if not va:
+            messages.error(request, "Compte virtuel introuvable.")
+            return redirect('core:withdraw')
+        
+        # Vérifier le solde
+        if (va.balance or 0) < int(amount):
+            messages.error(request, "Solde insuffisant pour effectuer ce retrait.")
+            return redirect('core:withdraw')
+        
+        # Stocker les informations de retrait en session
+        request.session['withdrawal_amount'] = int(amount)
+        request.session['withdrawal_user_id'] = request.user.id
+        
+        # Générer et envoyer l'OTP
+        otp_code = create_and_send_otp(request.user)
+        messages.success(request, f"Code OTP envoyé à {request.user.email}")
+        
+        context = {
+            "amount": amount,
+            "user_email": request.user.email
+        }
+
+        return render(request, "user_pages/confirm_widraw_page.html", context)
+
+    context = {
+        "form": form,
+        "recent_transactions": recent_transactions,
+    }
+    return render(request, "user_pages/retrait_page.html", context)
+
+
+@login_required
+@allowed_user(allowed_roles=["custumer"])
+@active_user_only
+def confirm_widraw_otp_view(request):
+    if request.method == 'POST':
+        otp_code = request.POST.get('otp_code', '').strip()
+        
+        # Récupérer le montant de la session
+        withdrawal_amount = request.session.get('withdrawal_amount')
+        if not withdrawal_amount:
+            messages.error(request, "Session expirée. Veuillez recommencer.")
+            return redirect('core:withdraw')
+        
+        # Vérifier l'OTP
+        is_valid, message = verify_otp(request.user, otp_code)
+        
+        if not is_valid:
+            return render(request, "user_pages/confirm_widraw_page.html", {
+                "error": message,
+                "amount": withdrawal_amount,
+                "user_email": request.user.email
+            })
+        
+        # L'OTP est valide, procéder au retrait
+        try:
+            # Récupérer les comptes
+            account_owner = AccountOwner.objects.filter(owner=request.user).first()
+            va = VirtualAccount.objects.filter(owner=account_owner).first()
+            
+            # Récupérer le taux de frais de la plateforme
+            platform = Platform.objects.first()
+            fee_rate = platform.withdrawal_fee_rate if platform else 0
+            
+            # Calculer les frais (en pourcentage)
+            fee = int(withdrawal_amount * fee_rate / 100)
+            
+            with transaction.atomic():
+                # 1. Créer la transaction de retrait (WITHDRAWAL)
+                withdrawal_tx = Transactions.objects.create(
+                    reference=f"WTH-{request.user.id}-{Transactions.objects.count()+1}",
+                    types=TypeTransaction.WITHDRAWAL,
+                    amount=str(withdrawal_amount),
+                    fee=0,
+                    net_amount=withdrawal_amount,
+                    status=TransactionStatus.SUCCESS,
+                    sender_account=va,
+                    receiver_account=va
+                )
+                
+                # 2. Créer la transaction de frais (FEE)
+                if fee > 0:
+                    fee_tx = Transactions.objects.create(
+                        reference=f"FEE-{request.user.id}-{Transactions.objects.count()+1}",
+                        types=TypeTransaction.FEE,
+                        amount=str(fee),
+                        fee=fee,
+                        net_amount=0,
+                        status=TransactionStatus.SUCCESS,
+                        sender_account=va,
+                        receiver_account=va
+                    )
+                
+                # 3. Mettre à jour le solde du compte
+                total_deducted = withdrawal_amount - fee
+                va.balance = (va.balance or 0) - total_deducted
+                va.save()
+                
+                # 4. Invalider l'OTP
+                invalidate_otp(request.user)
+                
+                # 5. Nettoyer la session
+                del request.session['withdrawal_amount']
+                
+                messages.success(request, f"Retrait de {withdrawal_amount} FCFA effectué. Frais: {fee} FCFA. Nouveau solde: {va.balance} FCFA")
+                return redirect('core:user_dash')
+        
+        except Exception as e:
+            messages.error(request, f"Erreur lors du retrait: {str(e)}")
+            return redirect('core:withdraw')
+    
+    return redirect("core:withdraw")
+
+
+
+@login_required
+@allowed_user(allowed_roles=["custumer"])
+@active_user_only
 def transfer_view(request):
     from types import SimpleNamespace
     form = TransferForm(request.POST or None)
@@ -212,4 +363,76 @@ def transfer_view(request):
         return redirect('core:user_dash')
 
     return render(request, "user_pages/transfer_page.html", {"form": form, "recent_transactions": recent_display, "virtual_account": va_sender})
+
+
+
+
+@login_required
+@allowed_user(allowed_roles=["custumer"])
+@active_user_only
+def history_view(request):
+    """Afficher l'historique des transactions de l'utilisateur selon les types (sans FEE)"""
+    account_owner = AccountOwner.objects.filter(owner=request.user).first()
+    
+    deposits = []
+    transfers = []
+    withdrawals = []
+    
+    if account_owner:
+        va = VirtualAccount.objects.filter(owner=account_owner).first()
+        if va:
+            # Récupérer toutes les transactions (sauf FEE)
+            all_txs = Transactions.objects.filter(
+                models.Q(sender_account=va) | models.Q(receiver_account=va)
+            ).exclude(types=TypeTransaction.FEE).order_by('-created_at')
+            
+            # Grouper par type
+            for tx in all_txs:
+                if tx.types == TypeTransaction.DEPOSIT:
+                    deposits.append(tx)
+                elif tx.types == TypeTransaction.TRANSFER:
+                    transfers.append(tx)
+                elif tx.types == TypeTransaction.WITHDRAWAL:
+                    withdrawals.append(tx)
+    
+    context = {
+        "deposits": deposits,
+        "transfers": transfers,
+        "withdrawals": withdrawals,
+        "virtual_account": account_owner.owner if account_owner else None
+    }
+    
+    return render(request, "user_pages/history_page.html", context)
+
+
+
+
+@login_required
+@allowed_user(allowed_roles=["custumer"])
+@active_user_only
+def resend_otp_view(request):
+    """Renvoyer un code OTP à l'utilisateur"""
+    if request.method == 'POST':
+        try:
+            # Vérifier qu'il y a un OTP actif de l'utilisateur
+            old_otp = get_active_otp(request.user)
+            
+            # Générer et envoyer un nouveau code
+            otp_code = create_and_send_otp(request.user)
+            
+            # Invalider l'ancien OTP
+            if old_otp:
+                old_otp.is_expire = True
+                old_otp.save()
+            
+            return render(request, "user_pages/confirm_widraw_page.html", {
+                "amount": request.session.get('withdrawal_amount'),
+                "user_email": request.user.email,
+                "resent": True
+            })
+        except Exception as e:
+            messages.error(request, f"Erreur lors du renvoi du code: {str(e)}")
+            return redirect('core:withdraw')
+    
+    return redirect('core:withdraw')
 

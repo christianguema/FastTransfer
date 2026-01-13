@@ -1,0 +1,283 @@
+{% load static tailwind_tags %}
+{% load django_browser_reload %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmer le retrait</title>
+    {% tailwind_css %}
+    {% load static %}
+    <style>
+        /* Empêcher la fermeture du modal */
+        .modal-backdrop {
+            pointer-events: auto;
+        }
+        .modal-no-close .btn-close {
+            display: none;
+        }
+        .otp-input {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="relative min-h-screen overflow-hidden bg-gray-50 dark:bg-gray-900">
+    {% django_browser_reload_script %}
+
+    <!-- Modal OTP non-closable -->
+    <div class="fixed inset-0 bg-black/50 flex items-center justify-center z-50" id="otpModal">
+        <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl p-8 max-w-md w-full mx-4">
+            <!-- Header -->
+            <div class="text-center mb-8">
+                <div class="w-16 h-16 bg-brand-100 dark:bg-brand-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                    </svg>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-2">Sécurité du retrait</h2>
+                <p class="text-gray-600 dark:text-gray-400">
+                    Un code OTP a été envoyé à<br><span class="font-semibold">{{ user_email }}</span>
+                </p>
+            </div>
+
+            <!-- Informations du retrait -->
+            <div class="bg-gray-50 dark:bg-gray-700/50 rounded-lg p-4 mb-6">
+                <div class="flex justify-between items-center">
+                    <span class="text-gray-600 dark:text-gray-300">Montant à retirer:</span>
+                    <span class="font-bold text-lg text-gray-800 dark:text-white">{{ amount }} FCFA</span>
+                </div>
+            </div>
+
+            <!-- Formulaire OTP -->
+            <form method="POST" action="{% url 'core:confirm_withdraw_otp' %}" novalidate>
+                {% csrf_token %}
+
+                <!-- Message d'erreur -->
+                {% if error %}
+                <div class="mb-4 p-4 rounded-lg bg-red-50 dark:bg-red-900/30 border border-red-200 dark:border-red-700">
+                    <p class="text-red-600 dark:text-red-400 text-sm"><strong>Erreur:</strong> {{ error }}</p>
+                </div>
+                {% endif %}
+
+                <!-- Champ OTP -->
+                <div class="mb-6">
+                    <label for="otp_code" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-3">
+                        Saisir le code OTP
+                    </label>
+                    <input 
+                        type="text" 
+                        id="otp_code" 
+                        name="otp_code" 
+                        class="otp-input rounded-lg border-2 border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white py-3 px-4 focus:border-brand-500 focus:ring-2 focus:ring-brand-200 dark:focus:ring-brand-900 transition"
+                        placeholder="000000"
+                        maxlength="6"
+                        inputmode="numeric"
+                        pattern="[0-9]{6}"
+                        required
+                    />
+                    <p class="text-gray-500 dark:text-gray-400 text-xs mt-2 text-center">
+                        Code à 6 chiffres
+                    </p>
+                </div>
+
+                <!-- Timer d'expiration -->
+                <div class="mb-6 text-center">
+                    <div id="timerContainer" class="inline-block">
+                        <span id="timer" class="text-lg font-bold text-brand-600">03:00</span>
+                        <p class="text-gray-500 dark:text-gray-400 text-xs mt-1">Expire dans</p>
+                    </div>
+                    <div id="expiredContainer" style="display: none;" class="text-center">
+                        <p class="text-red-600 dark:text-red-400 font-semibold mb-2">Code OTP expiré</p>
+                        <p class="text-gray-500 dark:text-gray-400 text-sm">Demandez un nouveau code</p>
+                    </div>
+                </div>
+
+                <!-- Boutons -->
+                <div class="space-y-3">
+                    <!-- Bouton Confirmer (masqué à l'expiration) -->
+                    <button 
+                        type="submit" 
+                        id="confirmBtn"
+                        class="w-full bg-brand-600 hover:bg-brand-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                        Confirmer le retrait
+                    </button>
+
+                    <!-- Bouton Renvoyer le code (masqué avant expiration) -->
+                    <button 
+                        type="button" 
+                        id="resendBtn"
+                        style="display: none;"
+                        class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-200"
+                        onclick="resendOtp(event)"
+                    >
+                        Renvoyer le code
+                    </button>
+                </div>
+
+                <!-- Message de désactivation du modal -->
+                <p class="text-gray-500 dark:text-gray-400 text-xs text-center mt-4">
+                    ⚠️ Vous ne pouvez pas fermer cette page tant que vous n'avez pas complété l'opération
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const OTP_DURATION = 180; // 3 minutes en secondes
+        const OTP_RESEND_URL = "{% url 'core:resend_otp' %}";
+        let timeRemaining = OTP_DURATION;
+        let otpExpired = false;
+
+        // Auto-focus sur le champ OTP
+        document.getElementById('otp_code').focus();
+
+        // Permettre uniquement les chiffres dans l'input OTP
+        document.getElementById('otp_code').addEventListener('input', function(e) {
+            e.target.value = e.target.value.replace(/[^0-9]/g, '').slice(0, 6);
+            if (e.target.value.length === 6) {
+                e.target.form.submit();
+            }
+        });
+
+        // Empêcher la fermeture du modal
+        window.addEventListener('beforeunload', function(e) {
+            if (!otpExpired && !document.getElementById('otp_code').form.submitting) {
+                e.preventDefault();
+                e.returnValue = '';
+                return '';
+            }
+        });
+
+        // Démarrer le timer
+        function startTimer() {
+            const timerDisplay = document.getElementById('timer');
+            const timerContainer = document.getElementById('timerContainer');
+            const expiredContainer = document.getElementById('expiredContainer');
+            const confirmBtn = document.getElementById('confirmBtn');
+            const resendBtn = document.getElementById('resendBtn');
+            const otpInput = document.getElementById('otp_code');
+
+            const interval = setInterval(() => {
+                timeRemaining--;
+
+                const minutes = Math.floor(timeRemaining / 60);
+                const seconds = timeRemaining % 60;
+                timerDisplay.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+                if (timeRemaining <= 0) {
+                    clearInterval(interval);
+                    otpExpired = true;
+
+                    // Masquer le timer et le bouton Confirmer
+                    timerContainer.style.display = 'none';
+                    confirmBtn.style.display = 'none';
+                    otpInput.disabled = true;
+
+                    // Afficher le message d'expiration et le bouton Renvoyer
+                    expiredContainer.style.display = 'block';
+                    resendBtn.style.display = 'block';
+
+                    // Ajouter une classe de desactivation au modal
+                    document.getElementById('otpModal').classList.add('opacity-75');
+                }
+            }, 1000);
+        }
+
+        // Fonction pour renvoyer l'OTP
+        function resendOtp(event) {
+            event.preventDefault();
+            
+            // Désactiver le bouton temporairement
+            const resendBtn = document.getElementById('resendBtn');
+            resendBtn.disabled = true;
+            resendBtn.textContent = 'Envoi en cours...';
+
+            // Envoyer une requête AJAX pour renvoyer l'OTP
+            fetch("{% url 'core:resend_otp' %}", {
+                method: 'POST',
+                headers: {
+                    'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]').value,
+                },
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success || response.ok) {
+                    // Réinitialiser le timer et l'interface
+                    timeRemaining = OTP_DURATION;
+                    otpExpired = false;
+
+                    document.getElementById('timerContainer').style.display = 'inline-block';
+                    document.getElementById('expiredContainer').style.display = 'none';
+                    document.getElementById('confirmBtn').style.display = 'block';
+                    resendBtn.style.display = 'none';
+                    
+                    const otpInput = document.getElementById('otp_code');
+                    otpInput.value = '';
+                    otpInput.disabled = false;
+                    otpInput.focus();
+
+                    resendBtn.disabled = false;
+                    resendBtn.textContent = 'Renvoyer le code';
+
+                    // Redémarrer le timer
+                    startTimer();
+
+                    // Afficher un message de succès
+                    showNotification('Nouveau code OTP envoyé à votre email', 'success');
+                }
+            })
+            .catch(error => {
+                console.error('Erreur:', error);
+                resendBtn.disabled = false;
+                console.log(error)
+                resendBtn.textContent = 'Renvoyer le code';
+                showNotification('Erreur lors de l\'envoi du code', 'error');
+            });
+        }
+
+        // Fonction pour afficher les notifications
+        function showNotification(message, type) {
+            const modal = document.getElementById('otpModal');
+            const notification = document.createElement('div');
+            
+            const bgColor = type === 'success' ? 'bg-green-50 dark:bg-green-900/30' : 'bg-red-50 dark:bg-red-900/30';
+            const textColor = type === 'success' ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400';
+            const borderColor = type === 'success' ? 'border-green-200 dark:border-green-700' : 'border-red-200 dark:border-red-700';
+            
+            notification.className = `fixed top-4 right-4 p-4 rounded-lg border ${bgColor} ${borderColor} ${textColor} text-sm font-medium z-50`;
+            notification.textContent = message;
+            
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                notification.remove();
+            }, 5000);
+        }
+
+        // Empêcher les tentatives de fermeture de la page
+        window.addEventListener('keydown', function(e) {
+            // Empêcher Alt+F4, Ctrl+W, Ctrl+Q
+            if ((e.altKey && e.key === 'F4') || (e.ctrlKey && (e.key === 'w' || e.key === 'q'))) {
+                e.preventDefault();
+                showNotification('Vous devez compléter la vérification d\'abord', 'error');
+            }
+        });
+
+        // Empêcher la navigation
+        window.addEventListener('popstate', function(e) {
+            if (!otpExpired) {
+                e.preventDefault();
+                showNotification('Vous devez compléter la vérification d\'abord', 'error');
+            }
+        });
+
+        // Démarrer le timer au chargement
+        document.addEventListener('DOMContentLoaded', startTimer);
+    </script>
+</body>
+</html>
